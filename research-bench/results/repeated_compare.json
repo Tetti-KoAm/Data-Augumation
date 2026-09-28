@@ -1,0 +1,718 @@
+{
+  "protocol": {
+    "datasets": [
+      "breast_cancer",
+      "wine"
+    ],
+    "seeds": [
+      11,
+      23,
+      37,
+      51,
+      67
+    ],
+    "repeated_stratified_holdout": "80/20 test split; within each training split, stratified labeled subset",
+    "labeled_fraction": 0.3,
+    "epochs": 15,
+    "vime_self_epochs": 15,
+    "vime_iterations": 300,
+    "batch_size": 64,
+    "encoder": "same 4-layer, 32-wide MLP for all methods",
+    "preprocessing": "MinMaxScaler fit separately on each training split; shared split/subset among methods",
+    "primary_metric": "macro_roc_auc_ovr",
+    "metrics": [
+      "macro_roc_auc_ovr",
+      "balanced_accuracy",
+      "macro_f1",
+      "accuracy"
+    ],
+    "class_conditioned_refresh_period": 10
+  },
+  "runs": [
+    {
+      "dataset": "breast_cancer",
+      "seed": 11,
+      "n_total": 569,
+      "n_train": 455,
+      "n_labeled": 136,
+      "n_unlabeled": 319,
+      "n_test": 114,
+      "n_features": 30,
+      "n_classes": 2,
+      "metrics": {
+        "vime_column_shuffle": {
+          "accuracy": 0.8859649122807017,
+          "balanced_accuracy": 0.8551587301587302,
+          "macro_f1": 0.8708496732026143,
+          "macro_roc_auc_ovr": 0.9596560846560848
+        },
+        "vime_gaussian_copula": {
+          "accuracy": 0.8859649122807017,
+          "balanced_accuracy": 0.8551587301587302,
+          "macro_f1": 0.8708496732026143,
+          "macro_roc_auc_ovr": 0.9490740740740741
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": 0.8859649122807017,
+          "balanced_accuracy": 0.8452380952380952,
+          "macro_f1": 0.8670494303400018,
+          "macro_roc_auc_ovr": 0.9226190476190476
+        }
+      }
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 23,
+      "n_total": 569,
+      "n_train": 455,
+      "n_labeled": 136,
+      "n_unlabeled": 319,
+      "n_test": 114,
+      "n_features": 30,
+      "n_classes": 2,
+      "metrics": {
+        "vime_column_shuffle": {
+          "accuracy": 0.8859649122807017,
+          "balanced_accuracy": 0.8849206349206349,
+          "macro_f1": 0.8791880655416973,
+          "macro_roc_auc_ovr": 0.9543650793650794
+        },
+        "vime_gaussian_copula": {
+          "accuracy": 0.9210526315789473,
+          "balanced_accuracy": 0.9126984126984127,
+          "macro_f1": 0.9147486497714998,
+          "macro_roc_auc_ovr": 0.9656084656084656
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": 0.7105263157894737,
+          "balanced_accuracy": 0.6121031746031746,
+          "macro_f1": 0.5943935309973045,
+          "macro_roc_auc_ovr": 0.8462301587301587
+        }
+      }
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 37,
+      "n_total": 569,
+      "n_train": 455,
+      "n_labeled": 136,
+      "n_unlabeled": 319,
+      "n_test": 114,
+      "n_features": 30,
+      "n_classes": 2,
+      "metrics": {
+        "vime_column_shuffle": {
+          "accuracy": 0.9473684210526315,
+          "balanced_accuracy": 0.933531746031746,
+          "macro_f1": 0.9422297297297297,
+          "macro_roc_auc_ovr": 0.9765211640211642
+        },
+        "vime_gaussian_copula": {
+          "accuracy": 0.9473684210526315,
+          "balanced_accuracy": 0.9384920634920635,
+          "macro_f1": 0.942866688940862,
+          "macro_roc_auc_ovr": 0.9887566137566137
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": 0.631578947368421,
+          "balanced_accuracy": 0.5,
+          "macro_f1": 0.3870967741935484,
+          "macro_roc_auc_ovr": 0.8773148148148148
+        }
+      }
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 51,
+      "n_total": 569,
+      "n_train": 455,
+      "n_labeled": 136,
+      "n_unlabeled": 319,
+      "n_test": 114,
+      "n_features": 30,
+      "n_classes": 2,
+      "metrics": {
+        "vime_column_shuffle": {
+          "accuracy": 0.9210526315789473,
+          "balanced_accuracy": 0.9126984126984127,
+          "macro_f1": 0.9147486497714998,
+          "macro_roc_auc_ovr": 0.9811507936507937
+        },
+        "vime_gaussian_copula": {
+          "accuracy": 0.9385964912280702,
+          "balanced_accuracy": 0.9265873015873016,
+          "macro_f1": 0.9329805996472662,
+          "macro_roc_auc_ovr": 0.9874338624338626
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": 0.6578947368421053,
+          "balanced_accuracy": 0.6398809523809523,
+          "macro_f1": 0.6375641966250918,
+          "macro_roc_auc_ovr": 0.7060185185185186
+        }
+      }
+    },
+    {
+      "dataset": "breast_cancer",
+      "seed": 67,
+      "n_total": 569,
+      "n_train": 455,
+      "n_labeled": 136,
+      "n_unlabeled": 319,
+      "n_test": 114,
+      "n_features": 30,
+      "n_classes": 2,
+      "metrics": {
+        "vime_column_shuffle": {
+          "accuracy": 0.956140350877193,
+          "balanced_accuracy": 0.9454365079365079,
+          "macro_f1": 0.9521289997480473,
+          "macro_roc_auc_ovr": 0.9788359788359788
+        },
+        "vime_gaussian_copula": {
+          "accuracy": 0.9385964912280702,
+          "balanced_accuracy": 0.9315476190476191,
+          "macro_f1": 0.933693394266722,
+          "macro_roc_auc_ovr": 0.9755291005291005
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": 0.7982456140350878,
+          "balanced_accuracy": 0.7509920634920635,
+          "macro_f1": 0.7647797613707724,
+          "macro_roc_auc_ovr": 0.7837301587301587
+        }
+      }
+    },
+    {
+      "dataset": "wine",
+      "seed": 11,
+      "n_total": 178,
+      "n_train": 142,
+      "n_labeled": 42,
+      "n_unlabeled": 100,
+      "n_test": 36,
+      "n_features": 13,
+      "n_classes": 3,
+      "metrics": {
+        "vime_column_shuffle": {
+          "accuracy": 0.7222222222222222,
+          "balanced_accuracy": 0.7230158730158731,
+          "macro_f1": 0.7320906432748537,
+          "macro_roc_auc_ovr": 0.8792894605394604
+        },
+        "vime_gaussian_copula": {
+          "accuracy": 0.7777777777777778,
+          "balanced_accuracy": 0.7785714285714285,
+          "macro_f1": 0.784126984126984,
+          "macro_roc_auc_ovr": 0.9587660025160026
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": 0.5833333333333334,
+          "balanced_accuracy": 0.5476190476190476,
+          "macro_f1": 0.45416666666666666,
+          "macro_roc_auc_ovr": 0.8154093591593593
+        }
+      }
+    },
+    {
+      "dataset": "wine",
+      "seed": 23,
+      "n_total": 178,
+      "n_train": 142,
+      "n_labeled": 42,
+      "n_unlabeled": 100,
+      "n_test": 36,
+      "n_features": 13,
+      "n_classes": 3,
+      "metrics": {
+        "vime_column_shuffle": {
+          "accuracy": 0.7777777777777778,
+          "balanced_accuracy": 0.7428571428571429,
+          "macro_f1": 0.7287481146304676,
+          "macro_roc_auc_ovr": 0.9178465053465054
+        },
+        "vime_gaussian_copula": {
+          "accuracy": 0.6388888888888888,
+          "balanced_accuracy": 0.6238095238095238,
+          "macro_f1": 0.6026272577996716,
+          "macro_roc_auc_ovr": 0.857056832056832
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": 0.6666666666666666,
+          "balanced_accuracy": 0.6579365079365079,
+          "macro_f1": 0.6721706226350189,
+          "macro_roc_auc_ovr": 0.9346290283790285
+        }
+      }
+    },
+    {
+      "dataset": "wine",
+      "seed": 37,
+      "n_total": 178,
+      "n_train": 142,
+      "n_labeled": 42,
+      "n_unlabeled": 100,
+      "n_test": 36,
+      "n_features": 13,
+      "n_classes": 3,
+      "metrics": {
+        "vime_column_shuffle": {
+          "accuracy": 0.5555555555555556,
+          "balanced_accuracy": 0.5619047619047619,
+          "macro_f1": 0.4657097288676237,
+          "macro_roc_auc_ovr": 0.788156056906057
+        },
+        "vime_gaussian_copula": {
+          "accuracy": 0.8055555555555556,
+          "balanced_accuracy": 0.8039682539682539,
+          "macro_f1": 0.8117490696438064,
+          "macro_roc_auc_ovr": 0.9497460872460873
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": 0.5277777777777778,
+          "balanced_accuracy": 0.5698412698412699,
+          "macro_f1": 0.49847553356325286,
+          "macro_roc_auc_ovr": 0.7997414622414624
+        }
+      }
+    },
+    {
+      "dataset": "wine",
+      "seed": 51,
+      "n_total": 178,
+      "n_train": 142,
+      "n_labeled": 42,
+      "n_unlabeled": 100,
+      "n_test": 36,
+      "n_features": 13,
+      "n_classes": 3,
+      "metrics": {
+        "vime_column_shuffle": {
+          "accuracy": 0.3888888888888889,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_f1": 0.18666666666666668,
+          "macro_roc_auc_ovr": 0.7673090798090798
+        },
+        "vime_gaussian_copula": {
+          "accuracy": 0.6388888888888888,
+          "balanced_accuracy": 0.6428571428571429,
+          "macro_f1": 0.5396825396825397,
+          "macro_roc_auc_ovr": 0.8304924242424242
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": 0.8055555555555556,
+          "balanced_accuracy": 0.8055555555555557,
+          "macro_f1": 0.7738562091503267,
+          "macro_roc_auc_ovr": 0.9674679487179487
+        }
+      }
+    },
+    {
+      "dataset": "wine",
+      "seed": 67,
+      "n_total": 178,
+      "n_train": 142,
+      "n_labeled": 42,
+      "n_unlabeled": 100,
+      "n_test": 36,
+      "n_features": 13,
+      "n_classes": 3,
+      "metrics": {
+        "vime_column_shuffle": {
+          "accuracy": 0.6666666666666666,
+          "balanced_accuracy": 0.6150793650793651,
+          "macro_f1": 0.533625730994152,
+          "macro_roc_auc_ovr": 0.7769931457431459
+        },
+        "vime_gaussian_copula": {
+          "accuracy": 0.3888888888888889,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_f1": 0.18666666666666668,
+          "macro_roc_auc_ovr": 0.6376241813741813
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": 0.6944444444444444,
+          "balanced_accuracy": 0.6484126984126984,
+          "macro_f1": 0.6003958503958504,
+          "macro_roc_auc_ovr": 0.9338881026381026
+        }
+      }
+    }
+  ],
+  "summary": {
+    "breast_cancer": {
+      "vime_column_shuffle": {
+        "accuracy": {
+          "mean": 0.9192982456140351,
+          "std": 0.03305516435336275,
+          "median": 0.9210526315789473
+        },
+        "balanced_accuracy": {
+          "mean": 0.9063492063492063,
+          "std": 0.03669696362204715,
+          "median": 0.9126984126984127
+        },
+        "macro_f1": {
+          "mean": 0.9118290235987176,
+          "std": 0.03640588733177737,
+          "median": 0.9147486497714998
+        },
+        "macro_roc_auc_ovr": {
+          "mean": 0.9701058201058201,
+          "std": 0.01220995126578875,
+          "median": 0.9765211640211642
+        }
+      },
+      "vime_gaussian_copula": {
+        "accuracy": {
+          "mean": 0.9263157894736842,
+          "std": 0.02449866674345429,
+          "median": 0.9385964912280702
+        },
+        "balanced_accuracy": {
+          "mean": 0.9128968253968253,
+          "std": 0.03363080605858507,
+          "median": 0.9265873015873016
+        },
+        "macro_f1": {
+          "mean": 0.9190278011657929,
+          "std": 0.028798853829235357,
+          "median": 0.9329805996472662
+        },
+        "macro_roc_auc_ovr": {
+          "mean": 0.9732804232804233,
+          "std": 0.016505265351655116,
+          "median": 0.9755291005291005
+        }
+      },
+      "class_conditioned_contrastive_official": {
+        "accuracy": {
+          "mean": 0.736842105263158,
+          "std": 0.10489702406229295,
+          "median": 0.7105263157894737
+        },
+        "balanced_accuracy": {
+          "mean": 0.6696428571428571,
+          "std": 0.1326901145873206,
+          "median": 0.6398809523809523
+        },
+        "macro_f1": {
+          "mean": 0.6501767387053438,
+          "std": 0.18210541410702627,
+          "median": 0.6375641966250918
+        },
+        "macro_roc_auc_ovr": {
+          "mean": 0.8271825396825397,
+          "std": 0.08448818450455464,
+          "median": 0.8462301587301587
+        }
+      },
+      "paired_vs_vime_column_shuffle": {
+        "vime_gaussian_copula": {
+          "accuracy": {
+            "mean_difference": 0.007017543859649145,
+            "bootstrap_95pct_ci": [
+              -0.0070175438596491,
+              0.02456140350877194
+            ],
+            "seed_differences": [
+              0.0,
+              0.03508771929824561,
+              0.0,
+              0.01754385964912286,
+              -0.01754385964912275
+            ]
+          },
+          "balanced_accuracy": {
+            "mean_difference": 0.006547619047619069,
+            "bootstrap_95pct_ci": [
+              -0.005555555555555513,
+              0.019444444444444466
+            ],
+            "seed_differences": [
+              0.0,
+              0.02777777777777779,
+              0.004960317460317443,
+              0.01388888888888895,
+              -0.01388888888888884
+            ]
+          },
+          "macro_f1": {
+            "mean_difference": 0.007198777567075187,
+            "bootstrap_95pct_ci": [
+              -0.007414973313641893,
+              0.024761346287577
+            ],
+            "seed_differences": [
+              0.0,
+              0.03556058422980257,
+              0.0006369592111322708,
+              0.018231949875766373,
+              -0.01843560548132528
+            ]
+          },
+          "macro_roc_auc_ovr": {
+            "mean_difference": 0.0031746031746030965,
+            "bootstrap_95pct_ci": [
+              -0.004761904761904856,
+              0.01064814814814805
+            ],
+            "seed_differences": [
+              -0.010582010582010692,
+              0.011243386243386166,
+              0.012235449735449544,
+              0.006283068783068835,
+              -0.003306878306878369
+            ]
+          }
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": {
+            "mean_difference": -0.18245614035087715,
+            "bootstrap_95pct_ci": [
+              -0.2666666666666666,
+              -0.08421052631578944
+            ],
+            "seed_differences": [
+              0.0,
+              -0.17543859649122806,
+              -0.3157894736842105,
+              -0.26315789473684204,
+              -0.1578947368421052
+            ]
+          },
+          "balanced_accuracy": {
+            "mean_difference": -0.2367063492063492,
+            "bootstrap_95pct_ci": [
+              -0.35357142857142854,
+              -0.11507936507936509
+            ],
+            "seed_differences": [
+              -0.009920634920634996,
+              -0.27281746031746024,
+              -0.43353174603174605,
+              -0.27281746031746035,
+              -0.19444444444444442
+            ]
+          },
+          "macro_f1": {
+            "mean_difference": -0.2616522848933739,
+            "bootstrap_95pct_ci": [
+              -0.4259865116264454,
+              -0.11392964017140994
+            ],
+            "seed_differences": [
+              -0.0038002428626124907,
+              -0.28479453454439274,
+              -0.5551329555361814,
+              -0.27718445314640805,
+              -0.1873492383772749
+            ]
+          },
+          "macro_roc_auc_ovr": {
+            "mean_difference": -0.1429232804232805,
+            "bootstrap_95pct_ci": [
+              -0.22394179894179897,
+              -0.07612433862433879
+            ],
+            "seed_differences": [
+              -0.0370370370370372,
+              -0.1081349206349207,
+              -0.09920634920634941,
+              -0.2751322751322751,
+              -0.19510582010582012
+            ]
+          }
+        }
+      }
+    },
+    "wine": {
+      "vime_column_shuffle": {
+        "accuracy": {
+          "mean": 0.6222222222222221,
+          "std": 0.1541604102834623,
+          "median": 0.6666666666666666
+        },
+        "balanced_accuracy": {
+          "mean": 0.5952380952380952,
+          "std": 0.1644820925832027,
+          "median": 0.6150793650793651
+        },
+        "macro_f1": {
+          "mean": 0.5293681768867529,
+          "std": 0.22492421380960284,
+          "median": 0.533625730994152
+        },
+        "macro_roc_auc_ovr": {
+          "mean": 0.8259188496688497,
+          "std": 0.06810648671011121,
+          "median": 0.788156056906057
+        }
+      },
+      "vime_gaussian_copula": {
+        "accuracy": {
+          "mean": 0.65,
+          "std": 0.1650383419723661,
+          "median": 0.6388888888888888
+        },
+        "balanced_accuracy": {
+          "mean": 0.6365079365079365,
+          "std": 0.1873108351227888,
+          "median": 0.6428571428571429
+        },
+        "macro_f1": {
+          "mean": 0.5849705035839337,
+          "std": 0.2510480675653829,
+          "median": 0.6026272577996716
+        },
+        "macro_roc_auc_ovr": {
+          "mean": 0.8467371054871056,
+          "std": 0.12967259304572257,
+          "median": 0.857056832056832
+        }
+      },
+      "class_conditioned_contrastive_official": {
+        "accuracy": {
+          "mean": 0.6555555555555556,
+          "std": 0.10686324478706302,
+          "median": 0.6666666666666666
+        },
+        "balanced_accuracy": {
+          "mean": 0.6458730158730159,
+          "std": 0.10134737291849495,
+          "median": 0.6484126984126984
+        },
+        "macro_f1": {
+          "mean": 0.5998129764822231,
+          "std": 0.12943061890119031,
+          "median": 0.6003958503958504
+        },
+        "macro_roc_auc_ovr": {
+          "mean": 0.8902271802271804,
+          "std": 0.07685913753556602,
+          "median": 0.9338881026381026
+        }
+      },
+      "paired_vs_vime_column_shuffle": {
+        "vime_gaussian_copula": {
+          "accuracy": {
+            "mean_difference": 0.02777777777777777,
+            "bootstrap_95pct_ci": [
+              -0.15555555555555553,
+              0.2111111111111111
+            ],
+            "seed_differences": [
+              0.05555555555555558,
+              -0.13888888888888895,
+              0.25,
+              0.24999999999999994,
+              -0.27777777777777773
+            ]
+          },
+          "balanced_accuracy": {
+            "mean_difference": 0.04126984126984121,
+            "bootstrap_95pct_ci": [
+              -0.1492063492063493,
+              0.23174603174603173
+            ],
+            "seed_differences": [
+              0.05555555555555536,
+              -0.11904761904761907,
+              0.24206349206349198,
+              0.3095238095238096,
+              -0.2817460317460318
+            ]
+          },
+          "macro_f1": {
+            "mean_difference": 0.055602326697180925,
+            "bootstrap_95pct_ci": [
+              -0.1788247002928865,
+              0.29002935368724836
+            ],
+            "seed_differences": [
+              0.05203634085213027,
+              -0.126120856830796,
+              0.34603934077618276,
+              0.353015873015873,
+              -0.34695906432748536
+            ]
+          },
+          "macro_roc_auc_ovr": {
+            "mean_difference": 0.020818255818255804,
+            "bootstrap_95pct_ci": [
+              -0.07917716542716562,
+              0.1090632978132979
+            ],
+            "seed_differences": [
+              0.07947654197654219,
+              -0.06078967328967333,
+              0.1615900303400304,
+              0.06318334443334439,
+              -0.13936896436896462
+            ]
+          }
+        },
+        "class_conditioned_contrastive_official": {
+          "accuracy": {
+            "mean_difference": 0.03333333333333334,
+            "bootstrap_95pct_ci": [
+              -0.10555555555555556,
+              0.23333333333333334
+            ],
+            "seed_differences": [
+              -0.13888888888888884,
+              -0.11111111111111116,
+              -0.02777777777777779,
+              0.4166666666666667,
+              0.02777777777777779
+            ]
+          },
+          "balanced_accuracy": {
+            "mean_difference": 0.050634920634920644,
+            "bootstrap_95pct_ci": [
+              -0.11555555555555566,
+              0.2730158730158731
+            ],
+            "seed_differences": [
+              -0.17539682539682555,
+              -0.08492063492063495,
+              0.00793650793650802,
+              0.4722222222222224,
+              0.033333333333333326
+            ]
+          },
+          "macro_f1": {
+            "mean_difference": 0.07044479959547037,
+            "bootstrap_95pct_ci": [
+              -0.14684720114544675,
+              0.354352250971446
+            ],
+            "seed_differences": [
+              -0.2779239766081871,
+              -0.0565774919954487,
+              0.032765804695629175,
+              0.5871895424836601,
+              0.06677011940169841
+            ]
+          },
+          "macro_roc_auc_ovr": {
+            "mean_difference": 0.0643083305583306,
+            "bootstrap_95pct_ci": [
+              -0.01756137381137366,
+              0.15379139379139378
+            ],
+            "seed_differences": [
+              -0.06388010138010114,
+              0.016782523032523144,
+              0.011585405335405419,
+              0.20015886890886891,
+              0.1568949568949567
+            ]
+          }
+        }
+      }
+    }
+  },
+  "interpretation_note": "Exploratory comparison across two built-in numeric datasets and repeated holdouts. Bootstrap intervals summarize seed-to-seed paired differences, but overlapping holdouts are not independent; this is not a confirmatory significance test. Dataset-specific means and consistency across datasets matter more than pooled ranking."
+}
