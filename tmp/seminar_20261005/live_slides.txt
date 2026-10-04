@@ -1,0 +1,7 @@
+const fresh=JSON.parse(await fs.readFile(DIR+'/rerun_results.json','utf8'));
+let fnum=x=>x.toFixed(3),fsigned=x=>(x>=0?'+':'−')+Math.abs(x).toFixed(3);
+s=add('今回の再実行：同じ学習枠組みで比較','2026年10月4日、VIME内の2種類の置換器を5 seedで実行。','新しい仮想環境で同じ既存VIMEClassifierを実行。分割や予算は保存結果のプロトコルと揃えたがライブラリバージョンとCPU threads1は異なる。保存値の完全再現ではありません。同一環境とはこの再実行内での2手法が同じ環境を使った意味。モデルと分割、学習予算を一致。差の区間はseed差のpercentile bootstrap1万回、95%。少ないseedで重なったholdoutなので探索的指標です。結果から万能な優位を主張しません。\n実行環境：'+JSON.stringify(fresh.versions)+'\n元結果：tmp/seminar_20261005/rerun_results.json',[],'実装と検証');
+table(s,[['データ / ROC-AUC','列置換','Gaussian copula','差の95% CI'],...['breast_cancer','wine'].map((key,i)=>{let a=fresh.summary[key];return [['Breast Cancer','Wine'][i],fnum(a.column_shuffle.mean)+' ± '+fnum(a.column_shuffle.std),fnum(a.gaussian_copula.mean)+' ± '+fnum(a.gaussian_copula.std),'['+fsigned(a.paired_difference.ci95[0])+', '+fsigned(a.paired_difference.ci95[1])+']']})],54,218,1172,255,26);
+let d=fresh.summary;txt(s,'平均差：Breast Cancer '+fsigned(d.breast_cancer.paired_difference.mean)+' / Wine '+fsigned(d.wine.paired_difference.mean),65,502,1150,54,29,true,O);takeaway(s,'今回の比較だけで優位性は確定しない。再実行でもデータ・seedへの依存を確認');
+s=add('再実行結果を、どう解釈するか','置換器を変えた効果は、仮定・データ・拡張強度によって変わる。','今回5seedの新結果の数値と矛盾しない説明をします。区間0を含むかどうかは計算結果に基づくが、含まない場合も小標本の探索的実験で強い統計的主張はしない。保存結果との差は環境や乱数・数値計算への感度を含み、さらに精密な再現管理が必要。結果の差の原因を推測だけで断定しません。',[],'実装と検証');
+rows(s,['2手法は、同じデータ分割・モデル・学習予算で比較した。','小さなデータではseedで結果が変わる。5回だけでは不十分。','保存済みの値との違いは、実行環境等も含めて追跡が必要。','生成の関係保持と、分類への効果は切り分けて検証する。'],205,344,28);takeaway(s,'次は、何を保ち何を変えた拡張が学習に役立つかを検証する');

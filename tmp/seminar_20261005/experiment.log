@@ -1,0 +1,89 @@
+breast_cancer 11 column_shuffle {'auc': 0.9596560846560848, 'accuracy': 0.8859649122807017, 'balanced_accuracy': 0.8551587301587302, 'macro_f1': 0.8708496732026143}
+breast_cancer 11 gaussian_copula {'auc': 0.9490740740740741, 'accuracy': 0.8859649122807017, 'balanced_accuracy': 0.8551587301587302, 'macro_f1': 0.8708496732026143}
+breast_cancer 23 column_shuffle {'auc': 0.9543650793650794, 'accuracy': 0.8859649122807017, 'balanced_accuracy': 0.8849206349206349, 'macro_f1': 0.8791880655416973}
+breast_cancer 23 gaussian_copula {'auc': 0.9656084656084656, 'accuracy': 0.9210526315789473, 'balanced_accuracy': 0.9126984126984127, 'macro_f1': 0.9147486497714998}
+breast_cancer 37 column_shuffle {'auc': 0.9765211640211642, 'accuracy': 0.9473684210526315, 'balanced_accuracy': 0.933531746031746, 'macro_f1': 0.9422297297297297}
+breast_cancer 37 gaussian_copula {'auc': 0.9887566137566137, 'accuracy': 0.9473684210526315, 'balanced_accuracy': 0.9384920634920635, 'macro_f1': 0.942866688940862}
+breast_cancer 51 column_shuffle {'auc': 0.9811507936507937, 'accuracy': 0.9210526315789473, 'balanced_accuracy': 0.9126984126984127, 'macro_f1': 0.9147486497714998}
+breast_cancer 51 gaussian_copula {'auc': 0.9874338624338626, 'accuracy': 0.9385964912280702, 'balanced_accuracy': 0.9265873015873016, 'macro_f1': 0.9329805996472662}
+breast_cancer 67 column_shuffle {'auc': 0.9788359788359788, 'accuracy': 0.956140350877193, 'balanced_accuracy': 0.9454365079365079, 'macro_f1': 0.9521289997480473}
+breast_cancer 67 gaussian_copula {'auc': 0.9755291005291005, 'accuracy': 0.9385964912280702, 'balanced_accuracy': 0.9315476190476191, 'macro_f1': 0.933693394266722}
+wine 11 column_shuffle {'auc': 0.8792894605394604, 'accuracy': 0.7222222222222222, 'balanced_accuracy': 0.7230158730158731, 'macro_f1': 0.7320906432748537}
+wine 11 gaussian_copula {'auc': 0.9587660025160026, 'accuracy': 0.7777777777777778, 'balanced_accuracy': 0.7785714285714285, 'macro_f1': 0.784126984126984}
+wine 23 column_shuffle {'auc': 0.9178465053465054, 'accuracy': 0.7777777777777778, 'balanced_accuracy': 0.7428571428571429, 'macro_f1': 0.7287481146304676}
+wine 23 gaussian_copula {'auc': 0.857056832056832, 'accuracy': 0.6388888888888888, 'balanced_accuracy': 0.6238095238095238, 'macro_f1': 0.6026272577996716}
+wine 37 column_shuffle {'auc': 0.788156056906057, 'accuracy': 0.5555555555555556, 'balanced_accuracy': 0.5619047619047619, 'macro_f1': 0.4657097288676237}
+wine 37 gaussian_copula {'auc': 0.9497460872460873, 'accuracy': 0.8055555555555556, 'balanced_accuracy': 0.8039682539682539, 'macro_f1': 0.8117490696438064}
+wine 51 column_shuffle {'auc': 0.7673090798090798, 'accuracy': 0.3888888888888889, 'balanced_accuracy': 0.3333333333333333, 'macro_f1': 0.18666666666666668}
+wine 51 gaussian_copula {'auc': 0.8304924242424242, 'accuracy': 0.6388888888888888, 'balanced_accuracy': 0.6428571428571429, 'macro_f1': 0.5396825396825397}
+wine 67 column_shuffle {'auc': 0.7769931457431459, 'accuracy': 0.6666666666666666, 'balanced_accuracy': 0.6150793650793651, 'macro_f1': 0.533625730994152}
+wine 67 gaussian_copula {'auc': 0.6376241813741813, 'accuracy': 0.3888888888888889, 'balanced_accuracy': 0.3333333333333333, 'macro_f1': 0.18666666666666668}
+{
+  "breast_cancer": {
+    "column_shuffle": {
+      "mean": 0.9701058201058201,
+      "std": 0.01220995126578875,
+      "values": [
+        0.9596560846560848,
+        0.9543650793650794,
+        0.9765211640211642,
+        0.9811507936507937,
+        0.9788359788359788
+      ]
+    },
+    "gaussian_copula": {
+      "mean": 0.9732804232804233,
+      "std": 0.016505265351655116,
+      "values": [
+        0.9490740740740741,
+        0.9656084656084656,
+        0.9887566137566137,
+        0.9874338624338626,
+        0.9755291005291005
+      ]
+    },
+    "paired_difference": {
+      "mean": 0.0031746031746030965,
+      "ci95": [
+        -0.004761904761904856,
+        0.01064814814814805
+      ]
+    }
+  },
+  "wine": {
+    "column_shuffle": {
+      "mean": 0.8259188496688497,
+      "std": 0.06810648671011121,
+      "values": [
+        0.8792894605394604,
+        0.9178465053465054,
+        0.788156056906057,
+        0.7673090798090798,
+        0.7769931457431459
+      ]
+    },
+    "gaussian_copula": {
+      "mean": 0.8467371054871056,
+      "std": 0.12967259304572257,
+      "values": [
+        0.9587660025160026,
+        0.857056832056832,
+        0.9497460872460873,
+        0.8304924242424242,
+        0.6376241813741813
+      ]
+    },
+    "paired_difference": {
+      "mean": 0.020818255818255804,
+      "ci95": [
+        -0.07917716542716562,
+        0.1090632978132979
+      ]
+    }
+  }
+}
+Traceback (most recent call last):
+  File "/Users/kouta/Github/data augumation/Data-Augumation/tmp/seminar_20261005/run_experiment.py", line 49, in <module>
+    if hasattr(c,"fit"): c.fit(data)
+    ^^^^^
+AttributeError: 'ColumnShuffleCorruptor' object has no attribute 'fit'

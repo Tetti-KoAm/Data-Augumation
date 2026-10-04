@@ -1,0 +1,3 @@
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: /Users/kouta/Github/data augumation/Data-Augumation/tmp/seminar_20261005/experiment_env/bin/python3 -m pip install --upgrade pip

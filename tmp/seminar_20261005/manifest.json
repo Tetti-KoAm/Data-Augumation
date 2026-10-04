@@ -1,0 +1,307 @@
+[
+  {
+    "slide": 5,
+    "title": "今回の進捗と発表の流れ",
+    "section": "研究の位置づけ"
+  },
+  {
+    "slide": 6,
+    "title": "本研究で変えたい部分",
+    "section": "研究の位置づけ"
+  },
+  {
+    "slide": 7,
+    "title": "例：値を並べ替えると何が変わる？",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 8,
+    "title": "「分けて表す」とは何か",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 9,
+    "title": "累積確率：170 cmはどの位置？",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 10,
+    "title": "なぜ、確率の位置へ変えるのか",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 11,
+    "title": "コピュラが見るのは、位置の組",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 12,
+    "title": "数式を読むための記号",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 13,
+    "title": "コピュラの定義",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 14,
+    "title": "C(0.8, 0.5)は何を数える？",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 15,
+    "title": "同時確率を、図で見る",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 16,
+    "title": "なぜ C(u, 1) = u なのか",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 17,
+    "title": "独立なら、なぜ C(u, v) = uv？",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 18,
+    "title": "完全に同じ位置なら、なぜ min？",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 19,
+    "title": "同じ周辺分布でも、同時確率は違う",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 20,
+    "title": "元の値との接続：Sklarの定理",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 21,
+    "title": "生成する場合は、逆向きに使う",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 22,
+    "title": "コピュラの種類と選ぶ観点",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 23,
+    "title": "「裾の依存」は、相関と何が違う？",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 24,
+    "title": "今回はGaussian copulaから始める",
+    "section": "提案手法の原理"
+  },
+  {
+    "slide": 25,
+    "title": "学習手順①：値を位置へ変える",
+    "section": "提案手法の原理"
+  },
+  {
+    "slide": 26,
+    "title": "学習手順②：位置を潜在正規へ",
+    "section": "提案手法の原理"
+  },
+  {
+    "slide": 27,
+    "title": "学習手順③：依存をRとして推定",
+    "section": "提案手法の原理"
+  },
+  {
+    "slide": 28,
+    "title": "生成手順：残す列を条件にする",
+    "section": "提案手法の原理"
+  },
+  {
+    "slide": 29,
+    "title": "なぜ条件付き正規分布になるのか",
+    "section": "提案手法の原理"
+  },
+  {
+    "slide": 30,
+    "title": "サンプリングを、数字で追う",
+    "section": "提案手法の原理"
+  },
+  {
+    "slide": 31,
+    "title": "最後に、位置を元の単位へ戻す",
+    "section": "提案手法の原理"
+  },
+  {
+    "slide": 32,
+    "title": "複数のマスク列も、一緒に生成する",
+    "section": "提案手法の原理"
+  },
+  {
+    "slide": 33,
+    "title": "VIMEのどこに組み込むか",
+    "section": "実装と検証"
+  },
+  {
+    "slide": 34,
+    "title": "コピュラと「潜在空間での生成」",
+    "section": "実装と検証"
+  },
+  {
+    "slide": 35,
+    "title": "今の実装でできること・未解決なこと",
+    "section": "実装と検証"
+  },
+  {
+    "slide": 36,
+    "title": "動作確認：置換後の関係を図で見る",
+    "section": "実装と検証"
+  },
+  {
+    "slide": 37,
+    "title": "合成データの確認で、何が分かるか",
+    "section": "実装と検証"
+  },
+  {
+    "slide": 38,
+    "title": "比較実験：条件を何に揃えたか",
+    "section": "実装と検証"
+  },
+  {
+    "slide": 39,
+    "title": "今回の再実行：同じ学習枠組みで比較",
+    "section": "実装と検証"
+  },
+  {
+    "slide": 40,
+    "title": "再実行結果を、どう解釈するか",
+    "section": "実装と検証"
+  },
+  {
+    "slide": 41,
+    "title": "次の検証：何が良くなれば研究になるか",
+    "section": "今後の検証"
+  },
+  {
+    "slide": 42,
+    "title": "今回の進捗のまとめ",
+    "section": "まとめ"
+  },
+  {
+    "slide": 43,
+    "title": "保存済み結果：優位性はまだ判断できない",
+    "section": "実装と検証"
+  },
+  {
+    "slide": 44,
+    "title": "補足：コピュラの数学的条件",
+    "section": "補足・数学"
+  },
+  {
+    "slide": 45,
+    "title": "補足：一様になる理由と例外",
+    "section": "補足・数学"
+  },
+  {
+    "slide": 46,
+    "title": "補足：密度と条件付き分布",
+    "section": "補足・数学"
+  },
+  {
+    "slide": 47,
+    "title": "補足：Gaussian copulaの正式な式",
+    "section": "補足・数学"
+  },
+  {
+    "slide": 48,
+    "title": "補足：多変量の条件付き生成",
+    "section": "補足・数学"
+  },
+  {
+    "slide": 49,
+    "title": "補足：実装の数値上の扱い",
+    "section": "補足・実装"
+  },
+  {
+    "slide": 50,
+    "title": "補足：Student-t copula",
+    "section": "補足・種類"
+  },
+  {
+    "slide": 51,
+    "title": "補足：Clayton copula",
+    "section": "補足・種類"
+  },
+  {
+    "slide": 52,
+    "title": "補足：Gumbel copulaとJoe",
+    "section": "補足・種類"
+  },
+  {
+    "slide": 53,
+    "title": "補足：Frank copula",
+    "section": "補足・種類"
+  },
+  {
+    "slide": 54,
+    "title": "補足：回転・Vine・ノンパラメトリック",
+    "section": "補足・種類"
+  },
+  {
+    "slide": 55,
+    "title": "補足：順序変数とは？",
+    "section": "補足・先行研究"
+  },
+  {
+    "slide": 56,
+    "title": "補足：混合型の欠損補完研究との接続",
+    "section": "補足・先行研究"
+  },
+  {
+    "slide": 57,
+    "title": "補足：説明可能性の研究との接続",
+    "section": "補足・先行研究"
+  },
+  {
+    "slide": 58,
+    "title": "補足：先行研究2との比較で言える範囲",
+    "section": "補足・実験"
+  },
+  {
+    "slide": 59,
+    "title": "補足：評価指標の意味",
+    "section": "補足・実験"
+  },
+  {
+    "slide": 60,
+    "title": "補足：保存結果の追加対照",
+    "section": "補足・実験"
+  },
+  {
+    "slide": 61,
+    "title": "補足：研究で答える「なぜ？」",
+    "section": "補足・質疑"
+  },
+  {
+    "slide": 62,
+    "title": "補足：裾依存係数の定義",
+    "section": "補足・数学"
+  },
+  {
+    "slide": 63,
+    "title": "補足：VIMEで学習させる対象",
+    "section": "補足・実装"
+  },
+  {
+    "slide": 64,
+    "title": "補足：実装の呼び出しのイメージ",
+    "section": "補足・実装"
+  },
+  {
+    "slide": 65,
+    "title": "参考文献・実装の根拠",
+    "section": "参考文献"
+  }
+]

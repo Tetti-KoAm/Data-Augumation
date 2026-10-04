@@ -1,0 +1,8 @@
+const toy=JSON.parse(await fs.readFile(DIR+'/toy_results.json','utf8'));
+s=add('動作確認：置換後の関係を図で見る','既知の依存を持つ合成データで、同じ列を置換した。','今回2026-10-04に既存corruption.pyを実行。Z1~N(0,1),Z2=.8Z1+.6εで2500行、seed20261004。第1列を残して第2列を全行マスク。corruption RNG314159、同じ入力とマスク。推定も生成も同じ合成データなので学習動作確認であって汎化評価ではありません。図は先頭180行、集計は2500行すべて。縮小0.05で依存を少し弱く推定します。',[],'実装と検証');
+const ts=toy.results;
+for(const [i,key,title] of [[0,'original','元データ'],[1,'column_shuffle','列置換'],[2,'gaussian_copula','Gaussian copula']]){txt(s,title,54+i*397,200,375,45,29,true,i===2?G:K,'center');scatter(s,ts[key].x,ts[key].y,54+i*397,252,375,292,'残す特徴 X₁','置換する特徴 X₂',i===2?G:T,-4,4);txt(s,'相関 r = '+ts[key].correlation.toFixed(3),54+i*397,542,375,37,25,true,K,'center');}
+takeaway(s,'この設定では、列置換で関係が崩れ、条件付き置換では関係が残る');
+s=add('合成データの確認で、何が分かるか','分類性能の証明ではなく、条件付き生成の動作を確認する実験。','理論上Z2|Z1の条件平均は.8Z1、条件分散.36。指標は生成Z2と真の条件平均.8X1との差の二乗平均。元データの値は約.352で.36に近い、独立置換は約1.653、copulaは約.409。これは条件分布とのKL等ではなく残差二乗の簡単な指標であり、小さいほど常に良いわけではなく条件平均固定だと0になって多様性がなくなるため分散も見る必要がある。観測列は両法とも変更されないことをarray_equalで確認済み。',[],'実装と検証');
+table(s,[['対象','相関','E[(X₂′ − 0.8 X₁)²]'],...['original','column_shuffle','gaussian_copula'].map((key,i)=>[['元データ','列置換','Gaussian copula'][i],ts[key].correlation.toFixed(3),ts[key].conditional_mean_residual_mse.toFixed(3)])],54,219,1172,266,29);
+txt(s,'観測列X₁は両手法で不変。数値は2,500行全体で集計。',65,511,1150,53,28,true);takeaway(s,'Gaussianの仮定に合う例での確認。実データやクラス保持は別に検証する');
