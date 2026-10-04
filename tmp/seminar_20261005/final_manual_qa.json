@@ -1,0 +1,23 @@
+{
+  "source_parts_byte_identical": 44,
+  "notes": 65,
+  "rendered": 65,
+  "changed_slide_numbers": [
+    24,
+    27,
+    37,
+    38,
+    39,
+    47,
+    48,
+    50,
+    51,
+    52,
+    53,
+    54,
+    65
+  ],
+  "presentation_app_test": false,
+  "font_inspection": "Source has unresolved inherited-font exceptions in the automated inspector. Exact original parts preserved; new slide text explicitly uses Noto Sans JP. Visual review performed.",
+  "source_first_four_pixel_identical": true
+}
