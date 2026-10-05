@@ -1,0 +1,325 @@
+{
+  "created": "2026-10-04",
+  "files": [
+    {
+      "path": "README_最初に読む.md",
+      "bytes": 4705,
+      "sha256": "e265656f26ef4f2c9e4bb88deb3968ed0ffa6fc50a39d4a3f3c589d00d07121a"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/baseline.json",
+      "bytes": 4264,
+      "sha256": "90dcd4f187eed70ded643769f50c2213bb58660ab25dea63e0da702040ff235d"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/check_baseline.py",
+      "bytes": 1723,
+      "sha256": "f1e076e2223456ca4fab80054423804449917f0dcd09e33617e280019547f022"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/comparison_results.pdf",
+      "bytes": 27764,
+      "sha256": "041a34b245c5a724435b0fae1bfa2ccc2983312ee4646b9991b0271098bb95ff"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/comparison_results.png",
+      "bytes": 226680,
+      "sha256": "bc9fef4db1d921805a91cb319c3fcfd8a054dde7591a04e95de50de081503c6c"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/controlled_dependence.pdf",
+      "bytes": 19334,
+      "sha256": "d7af277aa9a45a8a0b96aee6f74abb8346311b2c4d55ee1e67da1dd9f1070f64"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/controlled_dependence.png",
+      "bytes": 82063,
+      "sha256": "2b1e76dad2caf016a43a03845c1cf3e5d47a2cf8c288c13e43601977931b6c6a"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/diagnose_seed37.py",
+      "bytes": 2647,
+      "sha256": "4bdaaca83080675081ca900db5fb52e17a4d5d8e2f8fc62789b41f33fafd4104"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/existing_data_dependence.json",
+      "bytes": 2374,
+      "sha256": "611bf06d00f36ae8843f080af1145b4d50dffd7ddb8644d887c51e93c4124ce2"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/existing_data_relationships.pdf",
+      "bytes": 26818,
+      "sha256": "32c9c92dcb2bc3cbcf2357447f8b49595d91bf8ea9003d0fe20f9f06e8acaea6"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/existing_data_relationships.png",
+      "bytes": 109411,
+      "sha256": "a3f57576571220037e57d7759658f939a98c7cf728b8583673f9d5a9344bc24a"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/per_seed_metrics.csv",
+      "bytes": 3966,
+      "sha256": "22d0a5f3d75db07e643501a31ac57b19c8dca51bc458fcb68a25fa642c1976e5"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/plot_results.py",
+      "bytes": 3138,
+      "sha256": "04b19d97290acfada24caef3f594e1e36e4d082bc954e8744866b4b937551a6c"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/requirements.txt",
+      "bytes": 767,
+      "sha256": "55c8ceaaf623a94468c0b87db32f8f4b5b1d5d4751b43debeb70670c881c481e"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/results.json",
+      "bytes": 72761,
+      "sha256": "0b1f13854bb46cd1c9513d1bffb0226adac3d050cd652baf796f4cff3c9ed10e"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/run.log",
+      "bytes": 17451,
+      "sha256": "5314cee21c775676ca2244cb0d104f784abf096a352b272bb43ff970e5f83605"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/run_dependence_comparison.py",
+      "bytes": 8228,
+      "sha256": "2149041cf2b85fedb2585dd5f385a5d60033b1ff1a56b89daeb999651a4bb233"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/seed37_diagnosis.json",
+      "bytes": 1134,
+      "sha256": "b549b11d7d4f57bb66b81d4fafcb40fc8011d16ced5555aed5f86151063fc646"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/seed37_diagnosis.log",
+      "bytes": 753,
+      "sha256": "397689340c7a63f8d987cb5500c3e0a945190208096686252b5328ec2db92e29"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/write_report.py",
+      "bytes": 11224,
+      "sha256": "d0cfc5837d0737c51e88df15b1bddcb467a95c47a3097d646ecbcfd54e7a2d8a"
+    },
+    {
+      "path": "output/experiments/dependence_comparison/実験レポート.md",
+      "bytes": 9893,
+      "sha256": "ee4bdb20e194a27805d0cc9bfee257a2e7b40ee1dde5a2c65330c8ec53a96983"
+    },
+    {
+      "path": "output/presentations/10.05_ゼミ発表_コピュラ進捗_流れ改善版_本編20枚.pptx",
+      "bytes": 281121,
+      "sha256": "6da7e44baf6e1b3a566d679a73fbf1571a0bdde39b367596d0f634017c102c71"
+    },
+    {
+      "path": "output/presentations/比較実験/requirements.txt",
+      "bytes": 61,
+      "sha256": "fa30102e596195e8b5efae5e863ac010ef59364e216dd83f5528741902116b02"
+    },
+    {
+      "path": "output/presentations/比較実験/rerun_results.json",
+      "bytes": 7901,
+      "sha256": "55c7135a21acd7a418f1e48d9707ac96c96c513eb21a10540970226b9532c68c"
+    },
+    {
+      "path": "output/presentations/比較実験/run_experiment.py",
+      "bytes": 4932,
+      "sha256": "d5ed4a4fcedd785319396c31e8453745e7fc3d95e6f0844da9c75a61ac001fe2"
+    },
+    {
+      "path": "output/presentations/比較実験/toy_results.json",
+      "bytes": 31680,
+      "sha256": "4a36a3944ea89e7b3a0619b12f1dc3e2ce19d35ab93b833640f5545ec39f287c"
+    },
+    {
+      "path": "output/presentations/比較実験/実験の読み方.md",
+      "bytes": 1390,
+      "sha256": "abb404d3c0523957ca35040e8b322e155d1506c16e1da77409b6b5aab2590a30"
+    },
+    {
+      "path": "output/presentations/流れ改善版_発表ガイド.md",
+      "bytes": 2331,
+      "sha256": "5d8c18f1cfc5aa0f1ca8696f27d79c3c147610efbff385c78edc0f818fea72e8"
+    },
+    {
+      "path": "requirements-compatible.txt",
+      "bytes": 83,
+      "sha256": "c307ed1d0f3916e60793ba6ab92fff1adadd49e664076460896a48d2c241a8a4"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 80,
+      "sha256": "cdd207ab1c9d9f8b60cd1bb108e44eb6e74b5358d8e9f95174a19efc75f9385a"
+    },
+    {
+      "path": "research-bench/.gitignore",
+      "bytes": 38,
+      "sha256": "c0e9b5af85bfd09f76bec9b562a83549c943c4df8d9ea78859092aeb57e52636"
+    },
+    {
+      "path": "research-bench/README.md",
+      "bytes": 3915,
+      "sha256": "6df037568bf0f91b1a1218386d3c70438a8d513d9e4508246e3314a31e9569d0"
+    },
+    {
+      "path": "research-bench/UPSTREAM_VERSIONS.md",
+      "bytes": 544,
+      "sha256": "57e97ae20e0e747dd52af921c92036efe08435bb3435212c09b31972b6f69322"
+    },
+    {
+      "path": "research-bench/requirements-lock.txt",
+      "bytes": 766,
+      "sha256": "fd72e62a9947312988649fe4944328d0035f302000c4ffa81b39cdccf95bc768"
+    },
+    {
+      "path": "research-bench/requirements.txt",
+      "bytes": 118,
+      "sha256": "91829a9d3c35fb427a064853cf267c5121c982fa4ded36e9e750034a39accc4b"
+    },
+    {
+      "path": "research-bench/results/EXPERIMENT_DETAILED_JA.md",
+      "bytes": 14420,
+      "sha256": "2f6dc5dc30723cb6011f27d3cb7e52f75e2a969abb023513733a3fdc15f0fa94"
+    },
+    {
+      "path": "research-bench/results/REPORT_JA.md",
+      "bytes": 2764,
+      "sha256": "41c8a633cabcd50dba39d5792b62678bda97fe1d2d3486ad1aa777bfe674b73b"
+    },
+    {
+      "path": "research-bench/results/quick_compare.json",
+      "bytes": 1032,
+      "sha256": "5b9a3cb6fb23cc4c32f9840baf434aa4ea292041b45e05413241b6bb82fb0fd1"
+    },
+    {
+      "path": "research-bench/results/repeated_compare.json",
+      "bytes": 21864,
+      "sha256": "b33d29a916d5bc8dee93d49f762a08f7310210cc1bc8a40c0ab58e68f39ed46d"
+    },
+    {
+      "path": "research-bench/scripts/quick_compare.py",
+      "bytes": 12132,
+      "sha256": "a33ae7a172a141ffd6e5866c4649fb954a1d225d10b584bba10b0c8e4c646818"
+    },
+    {
+      "path": "research-bench/scripts/run_quick_compare.sh",
+      "bytes": 649,
+      "sha256": "1a42f6854782abe3e35eb582e8d01a1b935a979039c375ef50c71a87171fce22"
+    },
+    {
+      "path": "research-bench/src/tabular_research/__init__.py",
+      "bytes": 175,
+      "sha256": "e37611101bf3eecd0e5c233496efe1ebb94284cf384ee643ef9b920e831a46d6"
+    },
+    {
+      "path": "research-bench/src/tabular_research/corruption.py",
+      "bytes": 6489,
+      "sha256": "7be5ea5a265a43397051b9ce7c61bf44b117735f76198837fb1885c1f997e77a"
+    },
+    {
+      "path": "research-bench/src/tabular_research/vime_torch.py",
+      "bytes": 12008,
+      "sha256": "581e64413dc5b91fd45ff289cf352cebf726f8019f1970f0f9b034699a809880"
+    },
+    {
+      "path": "research-bench/upstream/Tabular-Class-Conditioned-SSL/README.md",
+      "bytes": 608,
+      "sha256": "cb7f91d59ecdd940a8c131bfb253473f6747ea75bd8f907412e00b244b1b4f2b"
+    },
+    {
+      "path": "research-bench/upstream/Tabular-Class-Conditioned-SSL/corruption_mask_generators.py",
+      "bytes": 3624,
+      "sha256": "7b27697b60b126c240e2a70c0784d32ab50ca32a91753119badc2359875925bc"
+    },
+    {
+      "path": "research-bench/upstream/Tabular-Class-Conditioned-SSL/dataset_samplers.py",
+      "bytes": 4513,
+      "sha256": "b1cd8167003e4c9659e0b0c55d50a7a8ce5ce9fa7f9c66eef44ed17a569b7bf5"
+    },
+    {
+      "path": "research-bench/upstream/Tabular-Class-Conditioned-SSL/main.py",
+      "bytes": 10613,
+      "sha256": "a210527378c1e7f753b394524bdce1ed89cb8caff8cc38a2e72afd48067be643"
+    },
+    {
+      "path": "research-bench/upstream/Tabular-Class-Conditioned-SSL/model.py",
+      "bytes": 5668,
+      "sha256": "b6fc36268ca3e93cc57ce52ea0176af6e41f1f71654045618c9cb413687fc692"
+    },
+    {
+      "path": "research-bench/upstream/Tabular-Class-Conditioned-SSL/process_results.py",
+      "bytes": 7511,
+      "sha256": "147ad95b8de6cdab2989f46d63d57b90407a39ab37ada3b8b2107eb8cfe77797"
+    },
+    {
+      "path": "research-bench/upstream/Tabular-Class-Conditioned-SSL/training.py",
+      "bytes": 5286,
+      "sha256": "9f448d76b7d1495f452b56ee78b479d3f953cc018f3869b0f71a85d2368f72a3"
+    },
+    {
+      "path": "research-bench/upstream/Tabular-Class-Conditioned-SSL/utils.py",
+      "bytes": 7237,
+      "sha256": "735962a00a92ca341021fc8bbec06dbbc43d73116abf1bdc20e53dc6256c38ce"
+    },
+    {
+      "path": "research-bench/upstream/Tabular-Class-Conditioned-SSL/visualize_embeddings.ipynb",
+      "bytes": 1146171,
+      "sha256": "8fcd70bdd49578610a544f964b316808806d4a9b9988a79d17fc231417b11ffa"
+    },
+    {
+      "path": "research-bench/upstream/VIME/README.md",
+      "bytes": 2441,
+      "sha256": "139aba1c7345446758bb6264121ce7b4d4679f93b70c5c195e9eb0898fd086a7"
+    },
+    {
+      "path": "research-bench/upstream/VIME/data_loader.py",
+      "bytes": 1889,
+      "sha256": "259c5ffe2b933c5ee2ef035fa328aa9e5f1c4bc8d155863a48fa4a2d9935fa4d"
+    },
+    {
+      "path": "research-bench/upstream/VIME/main_vime.py",
+      "bytes": 7320,
+      "sha256": "c17a62881364982b6f4528de8df9a24773cb0ef1c52efd019f64f3b1b350a8b7"
+    },
+    {
+      "path": "research-bench/upstream/VIME/requirements",
+      "bytes": 104,
+      "sha256": "a14fcc90799a4d8fd25a21de785e3f22addcc9c66a5e888ae1fd854110a10670"
+    },
+    {
+      "path": "research-bench/upstream/VIME/supervised_models.py",
+      "bytes": 3906,
+      "sha256": "5413bdaca3aceb930614075835f240cb6fd74d130579c32b4c3aa29e07e0eb70"
+    },
+    {
+      "path": "research-bench/upstream/VIME/tutorial_vime.ipynb",
+      "bytes": 15922,
+      "sha256": "2b9af687244ad77a00957eb37226ec729388d9e521d680c011245cf1f57e3107"
+    },
+    {
+      "path": "research-bench/upstream/VIME/vime_self.py",
+      "bytes": 2264,
+      "sha256": "0dc32c9b39fe022d72dc51e6705f534d6919480ae11a63dc477d84d64198f204"
+    },
+    {
+      "path": "research-bench/upstream/VIME/vime_semi.py",
+      "bytes": 6308,
+      "sha256": "cec1a7da8699fa5e0c547a5cfc5d5054e84c57f25206d25f09c3e92773aeb71e"
+    },
+    {
+      "path": "research-bench/upstream/VIME/vime_utils.py",
+      "bytes": 3290,
+      "sha256": "1444c6ba4935d5d5f68d5c7671eba4057fc536bf68ebb03dbd068419bca7a2fb"
+    },
+    {
+      "path": "参考資料/10.05＿齊藤光汰_元資料.pptx",
+      "bytes": 212895,
+      "sha256": "6ff000ca18c06be4b8a82397fb77b0f08d27a8721775ece3019da11176760889"
+    },
+    {
+      "path": "研究引き継ぎ.md",
+      "bytes": 14155,
+      "sha256": "84d00402c36c1cb44af09ea16edee209e3394e46eef58e41e02e2c115d941eb6"
+    }
+  ]
+}

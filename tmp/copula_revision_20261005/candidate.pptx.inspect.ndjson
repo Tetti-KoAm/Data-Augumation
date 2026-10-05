@@ -1,0 +1,302 @@
+{"kind":"deck","id":"pr/bf8wfb","name":"Deck"}
+{"kind":"layout","layoutId":"65b5bb5a-9cf5-4426-a395-0fd768009522","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"27233c84-a011-423c-aa02-a710c04a3fcc","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/90lrie","slide":1,"title":"ゼミ発表","textShapes":5}
+{"kind":"textbox","id":"sh/10ralgbm","slide":1,"text":"ゼミ発表","textPreview":"ゼミ発表","textChars":4,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/ex0bq1sv","slide":1,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/zy9sj6tg","slide":1,"text":"変数間の依存構造を考慮したデータ拡張","textPreview":"変数間の依存構造を考慮したデータ拡張","textChars":18,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"shape","id":"sh/on2twbad","slide":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/9obapgbi","slide":1,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/ml0bu1s7","slide":1,"text":"コピュラの基礎と初期実験の方針","textPreview":"コピュラの基礎と初期実験の方針","textChars":15,"textLines":1,"bbox":[90,290,1100,95]}
+{"kind":"textbox","id":"sh/nmtsn6ts","slide":1,"text":"M1 齊藤光汰\n2026年10月5日","textPreview":"M1 齊藤光汰 | 2026年10月5日","textChars":18,"textLines":2,"bbox":[90,450,1100,100]}
+{"kind":"notes","id":"nt/90lrie","slide":1,"text":"2026年10月5日。M1 齊藤光汰。本編20枚。以降は実験条件と結果の補足。\n\n出典・根拠\n"}
+{"kind":"slide","id":"sl/zrm68q","slide":2,"title":"本研究の問題設定と中間発表の振り返り","textShapes":6}
+{"kind":"textbox","id":"sh/idgv6t03","slide":2,"text":"本研究の問題設定と中間発表の振り返り","textPreview":"本研究の問題設定と中間発表の振り返り","textChars":18,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/507e18je","slide":2,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/4zyd83i9","slide":2,"text":"変数間の関係を考慮した、テーブルデータの拡張を目指す。","textPreview":"変数間の関係を考慮した、テーブルデータの拡張を目指す。","textChars":27,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/va5wvy1c","slide":2,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/u9wv2t0r","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/hcnexoji","slide":2,"text":"列ごとに値を無作為に置換すると、身長と体重などの\n組合せが不自然になる可能性がある。\n\n疑似ラベルを条件に拡張すると、誤ったラベルの影響を\n受ける可能性がある。","textPreview":"列ごとに値を無作為に置換すると、身長と体重などの | 組合せが不自然になる可能性がある。 |  | 疑似ラベルを条件に拡張すると、誤ったラベルの影響を | 受ける可能性がある。","textChars":80,"textLines":5,"bbox":[65,215,1150,350]}
+{"kind":"shape","id":"sh/wbed4jix","slide":2,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/f69w7ihw","slide":2,"text":"中間発表で述べた方針：依存構造を扱うために、コピュラを使用する","textPreview":"中間発表で述べた方針：依存構造を扱うために、コピュラを使用する","textChars":31,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"notes","id":"nt/zrm68q","slide":2,"text":"中間発表の最後に述べた方針を振り返る。独立な列置換は依存を保つ保証がない。疑似ラベルを用いる拡張は誤りの影響を受け得る。これらが常に性能低下を生むという断定はしない。\n\n出典・根拠\nhttps://papers.nips.cc/paper/2020/hash/7d97667a3e056acab9aaf653807b4a03-Abstract.html"}
+{"kind":"slide","id":"sl/6tpn12","slide":3,"title":"コピュラとは","textShapes":6}
+{"kind":"textbox","id":"sh/jq98va9g","slide":3,"text":"コピュラとは","textPreview":"コピュラとは","textChars":6,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/krip4fa1","slide":3,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/lcrqxkrm","slide":3,"text":"各変数の分布と、変数どうしの依存を分けて表す確率モデル。","textPreview":"各変数の分布と、変数どうしの依存を分けて表す確率モデル。","textChars":28,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/alg7y5sz","slide":3,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/bmp8ra9k","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/wnyp0fa5","slide":3,"text":"例：身長の分布と体重の分布を、それぞれ別に扱う。\n\nそのうえで「身長が高い人ほど体重も重い」といった\n組合せの関係を、コピュラで表す。\n\n研究では、残した特徴の値に合わせて、\n置換する特徴の値を生成するために使う。","textPreview":"例：身長の分布と体重の分布を、それぞれ別に扱う。 |  | そのうえで「身長が高い人ほど体重も重い」といった | 組合せの関係を、コピュラで表す。 |  | 研究では、残した特徴の値に合わせて、 | 置換する特徴の値を生成するために使う。","textChars":107,"textLines":7,"bbox":[65,215,1150,350]}
+{"kind":"shape","id":"sh/xo7qt0rq","slide":3,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/mhw7uls3","slide":3,"text":"まず、分布の形と組合せの関係を、例で分けて考える","textPreview":"まず、分布の形と組合せの関係を、例で分けて考える","textChars":24,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"notes","id":"nt/6tpn12","slide":3,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。コピュラは一様周辺を持つ同時分布関数。周辺が連続ならSklar分解のコピュラは一意。任意の依存を一つの種類で捉える保証はない。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/tezww1","slide":4,"title":"周辺分布と依存構造","textShapes":6}
+{"kind":"textbox","id":"sh/e1crilk7","slide":4,"text":"周辺分布と依存構造","textPreview":"周辺分布と依存構造","textChars":9,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/143atg3y","slide":4,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/03u9kv2d","slide":4,"text":"周辺分布は「一つの列」、依存構造は「列どうしの組合せ」。","textPreview":"周辺分布は「一つの列」、依存構造は「列どうしの組合せ」。","textChars":28,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/n6lsvqlo","slide":4,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/m5crmlk3","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/o7e9ov29","slide":4,"text":"身長の周辺分布\n155・165・175・185 cmの分布\n\n体重の周辺分布\n48・57・68・82 kgの分布\n\n依存構造\n高い身長に、重い体重が対応","textPreview":"身長の周辺分布 | 155・165・175・185 cmの分布 |  | 体重の周辺分布 | 48・57・68・82 kgの分布 |  | 依存構造 | 高い身長に、重い体重が対応","textChars":76,"textLines":8,"bbox":[700,213,515,340]}
+{"kind":"shape","id":"sh/3a18j6lk","slide":4,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/i9sra1kz","slide":4,"text":"各列の値の出現頻度だけでは、組合せの関係は決まらない","textPreview":"各列の値の出現頻度だけでは、組合せの関係は決まらない","textChars":26,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/8f65gb25","slide":4,"name":"","rows":5,"cols":3,"preview":"人 | 身長 cm | 体重 kg","bbox":[54,210,600,335]}
+{"kind":"notes","id":"nt/tezww1","slide":4,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/1pb1kt","slide":5,"title":"同じ周辺分布でも、依存は異なる","textShapes":7}
+{"kind":"textbox","id":"sh/3mhkjul8","slide":5,"text":"同じ周辺分布でも、依存は異なる","textPreview":"同じ周辺分布でも、依存は異なる","textChars":15,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/4nqlcfmt","slide":5,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/5oj2lk3e","slide":5,"text":"体重の並びを逆にすると、各列の値は同じでも関係が変わる。","textPreview":"体重の並びを逆にすると、各列の値は同じでも関係が変わる。","textChars":28,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/qps3ep4z","slide":5,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/rq14nulk","slide":5,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/6to3254f","slide":5,"text":"高い人ほど重い組合せ","textPreview":"高い人ほど重い組合せ","textChars":10,"textLines":1,"bbox":[65,183,540,35]}
+{"kind":"textbox","id":"sh/7uxkbal0","slide":5,"text":"高い人ほど軽い組合せ","textPreview":"高い人ほど軽い組合せ","textChars":10,"textLines":1,"bbox":[660,183,540,35]}
+{"kind":"shape","id":"sh/v6l8ry94","slide":5,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/u5c7yt8j","slide":5,"text":"コピュラが扱うのは、この組合せの違い","textPreview":"コピュラが扱うのは、この組合せの違い","textChars":18,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"chart","id":"ch/kryx8vyp","slide":5,"name":"","chartType":"scatter","bbox":[55,216,550,340]}
+{"kind":"chart","id":"ch/5c7y10fa","slide":5,"name":"","chartType":"scatter","bbox":[655,216,550,340]}
+{"kind":"notes","id":"nt/1pb1kt","slide":5,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。4点の散布図は説明用で、推定結果ではない。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/4cw80y","slide":6,"title":"累積分布関数の意味","textShapes":8}
+{"kind":"textbox","id":"sh/hgvih0bm","slide":6,"text":"累積分布関数の意味","textPreview":"累積分布関数の意味","textChars":9,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/ud4z6lcb","slide":6,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/vedgfqtg","slide":6,"text":"値を「その値以下が占める割合」に置き換える。","textPreview":"値を「その値以下が占める割合」に置き換える。","textChars":22,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/4jmhcvud","slide":6,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/5kfil0by","slide":6,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/jid0jqts","slide":6,"text":"累積分布関数（CDF）の式","textPreview":"累積分布関数（CDF）の式","textChars":13,"textLines":1,"bbox":[65,331,1150,40]}
+{"kind":"shape","id":"sh/kn2h0but","slide":6,"bbox":[54,381,1172,105]}
+{"kind":"textbox","id":"sh/loby9gbe","slide":6,"text":"Fᵧ(70) = P(Y ≤ 70) ≈ 7 / 10 = 0.7","textPreview":"Fᵧ(70) = P(Y ≤ 70) ≈ 7 / 10 = 0.7","textChars":33,"textLines":1,"bbox":[74,391,1132,80]}
+{"kind":"textbox","id":"sh/lsna5cv2","slide":6,"text":"Y：体重　P：確率　Fᵧ：体重の累積分布関数\n10人中7人が70 kg以下なら、70 kgの位置は0.7。","textPreview":"Y：体重　P：確率　Fᵧ：体重の累積分布関数 | 10人中7人が70 kg以下なら、70 kgの位置は0.7。","textChars":53,"textLines":2,"bbox":[70,508,1140,70]}
+{"kind":"shape","id":"sh/kre9w7uh","slide":6,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/zq5s32dc","slide":6,"text":"70 kgという値を、体重分布の中の位置0.7として表す","textPreview":"70 kgという値を、体重分布の中の位置0.7として表す","textChars":28,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/nitg3uds","slide":6,"name":"","rows":1,"cols":11,"preview":"体重 kg | 45 | 50 | 55 | 60 | 63 | 67 | 70 | 75 | 80 | 90","bbox":[54,210,1172,95]}
+{"kind":"notes","id":"nt/4cw80y","slide":6,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。F_Yは体重YのCDF。経験分布による0.7は有限表の割合で、厳密な連続一様とは区別する。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/kj0lkx","slide":7,"title":"確率積分変換","textShapes":8}
+{"kind":"textbox","id":"sh/czu90va5","slide":7,"text":"確率積分変換","textPreview":"確率積分変換","textChars":6,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/byl87qtk","slide":7,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/axcrylsf","slide":7,"text":"身長も体重も、0〜1の共通の尺度へ変換する。","textPreview":"身長も体重も、0〜1の共通の尺度へ変換する。","textChars":22,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/lonqd0b2","slide":7,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/kne94vah","slide":7,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/zm58bqtw","slide":7,"text":"確率積分変換の式","textPreview":"確率積分変換の式","textChars":8,"textLines":1,"bbox":[65,202,1150,42]}
+{"kind":"shape","id":"sh/ylcr2lsb","slide":7,"bbox":[54,254,1172,105]}
+{"kind":"textbox","id":"sh/1sjq1gbi","slide":7,"text":"U = Fₓ(X),   V = Fᵧ(Y)","textPreview":"U = Fₓ(X),   V = Fᵧ(Y)","textChars":22,"textLines":1,"bbox":[74,264,1132,80]}
+{"kind":"textbox","id":"sh/0ra9sbux","slide":7,"text":"X：身長　Y：体重　U・V：各分布の中の累積確率位置\n\n連続な周辺分布では、UとVはそれぞれ0〜1の一様分布。\n一様分布でも、UとVが独立とは限らない。","textPreview":"X：身長　Y：体重　U・V：各分布の中の累積確率位置 |  | 連続な周辺分布では、UとVはそれぞれ0〜1の一様分布。 | 一様分布でも、UとVが独立とは限らない。","textChars":76,"textLines":4,"bbox":[70,398,1140,160]}
+{"kind":"shape","id":"sh/ud4ra50j","slide":7,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/veds3q14","slide":7,"text":"単位や分布の形をそろえて、位置どうしの依存を見る","textPreview":"単位や分布の形をそろえて、位置どうしの依存を見る","textChars":24,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"notes","id":"nt/kj0lkx","slide":7,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。連続CDFの場合にF(X)はUniform(0,1)。経験順位・同値・離散の扱いは近似が必要。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/6xjhwi","slide":8,"title":"元の値と確率位置の対応","textShapes":5}
+{"kind":"textbox","id":"sh/ylk3690b","slide":8,"text":"元の値と確率位置の対応","textPreview":"元の値と確率位置の対応","textChars":11,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/lob2hojm","slide":8,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/0n2l8jih","slide":8,"text":"同じ人の身長と体重を、一組の位置として表す。","textPreview":"同じ人の身長と体重を、一組の位置として表す。","textChars":22,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/nqdkjy1s","slide":8,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/mp43at07","slide":8,"text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"shape","id":"sh/8rmlc3id","slide":8,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/vedkny14","slide":8,"text":"高い身長と重い体重の関係は、UとVの組にも残る","textPreview":"高い身長と重い体重の関係は、UとVの組にも残る","textChars":23,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/on250fu9","slide":8,"name":"","rows":5,"cols":5,"preview":"人 | 身長 cm | 体重 kg | 身長の位置 U | 体重の位置 V","bbox":[54,225,1172,305]}
+{"kind":"notes","id":"nt/6xjhwi","slide":8,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。架空の連続周辺を想定した位置。前の10人表とは別の説明例。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/42m5zq","slide":9,"title":"コピュラの定義式","textShapes":8}
+{"kind":"textbox","id":"sh/98j6pcjy","slide":9,"text":"コピュラの定義式","textPreview":"コピュラの定義式","textChars":8,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/m5snehkn","slide":9,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/n61onm1s","slide":9,"text":"二つの位置が、指定した範囲に同時に入る確率を表す。","textPreview":"二つの位置が、指定した範囲に同時に入る確率を表す。","textChars":25,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/wva5kr2p","slide":9,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/xw36twja","slide":9,"text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/a9snihkj","slide":9,"text":"コピュラの定義：一様周辺を持つ同時累積分布関数","textPreview":"コピュラの定義：一様周辺を持つ同時累積分布関数","textChars":23,"textLines":1,"bbox":[65,202,1150,42]}
+{"kind":"shape","id":"sh/vu1orm14","slide":9,"bbox":[54,254,1172,105]}
+{"kind":"textbox","id":"sh/kzu5or2l","slide":9,"text":"C(u, v) = P(U ≤ u, V ≤ v)","textPreview":"C(u, v) = P(U ≤ u, V ≤ v)","textChars":25,"textLines":1,"bbox":[74,264,1132,80]}
+{"kind":"textbox","id":"sh/5036xwj6","slide":9,"text":"C：コピュラ　u・v：位置の上限（0〜1）\n\nC(0.6, 0.7) は「身長の位置が0.6以下」かつ\n「体重の位置が0.7以下」を同時に満たす確率。","textPreview":"C：コピュラ　u・v：位置の上限（0〜1） |  | C(0.6, 0.7) は「身長の位置が0.6以下」かつ | 「体重の位置が0.7以下」を同時に満たす確率。","textChars":75,"textLines":4,"bbox":[70,398,1140,160]}
+{"kind":"shape","id":"sh/98nypk7m","slide":9,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/87exgf61","slide":9,"text":"Cは点の密度でも、体重を固定した条件付き確率でもない","textPreview":"Cは点の密度でも、体重を固定した条件付き確率でもない","textChars":26,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"notes","id":"nt/42m5zq","slide":9,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。U,Vは一様周辺。小文字u,vはしきい値、大文字U,Vは確率変数。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/8u4j39","slide":10,"title":"定義式を図で読む","textShapes":6}
+{"kind":"textbox","id":"sh/5432x8vu","slide":10,"text":"定義式を図で読む","textPreview":"定義式を図で読む","textChars":8,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/ihc3mtw3","slide":10,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/jilkvydo","slide":10,"text":"左下の範囲に入る人の割合が、C(u, v)の意味。","textPreview":"左下の範囲に入る人の割合が、C(u, v)の意味。","textChars":25,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/s7elsnu5","slide":10,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/t8n21svq","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/r65kzidk","slide":10,"text":"u = 0.6、v = 0.7\n\n両条件を満たす点：5個\n全体の点：10個\n\nこの例での割合\n5 / 10 = 0.5","textPreview":"u = 0.6、v = 0.7 |  | 両条件を満たす点：5個 | 全体の点：10個 |  | この例での割合 | 5 / 10 = 0.5","textChars":59,"textLines":7,"bbox":[750,212,460,340]}
+{"kind":"shape","id":"sh/gbelwnuh","slide":10,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/1cn25svm","slide":10,"text":"C(0.6, 0.7)を、この例では約0.5と読む","textPreview":"C(0.6, 0.7)を、この例では約0.5と読む","textChars":25,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"chart","id":"ch/itgnm9wb","slide":10,"name":"","chartType":"scatter","bbox":[55,203,655,355]}
+{"kind":"notes","id":"nt/8u4j39","slide":10,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。10点から求める説明用の経験割合。母集団コピュラの推定とは区別。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/lgck69","slide":11,"title":"依存が変わると、コピュラも変わる","textShapes":11}
+{"kind":"textbox","id":"sh/orehcfmt","slide":11,"text":"依存が変わると、コピュラも変わる","textPreview":"依存が変わると、コピュラも変わる","textChars":16,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/nq503alo","slide":11,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/mpczap43","slide":11,"text":"同じ位置の上限でも、依存によって同時確率が異なる。","textPreview":"同じ位置の上限でも、依存によって同時確率が異なる。","textChars":25,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/xwni943q","slide":11,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/wvehgz25","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/bu507ulk","slide":11,"text":"独立コピュラの式","textPreview":"独立コピュラの式","textChars":8,"textLines":1,"bbox":[65,208,1150,35]}
+{"kind":"shape","id":"sh/atwzepkz","slide":11,"bbox":[54,245,1172,105]}
+{"kind":"textbox","id":"sh/5k7id43m","slide":11,"text":"C(u, v) = uv","textPreview":"C(u, v) = uv","textChars":12,"textLines":1,"bbox":[74,255,1132,80]}
+{"kind":"textbox","id":"sh/kzy1kz21","slide":11,"text":"独立なら、二つの確率を掛ける。C(0.6, 0.7) = 0.42。","textPreview":"独立なら、二つの確率を掛ける。C(0.6, 0.7) = 0.42。","textChars":34,"textLines":1,"bbox":[70,358,1140,45]}
+{"kind":"textbox","id":"sh/y1c32p0n","slide":11,"text":"完全同方向依存（U = V）の式","textPreview":"完全同方向依存（U = V）の式","textChars":16,"textLines":1,"bbox":[65,419,1150,35]}
+{"kind":"textbox","id":"sh/z2lkba18","slide":11,"text":"C(u, v) = min(u, v)","textPreview":"C(u, v) = min(u, v)","textChars":19,"textLines":1,"bbox":[70,465,1140,45]}
+{"kind":"textbox","id":"sh/k3ul4fit","slide":11,"text":"minは小さい方。両条件を満たす範囲は0.6以下なので、0.6。","textPreview":"minは小さい方。両条件を満たす範囲は0.6以下なので、0.6。","textChars":32,"textLines":1,"bbox":[70,526,1140,44]}
+{"kind":"shape","id":"sh/l432dkje","slide":11,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/m5c36p0z","slide":11,"text":"一様な周辺分布が同じでも、Cの値は変わる","textPreview":"一様な周辺分布が同じでも、Cの値は変わる","textChars":20,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"notes","id":"nt/lgck69","slide":11,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。独立と完全同方向依存の厳密式。完全同方向U=Vは特異コピュラで密度を持たない。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/aqlmw4","slide":12,"title":"Sklar（スクラー）の定理","textShapes":8}
+{"kind":"textbox","id":"sh/o32h4729","slide":12,"text":"Sklar（スクラー）の定理","textPreview":"Sklar（スクラー）の定理","textChars":14,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/32t0b2lo","slide":12,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/21kz2xkj","slide":12,"text":"元の同時分布を、周辺分布とコピュラで表す。","textPreview":"元の同時分布を、周辺分布とコピュラで表す。","textChars":21,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/1gbi9s3y","slide":12,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/gf2h072d","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/fetg72ls","slide":12,"text":"Sklarの定理の式","textPreview":"Sklarの定理の式","textChars":10,"textLines":1,"bbox":[65,202,1150,42]}
+{"kind":"shape","id":"sh/edkzyxk7","slide":12,"bbox":[54,254,1172,105]}
+{"kind":"textbox","id":"sh/lwfilw32","slide":12,"text":"H(x, y) = C(Fₓ(x), Fᵧ(y))","textPreview":"H(x, y) = C(Fₓ(x), Fᵧ(y))","textChars":25,"textLines":1,"bbox":[74,264,1132,80]}
+{"kind":"textbox","id":"sh/0b6hcr2h","slide":12,"text":"H：身長と体重の同時累積分布関数\nFₓ・Fᵧ：各列の累積分布関数　C：位置どうしの依存\n\nまずxとyを位置へ変換し、その位置の同時確率をCで求める。\n連続な周辺分布では、対応するコピュラは一意に定まる。","textPreview":"H：身長と体重の同時累積分布関数 | Fₓ・Fᵧ：各列の累積分布関数　C：位置どうしの依存 |  | まずxとyを位置へ変換し、その位置の同時確率をCで求める。 | 連続な周辺分布では、対応するコピュラは一意に定まる。","textChars":101,"textLines":5,"bbox":[70,398,1140,160]}
+{"kind":"shape","id":"sh/m1gnupcz","slide":12,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/n2ponatk","slide":12,"text":"周辺の分布の形と、依存構造を分けてモデル化できる","textPreview":"周辺の分布の形と、依存構造を分けてモデル化できる","textChars":24,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"notes","id":"nt/aqlmw4","slide":12,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。H=P(X≤x,Y≤y)。連続周辺ならCは一意。一般の周辺にも分解は存在するが一意性は値域上に限る。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/cr3rha","slide":13,"title":"逆累積分布による生成","textShapes":8}
+{"kind":"textbox","id":"sh/ve9kfqd4","slide":13,"text":"逆累積分布による生成","textPreview":"逆累積分布による生成","textChars":10,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/wfi18vep","slide":13,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/xgr2h0va","slide":13,"text":"位置の組を生成した後、元の単位に戻す。","textPreview":"位置の組を生成した後、元の単位に戻す。","textChars":19,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/ih0ja5wv","slide":13,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/ji9kjadg","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/kj2lcvel","slide":13,"text":"逆累積分布変換（逆変換法）の式","textPreview":"逆累積分布変換（逆変換法）の式","textChars":15,"textLines":1,"bbox":[65,202,1150,42]}
+{"kind":"shape","id":"sh/5kb2l0v6","slide":13,"bbox":[54,254,1172,105]}
+{"kind":"textbox","id":"sh/elgje1wb","slide":13,"text":"X = Fₓ⁻¹(U),   Y = Fᵧ⁻¹(V)","textPreview":"X = Fₓ⁻¹(U),   Y = Fᵧ⁻¹(V)","textChars":26,"textLines":1,"bbox":[74,264,1132,80]}
+{"kind":"textbox","id":"sh/zmpk76dw","slide":13,"text":"F⁻¹：位置に対応する値を返す、逆累積分布関数（分位点関数）\n\n例：身長の位置0.6に対応する値が172.5 cmなら、\nFₓ⁻¹(0.6) = 172.5 cm。\n位置の組の依存を、身長・体重の組合せに反映する。","textPreview":"F⁻¹：位置に対応する値を返す、逆累積分布関数（分位点関数） |  | 例：身長の位置0.6に対応する値が172.5 cmなら、 | Fₓ⁻¹(0.6) = 172.5 cm。 | 位置の組の依存を、身長・体重の組合せに反映する。","textChars":107,"textLines":5,"bbox":[70,398,1140,160]}
+{"kind":"shape","id":"sh/fm1g76lg","slide":13,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/ulsze1kv","slide":13,"text":"生成する位置の組に、どのような依存を持たせるかが重要","textPreview":"生成する位置の組に、どのような依存を持たせるかが重要","textChars":26,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"notes","id":"nt/cr3rha","slide":13,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。一般化逆F^-1(u)=inf{x:F(x)≥u}。F^-1は逆CDFであり逆数ではない。説明用周辺を仮定。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/gbmorc","slide":14,"title":"条件付き分布の意味","textShapes":7}
+{"kind":"textbox","id":"sh/4vqp83u5","slide":14,"text":"条件付き分布の意味","textPreview":"条件付き分布の意味","textChars":9,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/juhozydk","slide":14,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/ito76tcz","slide":14,"text":"研究では、残した値に合う分布から、置換する値を生成する。","textPreview":"研究では、残した値に合う分布から、置換する値を生成する。","textChars":28,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/hsf6x8ve","slide":14,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/wr6p43ut","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/vqxovyd8","slide":14,"text":"条件付き分布の表記：X | Y = 70","textPreview":"条件付き分布の表記：X | Y = 70","textChars":20,"textLines":1,"bbox":[65,207,1150,45]}
+{"kind":"textbox","id":"sh/1ojq9svi","slide":14,"text":"X | Y = 70：\n体重70 kgを観測したときの身長\n\n平均値だけに固定せず、\n条件に合うばらつきから生成する。\n\n表は考え方を示す近傍の例。","textPreview":"X | Y = 70： | 体重70 kgを観測したときの身長 |  | 平均値だけに固定せず、 | 条件に合うばらつきから生成する。 |  | 表は考え方を示す近傍の例。","textChars":74,"textLines":7,"bbox":[665,277,550,275]}
+{"kind":"shape","id":"sh/gnapgnux","slide":14,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/uh4bipcv","slide":14,"text":"「体重を残して身長を変える」を、条件付き生成として扱う","textPreview":"「体重を残して身長を変える」を、条件付き生成として扱う","textChars":27,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/3mp4rups","slide":14,"name":"","rows":4,"cols":2,"preview":"70 kg付近の人 | 身長","bbox":[54,283,565,248]}
+{"kind":"notes","id":"nt/gbmorc","slide":14,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。Y=70は連続の確率ゼロ事象で通常の確率比ではなく条件分布で扱う。表は70kg付近の近傍を用いた直感的例で、厳密条件分布の計算結果ではない。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/iga9nd","slide":15,"title":"コピュラを用いた条件付き生成","textShapes":6}
+{"kind":"textbox","id":"sh/qts7y94v","slide":15,"text":"コピュラを用いた条件付き生成","textPreview":"コピュラを用いた条件付き生成","textChars":14,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/dwj6t43m","slide":15,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/svap0zm1","slide":15,"text":"値を位置へ変え、依存モデルで条件付けしてから、元へ戻す。","textPreview":"値を位置へ変え、依存モデルで条件付けしてから、元へ戻す。","textChars":28,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/fylovelc","slide":15,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/exs72947","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/0zup4jmx","slide":15,"text":"使った式：累積分布変換と逆累積分布変換。\n中央の生成方法は、選ぶコピュラの種類によって変わる。","textPreview":"使った式：累積分布変換と逆累積分布変換。 | 中央の生成方法は、選ぶコピュラの種類によって変わる。","textChars":47,"textLines":2,"bbox":[65,526,1150,57]}
+{"kind":"shape","id":"sh/n2lozylo","slide":15,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/21c76t43","slide":15,"text":"条件付きの位置の生成が、既存の無作為な列置換との違い","textPreview":"条件付きの位置の生成が、既存の無作為な列置換との違い","textChars":26,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/s361oje9","slide":15,"name":"","rows":4,"cols":2,"preview":"段階 | 体重70 kgを残し、身長を生成する例","bbox":[54,220,1172,290]}
+{"kind":"notes","id":"nt/iga9nd","slide":15,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。一般のコピュラから条件分布を求める。コピュラの定義Cそのものと条件分布を混同しない。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/hcddwx","slide":16,"title":"コピュラの説明のまとめ","textShapes":5}
+{"kind":"textbox","id":"sh/cba1svml","slide":16,"text":"コピュラの説明のまとめ","textPreview":"コピュラの説明のまとめ","textChars":11,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/ba10jq50","slide":16,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/q9sjql4f","slide":16,"text":"分布の形を各列で扱い、組合せの関係をコピュラで扱う。","textPreview":"分布の形を各列で扱い、組合せの関係をコピュラで扱う。","textChars":26,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/lg3ip0n2","slide":16,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/0fu1wvmh","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"shape","id":"sh/ydcju54r","slide":16,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/1kzidgny","slide":16,"text":"コピュラにはいくつか種類があり、表せる依存の形が異なる","textPreview":"コピュラにはいくつか種類があり、表せる依存の形が異なる","textChars":27,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/md8f6hg3","slide":16,"name":"","rows":4,"cols":3,"preview":"要素 | 役割 | 身長・体重の例","bbox":[54,220,1172,315]}
+{"kind":"notes","id":"nt/hcddwx","slide":16,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/mgfxdv","slide":17,"title":"Gaussian copulaとStudent-t copula","textShapes":9}
+{"kind":"textbox","id":"sh/25wbuhw3","slide":17,"text":"Gaussian copulaとStudent-t copula","textPreview":"Gaussian copulaとStudent-t copula","textChars":32,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/p8nu5wvu","slide":17,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/o7etwre9","slide":17,"text":"どちらも、変換した空間で多変量分布を用いるコピュラ。","textPreview":"どちらも、変換した空間で多変量分布を用いるコピュラ。","textChars":26,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/ba5c76d0","slide":17,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/a9wby1wf","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/xc7u9wvq","slide":17,"text":"Gaussian copula（ガウシアン・コピュラ）の式","textPreview":"Gaussian copula（ガウシアン・コピュラ）の式","textChars":29,"textLines":1,"bbox":[65,200,1150,37]}
+{"kind":"shape","id":"sh/cbet0bel","slide":17,"bbox":[54,242,1172,105]}
+{"kind":"textbox","id":"sh/relsv2xg","slide":17,"text":"Cρ(u, v) = Φρ(Φ⁻¹(u), Φ⁻¹(v))","textPreview":"Cρ(u, v) = Φρ(Φ⁻¹(u), Φ⁻¹(v))","textChars":29,"textLines":1,"bbox":[74,252,1132,80]}
+{"kind":"textbox","id":"sh/qdcbmxwv","slide":17,"text":"Φ：標準正規CDF　Φ⁻¹：位置を正規の値に戻す逆CDF\nΦρ：相関ρを持つ二変量標準正規CDF。ρで依存を表す。","textPreview":"Φ：標準正規CDF　Φ⁻¹：位置を正規の値に戻す逆CDF | Φρ：相関ρを持つ二変量標準正規CDF。ρで依存を表す。","textChars":57,"textLines":2,"bbox":[70,363,1140,75]}
+{"kind":"textbox","id":"sh/snidsf6p","slide":17,"text":"Student-t copula\n正規分布の代わりにt分布を使う。上下両側の極端な値が\n同時に出る依存を表せる。相関に加え自由度の推定が必要。","textPreview":"Student-t copula | 正規分布の代わりにt分布を使う。上下両側の極端な値が | 同時に出る依存を表せる。相関に加え自由度の推定が必要。","textChars":71,"textLines":3,"bbox":[70,465,1140,104]}
+{"kind":"shape","id":"sh/dore1k7u","slide":17,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/ql0vq5oj","slide":17,"text":"Gaussianは条件付き計算が容易。Student-tは両側の裾依存を扱える","textPreview":"Gaussianは条件付き計算が容易。Student-tは両側の裾依存を扱える","textChars":39,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"notes","id":"nt/mgfxdv","slide":17,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。Gaussianの元特徴の正規性は不要。tは有限自由度で非退化の相関に両裾依存。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf\nhttps://doi.org/10.1111/j.1751-5823.2005.tb00254.x"}
+{"kind":"slide","id":"sl/sm1dc8","slide":18,"title":"Clayton・Gumbel・Joe copula","textShapes":5}
+{"kind":"textbox","id":"sh/gzy9ojm1","slide":18,"text":"Clayton・Gumbel・Joe copula","textPreview":"Clayton・Gumbel・Joe copula","textChars":25,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/vyp8velg","slide":18,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/uxgrm94v","slide":18,"text":"小さい側、大きい側など、特定の側で強い依存を表す。","textPreview":"小さい側、大きい側など、特定の側で強い依存を表す。","textChars":25,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/tw7qt43a","slide":18,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/8vepkzmp","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"shape","id":"sh/69w7i94z","slide":18,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/l8nqp43e","slide":18,"text":"裾とは分布の端の領域。どちら側の共発生を重視するかで選ぶ","textPreview":"裾とは分布の端の領域。どちら側の共発生を重視するかで選ぶ","textChars":28,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/apcvudoz","slide":18,"name":"","rows":4,"cols":3,"preview":"種類 | 主な特徴 | 依存の例","bbox":[54,221,1172,320]}
+{"kind":"notes","id":"nt/sm1dc8","slide":18,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。正の依存を持つ標準形について説明。回転形は含めない。裾は確率位置の端の領域、周辺分布の裾とは区別。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf"}
+{"kind":"slide","id":"sl/xps96m","slide":19,"title":"Frank・Vine・ノンパラメトリック・コピュラ","textShapes":5}
+{"kind":"textbox","id":"sh/t4nihwzi","slide":19,"text":"Frank・Vine・ノンパラメトリック・コピュラ","textPreview":"Frank・Vine・ノンパラメトリック・コピュラ","textChars":25,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/61wj610r","slide":19,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/7250fmhc","slide":19,"text":"依存の対称性や、変数の組ごとの違いを扱う候補。","textPreview":"依存の対称性や、変数の組ごとの違いを扱う候補。","textChars":23,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/g7y1cbit","slide":19,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/hs7ilgze","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"shape","id":"sh/f6p0j6h8","slide":19,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/4vy1gbi5","slide":19,"text":"柔軟なモデルほど、必要なデータ量と推定の負担も検討する","textPreview":"柔軟なモデルほど、必要なデータ量と推定の負担も検討する","textChars":27,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/zu1wba54","slide":19,"name":"","rows":4,"cols":3,"preview":"種類・構成 | 特徴 | 推定・生成の注意点","bbox":[54,220,1172,323]}
+{"kind":"notes","id":"nt/xps96m","slide":19,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。Frankは二変量では正負依存、標準多変量は制約がある。Vineはペアコピュラの構成で単独の一族ではない。ノンパラメトリックは経験・平滑化などで条件付けと次元に課題。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf\nhttps://www.annualreviews.org/content/journals/10.1146/annurev-statistics-040220-101153"}
+{"kind":"slide","id":"sl/2zpue7","slide":20,"title":"初期実験で用いるコピュラ","textShapes":9}
+{"kind":"textbox","id":"sh/jex8ve90","slide":20,"text":"初期実験で用いるコピュラ","textPreview":"初期実験で用いるコピュラ","textChars":12,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/4f694jal","slide":20,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/5gfqxor6","slide":20,"text":"まずGaussian copulaを、VIMEの条件付き置換器に用いる。","textPreview":"まずGaussian copulaを、VIMEの条件付き置換器に用いる。","textChars":36,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/6hor69sr","slide":20,"text":"コピュラの基礎","textPreview":"コピュラの基礎","textChars":7,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/rix8ze9c","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/sj698jah","slide":20,"text":"選択理由：多変量の条件付き分布を計算しやすく、\n既存の列置換と、同じ学習条件で比較できる。","textPreview":"選択理由：多変量の条件付き分布を計算しやすく、 | 既存の列置換と、同じ学習条件で比較できる。","textChars":45,"textLines":2,"bbox":[65,203,1150,86]}
+{"kind":"textbox","id":"sh/tkzq1or2","slide":20,"text":"条件付き正規分布の式（身長の潜在値を生成）","textPreview":"条件付き正規分布の式（身長の潜在値を生成）","textChars":21,"textLines":1,"bbox":[65,312,1150,39]}
+{"kind":"shape","id":"sh/el8ratsn","slide":20,"bbox":[54,356,1172,105]}
+{"kind":"textbox","id":"sh/f6h83y98","slide":20,"text":"Zₓ | Zᵧ = zᵧ  ~  N(ρzᵧ, 1 − ρ²)","textPreview":"Zₓ | Zᵧ = zᵧ  ~  N(ρzᵧ, 1 − ρ²)","textChars":31,"textLines":1,"bbox":[74,366,1132,80]}
+{"kind":"textbox","id":"sh/vapgjaxc","slide":20,"text":"Zₓ・Zᵧ：Φ⁻¹で変換した値　ρ：潜在空間の相関\nN(平均, 分散)：正規分布。残した体重に平均を合わせ、ばらつきを残す。","textPreview":"Zₓ・Zᵧ：Φ⁻¹で変換した値　ρ：潜在空間の相関 | N(平均, 分散)：正規分布。残した体重に平均を合わせ、ばらつきを残す。","textChars":62,"textLines":2,"bbox":[70,477,1140,94]}
+{"kind":"shape","id":"sh/u9gfq5gr","slide":20,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/hcrylkfi","slide":20,"text":"Gaussianで依存保持と分類性能を検証し、必要に応じて他の種類へ広げる","textPreview":"Gaussianで依存保持と分類性能を検証し、必要に応じて他の種類へ広げる","textChars":37,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"notes","id":"nt/2zpue7","slide":20,"text":"身長・体重の数値は説明用の架空例。連続な周辺分布を基本に説明する。選択は初期実験の設計判断で、最適性を主張しない。二変量条件正規は分散1-rho^2。rho=.6, FY70=.7の架空計算。元の周辺分布を正規と仮定する必要はない。\n\n出典・根拠\nhttps://www.columbia.edu/~mh2078/QRM/Copulas_MasterSlides.pdf\nhttps://papers.nips.cc/paper/2020/hash/7d97667a3e056acab9aaf653807b4a03-Abstract.html"}
+{"kind":"slide","id":"sl/692ksp","slide":21,"title":"補足：実験環境","textShapes":5}
+{"kind":"textbox","id":"sh/50bqxcfi","slide":21,"text":"補足：実験環境","textPreview":"補足：実験環境","textChars":7,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/ix07mxwr","slide":21,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/3ytov2xc","slide":21,"text":"保存済みの2026年10月4日の実行記録に基づく。","textPreview":"保存済みの2026年10月4日の実行記録に基づく。","textChars":25,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/cn2psre9","slide":21,"text":"補足資料","textPreview":"補足資料","textChars":4,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/dobq1wfu","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"shape","id":"sh/rmt8zmxo","slide":21,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/0rmpwre5","slide":21,"text":"VIMEのPyTorch実装を用いた小規模な比較実験","textPreview":"VIMEのPyTorch実装を用いた小規模な比較実験","textChars":26,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/vut0b2tk","slide":21,"name":"","rows":5,"cols":2,"preview":"項目 | 実行環境","bbox":[54,220,1172,335]}
+{"kind":"notes","id":"nt/692ksp","slide":21,"text":"根拠：tmp/seminar_20261005/rerun_results.json versions。ハードウェア機種やRAMは記録にないため記載しない。\n\n出典・根拠\n"}
+{"kind":"slide","id":"sl/xeb2lx","slide":22,"title":"補足：使用するデータ","textShapes":5}
+{"kind":"textbox","id":"sh/vitov6h0","slide":22,"text":"補足：使用するデータ","textPreview":"補足：使用するデータ","textChars":10,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/w3254bil","slide":22,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/h4b6xgz6","slide":22,"text":"scikit-learnに付属する、数値特徴の分類データ。","textPreview":"scikit-learnに付属する、数値特徴の分類データ。","textChars":29,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/md0ny10j","slide":22,"text":"補足資料","textPreview":"補足資料","textChars":4,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/7e9or61o","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"shape","id":"sh/9gr6tgju","slide":22,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/694na50n","slide":22,"text":"ラベルは分類の正解。コピュラの依存推定にはラベルを使わない","textPreview":"ラベルは分類の正解。コピュラの依存推定にはラベルを使わない","textChars":29,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/dsnqxgvi","slide":22,"name":"","rows":5,"cols":3,"preview":"項目 | Breast Cancer | Wine","bbox":[54,214,1172,336]}
+{"kind":"notes","id":"nt/xeb2lx","slide":22,"text":"根拠：load_breast_cancer / load_wineの公式説明とrun_experiment.py。乳がんは細胞核の測定特徴、Wineはワインの化学分析と3品種。\n\n出典・根拠\nhttps://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html\nhttps://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html"}
+{"kind":"slide","id":"sl/m7cdl1","slide":23,"title":"補足：ラベル付きデータの設定","textShapes":6}
+{"kind":"textbox","id":"sh/qtkb2l0b","slide":23,"text":"補足：ラベル付きデータの設定","textPreview":"補足：ラベル付きデータの設定","textChars":14,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/dgbux0j2","slide":23,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/sv2t4vih","slide":23,"text":"全体を訓練80%・テスト20%に分け、訓練の30%にラベルを付ける。","textPreview":"全体を訓練80%・テスト20%に分け、訓練の30%にラベルを付ける。","textChars":34,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/fidcza18","slide":23,"text":"補足資料","textPreview":"補足資料","textChars":4,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/eh4b650n","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/0jmt8vid","slide":23,"text":"クラス比を保つ層化分割。テストデータは学習や分布推定に使わない。","textPreview":"クラス比を保つ層化分割。テストデータは学習や分布推定に使わない。","textChars":32,"textLines":1,"bbox":[65,545,1150,35]}
+{"kind":"shape","id":"sh/vm9cn61o","slide":23,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/ul0bu103","slide":23,"text":"「30%」は全データに対する割合ではなく、訓練データ内の割合","textPreview":"「30%」は全データに対する割合ではなく、訓練データ内の割合","textChars":30,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/4bql8nat","slide":23,"name":"","rows":5,"cols":3,"preview":"区分 | Breast Cancer | Wine","bbox":[54,219,1172,311]}
+{"kind":"notes","id":"nt/m7cdl1","slide":23,"text":"根拠：rerun_results.json runs内n_labeled n_unlabeled n_test。5seedとも同数。整数丸めにより30%と厳密一致しない。層化分割。ラベルなしはラベルを隠して使用。\n\n出典・根拠\n"}
+{"kind":"slide","id":"sl/4pp6zp","slide":24,"title":"補足：使用するモデル","textShapes":5}
+{"kind":"textbox","id":"sh/614jidsj","slide":24,"text":"補足：使用するモデル","textPreview":"補足：使用するモデル","textChars":10,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/t4vit8ba","slide":24,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/s3m1k3ap","slide":24,"text":"VIMEの学習枠組みで、置換器だけを変更して比較する。","textPreview":"VIMEの学習枠組みで、置換器だけを変更して比較する。","textChars":27,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/jyd0nyts","slide":24,"text":"補足資料","textPreview":"補足資料","textChars":4,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/ixkzetsn","slide":24,"text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"shape","id":"sh/4zm1g3ad","slide":24,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/3ux0zitc","slide":24,"text":"学習課題とモデルをそろえ、置換方法の違いを比較する","textPreview":"学習課題とモデルをそろえ、置換方法の違いを比較する","textChars":25,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/kz6h832d","slide":24,"name":"","rows":6,"cols":2,"preview":"構成 | 今回の設定","bbox":[54,205,1172,350]}
+{"kind":"notes","id":"nt/4pp6zp","slide":24,"text":"根拠：research-bench/src/tabular_research/vime_torch.py と run_experiment.py。原論文の全実験の再現ではなく、この実装内の比較。\n\n出典・根拠\nhttps://papers.nips.cc/paper/2020/hash/7d97667a3e056acab9aaf653807b4a03-Abstract.html"}
+{"kind":"slide","id":"sl/bpf50c","slide":25,"title":"補足：学習条件と前処理","textShapes":5}
+{"kind":"textbox","id":"sh/4vip0zy5","slide":25,"text":"補足：学習条件と前処理","textPreview":"補足：学習条件と前処理","textChars":11,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/3u987uhk","slide":25,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/itg7ypgf","slide":25,"text":"同じデータ分割・乱数seed・学習予算で、2手法を比較する。","textPreview":"同じデータ分割・乱数seed・学習予算で、2手法を比較する。","textChars":30,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/d0rqdoz2","slide":25,"text":"補足資料","textPreview":"補足資料","textChars":4,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/szip4jyh","slide":25,"text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"shape","id":"sh/qx0729gb","slide":25,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/t4761kzi","slide":25,"text":"コピュラの周辺分布と依存は、ラベルなし訓練データから推定する","textPreview":"コピュラの周辺分布と依存は、ラベルなし訓練データから推定する","textChars":30,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/y1kvmhgj","slide":25,"name":"","rows":6,"cols":2,"preview":"項目 | 共通設定","bbox":[54,207,1172,350]}
+{"kind":"notes","id":"nt/bpf50c","slide":25,"text":"根拠：run_experiment.py と rerun_results.json protocol。MinMaxは訓練全体のみ、コピュラfitはラベルなし訓練のみ。再分割5回。\n\n出典・根拠\n"}
+{"kind":"slide","id":"sl/0me29l","slide":26,"title":"補足：保存済みの初期実験結果","textShapes":6}
+{"kind":"textbox","id":"sh/dsv61s3y","slide":26,"text":"補足：保存済みの初期実験結果","textPreview":"補足：保存済みの初期実験結果","textChars":14,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/qp4n6xkn","slide":26,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/rqdoz2ls","slide":26,"text":"分類性能の平均差は小さく、改善の結論には追加検証が必要。","textPreview":"分類性能の平均差は小さく、改善の結論には追加検証が必要。","textChars":28,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"textbox","id":"sh/4nm54n2h","slide":26,"text":"補足資料","textPreview":"補足資料","textChars":4,"textLines":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/5ov6xs32","slide":26,"text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/3mdovilw","slide":26,"text":"平均差の95%区間\nBreast Cancer：−0.005〜+0.011　Wine：−0.079〜+0.109\n\n両方とも0を含む。少数データ・5回の探索的な比較。","textPreview":"平均差の95%区間 | Breast Cancer：−0.005〜+0.011　Wine：−0.079〜+0.109 |  | 両方とも0を含む。少数データ・5回の探索的な比較。","textChars":83,"textLines":4,"bbox":[65,475,1150,100]}
+{"kind":"shape","id":"sh/oj6pg72l","slide":26,"bbox":[54,590,1172,68]}
+{"kind":"textbox","id":"sh/pkf69c36","slide":26,"text":"本編は手法の説明と選択まで。結果の詳細は質疑用の補足に置く","textPreview":"本編は手法の説明と選択まで。結果の詳細は質疑用の補足に置く","textChars":29,"textLines":1,"bbox":[74,600,1132,47]}
+{"kind":"table","id":"tb/r2d47u9k","slide":26,"name":"","rows":3,"cols":3,"preview":"ROC-AUC：平均 ± SD | 列置換 | Gaussian copula","bbox":[54,221,1172,230]}
+{"kind":"notes","id":"nt/0me29l","slide":26,"text":"根拠：rerun_results.json summary。SDはddof1。差の区間はペア差のpercentile bootstrap、5seedの探索比較で不確実性大。\n\n出典・根拠\n"}

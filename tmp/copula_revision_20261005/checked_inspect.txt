@@ -1,0 +1,28 @@
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"ゼミ発表","textShapes":5}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"本研究の問題設定と中間発表の振り返り","textShapes":6}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"コピュラとは","textShapes":6}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"周辺分布と依存構造","textShapes":6}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"同じ周辺分布でも、依存は異なる","textShapes":7}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"累積分布関数の意味","textShapes":8}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"確率積分変換","textShapes":8}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"元の値と確率位置の対応","textShapes":5}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"コピュラの定義式","textShapes":8}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"定義式を図で読む","textShapes":6}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"依存が変わると、コピュラも変わる","textShapes":11}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"Sklar（スクラー）の定理","textShapes":8}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"逆累積分布による生成","textShapes":8}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"条件付き分布の意味","textShapes":7}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"コピュラを用いた条件付き生成","textShapes":6}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"コピュラの説明のまとめ","textShapes":5}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"Gaussian copulaとStudent-t copula","textShapes":9}
+{"kind":"slide","id":"sl/y5wne50z","slide":18,"title":"Clayton・Gumbel・Joe copula","textShapes":5}
+{"kind":"slide","id":"sl/nid43ytk","slide":19,"title":"Frank・Vine・ノンパラメトリック・コピュラ","textShapes":5}
+{"kind":"slide","id":"sl/zyxsni5k","slide":20,"title":"初期実験で用いるコピュラ","textShapes":9}
+{"kind":"slide","id":"sl/m1wvqtk3","slide":21,"title":"補足：実験環境","textShapes":5}
+{"kind":"slide","id":"sl/5onypobq","slide":22,"title":"補足：使用するデータ","textShapes":5}
+{"kind":"slide","id":"sl/c7uhcr6t","slide":23,"title":"補足：ラベル付きデータの設定","textShapes":6}
+{"kind":"slide","id":"sl/7qto7e10","slide":24,"title":"補足：使用するモデル","textShapes":5}
+{"kind":"slide","id":"sl/69wfm9o7","slide":25,"title":"補足：学習条件と前処理","textShapes":5}
+{"kind":"slide","id":"sl/l0bepsfm","slide":26,"title":"補足：保存済みの初期実験結果","textShapes":6}

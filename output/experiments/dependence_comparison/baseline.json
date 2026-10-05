@@ -1,0 +1,168 @@
+{
+  "purpose": "diagnostic supervised linear baseline; different model/objective, not a corruption comparison",
+  "config": "StandardScaler fit on 240 labeled rows; LogisticRegression C=10 max_iter=1000, fixed before checking",
+  "runs": [
+    {
+      "dataset": "independent_mean",
+      "seed": 11,
+      "logistic_auc": 0.9520952095209521,
+      "clean_score_auc": 0.9581958195819582
+    },
+    {
+      "dataset": "independent_mean",
+      "seed": 23,
+      "logistic_auc": 0.9401065219575921,
+      "clean_score_auc": 0.9624158376042609
+    },
+    {
+      "dataset": "independent_mean",
+      "seed": 37,
+      "logistic_auc": 0.9751975197519752,
+      "clean_score_auc": 0.982998299829983
+    },
+    {
+      "dataset": "independent_mean",
+      "seed": 51,
+      "logistic_auc": 0.9649964996499649,
+      "clean_score_auc": 0.9661966196619662
+    },
+    {
+      "dataset": "independent_mean",
+      "seed": 67,
+      "logistic_auc": 0.9593959395939594,
+      "clean_score_auc": 0.9652965296529654
+    },
+    {
+      "dataset": "moderate_mean",
+      "seed": 11,
+      "logistic_auc": 0.9619847939175671,
+      "clean_score_auc": 0.9666866746698679
+    },
+    {
+      "dataset": "moderate_mean",
+      "seed": 23,
+      "logistic_auc": 0.9720300751879699,
+      "clean_score_auc": 0.9822556390977443
+    },
+    {
+      "dataset": "moderate_mean",
+      "seed": 37,
+      "logistic_auc": 0.942076830732293,
+      "clean_score_auc": 0.9510804321728692
+    },
+    {
+      "dataset": "moderate_mean",
+      "seed": 51,
+      "logistic_auc": 0.9632000000000001,
+      "clean_score_auc": 0.9699000000000001
+    },
+    {
+      "dataset": "moderate_mean",
+      "seed": 67,
+      "logistic_auc": 0.9727999999999999,
+      "clean_score_auc": 0.9730000000000001
+    },
+    {
+      "dataset": "strong_mean",
+      "seed": 11,
+      "logistic_auc": 0.968687474989996,
+      "clean_score_auc": 0.9715886354541816
+    },
+    {
+      "dataset": "strong_mean",
+      "seed": 23,
+      "logistic_auc": 0.9580958095809582,
+      "clean_score_auc": 0.9608960896089609
+    },
+    {
+      "dataset": "strong_mean",
+      "seed": 37,
+      "logistic_auc": 0.9489182692307693,
+      "clean_score_auc": 0.9544270833333334
+    },
+    {
+      "dataset": "strong_mean",
+      "seed": 51,
+      "logistic_auc": 0.9525999999999999,
+      "clean_score_auc": 0.9541000000000001
+    },
+    {
+      "dataset": "strong_mean",
+      "seed": 67,
+      "logistic_auc": 0.965896589658966,
+      "clean_score_auc": 0.9798979897989799
+    },
+    {
+      "dataset": "strong_contrast",
+      "seed": 11,
+      "logistic_auc": 0.9692877150860345,
+      "clean_score_auc": 0.9754901960784315
+    },
+    {
+      "dataset": "strong_contrast",
+      "seed": 23,
+      "logistic_auc": 0.9647435897435898,
+      "clean_score_auc": 0.9724559294871795
+    },
+    {
+      "dataset": "strong_contrast",
+      "seed": 37,
+      "logistic_auc": 0.9487948794879487,
+      "clean_score_auc": 0.9574957495749575
+    },
+    {
+      "dataset": "strong_contrast",
+      "seed": 51,
+      "logistic_auc": 0.9636854741896759,
+      "clean_score_auc": 0.9623849539815926
+    },
+    {
+      "dataset": "strong_contrast",
+      "seed": 67,
+      "logistic_auc": 0.9677967796779677,
+      "clean_score_auc": 0.9651965196519652
+    }
+  ],
+  "summary": {
+    "independent_mean": {
+      "logistic_auc": {
+        "mean": 0.9583583380948888,
+        "std": 0.013238725546912224
+      },
+      "clean_score_auc": {
+        "mean": 0.9670206212662269,
+        "std": 0.009460692894307935
+      }
+    },
+    "moderate_mean": {
+      "logistic_auc": {
+        "mean": 0.962418339967566,
+        "std": 0.012396978175433119
+      },
+      "clean_score_auc": {
+        "mean": 0.9685845491880963,
+        "std": 0.011381139619983827
+      }
+    },
+    "strong_mean": {
+      "logistic_auc": {
+        "mean": 0.9588396286921379,
+        "std": 0.008436533373388157
+      },
+      "clean_score_auc": {
+        "mean": 0.9641819596390911,
+        "std": 0.011285531825928537
+      }
+    },
+    "strong_contrast": {
+      "logistic_auc": {
+        "mean": 0.9628616876370433,
+        "std": 0.008181445983961822
+      },
+      "clean_score_auc": {
+        "mean": 0.9666046697548254,
+        "std": 0.007347637941291469
+      }
+    }
+  }
+}

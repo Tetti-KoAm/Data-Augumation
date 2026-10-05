@@ -1,0 +1,10 @@
+process.env.RUNTIME_NODE_MODULES='/Users/kouta/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
+process.env.RUNTIME_NODE='/Users/kouta/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node';
+process.env.RUNTIME_PYTHON='/Users/kouta/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3';
+process.env.RUNTIME_BIN_DIR='/Users/kouta/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override';
+import fs from 'node:fs/promises';import path from 'node:path';import {createHash} from 'node:crypto';import {pathToFileURL} from 'node:url';
+const S='/Users/kouta/.codex/plugins/cache/openai-primary-runtime/presentations/26.909.12148/skills/presentations';
+const D='/Users/kouta/Github/data augumation/Data-Augumation/tmp/copula_revision_20261005';
+const REF='/Users/kouta/Library/CloudStorage/OneDrive-個人用/大学院/研究/10.05＿齊藤光汰.pptx';
+const {finalizePresentation}=await import(pathToFileURL(S+'/container_tools/artifact_tool_utils.mjs').href);
+let report=await finalizePresentation({workspaceDir:'/Users/kouta/Github/data augumation/Data-Augumation',candidatePath:D+'/candidate.pptx',finalPath:'/Users/kouta/Github/data augumation/Data-Augumation/output/presentations/10.05_ゼミ発表_コピュラ解説改訂版_本編20枚_補足6枚_v2.pptx',pythonExecutable:'/Users/kouta/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3',integrityValidatorPath:S+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:S+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],explicitTotalSlideCount:26,requiredNativeChartOwnerSlides:[5,10],materializeLiteralChartWorkbooks:true,verifyArtifactToolImport:true,receiptPath:D+'/validation-revision-v2.json'});console.log(JSON.stringify(report));

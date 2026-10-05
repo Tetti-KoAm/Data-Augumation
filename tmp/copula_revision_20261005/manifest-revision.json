@@ -1,0 +1,132 @@
+[
+  {
+    "slide": 1,
+    "title": "ゼミ発表",
+    "section": ""
+  },
+  {
+    "slide": 2,
+    "title": "本研究の問題設定と中間発表の振り返り",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 3,
+    "title": "コピュラとは",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 4,
+    "title": "周辺分布と依存構造",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 5,
+    "title": "同じ周辺分布でも、依存は異なる",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 6,
+    "title": "累積分布関数の意味",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 7,
+    "title": "確率積分変換",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 8,
+    "title": "元の値と確率位置の対応",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 9,
+    "title": "コピュラの定義式",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 10,
+    "title": "定義式を図で読む",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 11,
+    "title": "依存が変わると、コピュラも変わる",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 12,
+    "title": "Sklar（スクラー）の定理",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 13,
+    "title": "逆累積分布による生成",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 14,
+    "title": "条件付き分布の意味",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 15,
+    "title": "コピュラを用いた条件付き生成",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 16,
+    "title": "コピュラの説明のまとめ",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 17,
+    "title": "Gaussian copulaとStudent-t copula",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 18,
+    "title": "Clayton・Gumbel・Joe copula",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 19,
+    "title": "Frank・Vine・ノンパラメトリック・コピュラ",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 20,
+    "title": "初期実験で用いるコピュラ",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 21,
+    "title": "補足：実験環境",
+    "section": "補足資料"
+  },
+  {
+    "slide": 22,
+    "title": "補足：使用するデータ",
+    "section": "補足資料"
+  },
+  {
+    "slide": 23,
+    "title": "補足：ラベル付きデータの設定",
+    "section": "補足資料"
+  },
+  {
+    "slide": 24,
+    "title": "補足：使用するモデル",
+    "section": "補足資料"
+  },
+  {
+    "slide": 25,
+    "title": "補足：学習条件と前処理",
+    "section": "補足資料"
+  },
+  {
+    "slide": 26,
+    "title": "補足：保存済みの初期実験結果",
+    "section": "補足資料"
+  }
+]

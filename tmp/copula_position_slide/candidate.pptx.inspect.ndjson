@@ -1,0 +1,26 @@
+{"kind":"deck","id":"pr/alqjka","name":"Deck"}
+{"kind":"layout","layoutId":"3844e9aa-5a55-4bbb-9612-ad1553a67de5","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"075e4316-0617-4c23-b36a-c782a26e1a28","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/78qr7l","slide":1,"title":"身長の位置0.65の生成過程","textShapes":18}
+{"kind":"textbox","id":"sh/7mhobi94","slide":1,"text":"身長の位置0.65の生成過程","textPreview":"身長の位置0.65の生成過程","textChars":14,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/8nq5knap","slide":1,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/9oj6dsra","slide":1,"text":"体重72 kgを残し、マスクした身長の位置を条件付きで生成する。","textPreview":"体重72 kgを残し、マスクした身長の位置を条件付きで生成する。","textChars":32,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"shape","id":"sh/yx8netsn","slide":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/zyh47y98","slide":1,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/kzq5g3at","slide":1,"text":"設定：潜在空間の相関 ρ = 0.6（説明用の仮定）","textPreview":"設定：潜在空間の相関 ρ = 0.6（説明用の仮定）","textChars":26,"textLines":1,"bbox":[65,181,1150,38]}
+{"kind":"textbox","id":"sh/lkzm98re","slide":1,"text":"① 体重を確率位置へ","textPreview":"① 体重を確率位置へ","textChars":10,"textLines":1,"bbox":[65,240,330,34]}
+{"kind":"textbox","id":"sh/qtonatsr","slide":1,"text":"v = 7 / 10 = 0.7","textPreview":"v = 7 / 10 = 0.7","textChars":16,"textLines":1,"bbox":[425,237,795,42]}
+{"kind":"textbox","id":"sh/bux43y9w","slide":1,"text":"共通データ10人のうち、72 kg以下は7人。","textPreview":"共通データ10人のうち、72 kg以下は7人。","textChars":23,"textLines":1,"bbox":[425,281,795,36]}
+{"kind":"textbox","id":"sh/3y1o3qt8","slide":1,"text":"② 正規の尺度へ変換","textPreview":"② 正規の尺度へ変換","textChars":10,"textLines":1,"bbox":[65,323,330,34]}
+{"kind":"textbox","id":"sh/2xs7ulsn","slide":1,"text":"zᵧ = Φ⁻¹(0.7) ≈ 0.524","textPreview":"zᵧ = Φ⁻¹(0.7) ≈ 0.524","textChars":21,"textLines":1,"bbox":[425,320,795,42]}
+{"kind":"textbox","id":"sh/p0365gby","slide":1,"text":"Φ⁻¹：標準正規分布の逆累積分布関数。","textPreview":"Φ⁻¹：標準正規分布の逆累積分布関数。","textChars":19,"textLines":1,"bbox":[425,364,795,36]}
+{"kind":"textbox","id":"sh/ozupwbad","slide":1,"text":"③ 身長の潜在値を生成","textPreview":"③ 身長の潜在値を生成","textChars":11,"textLines":1,"bbox":[65,406,330,34]}
+{"kind":"textbox","id":"sh/b2lo7qt4","slide":1,"text":"zₓ = ρzᵧ + √(1 − ρ²) ε","textPreview":"zₓ = ρzᵧ + √(1 − ρ²) ε","textChars":22,"textLines":1,"bbox":[425,403,795,42]}
+{"kind":"textbox","id":"sh/q1c7ylsj","slide":1,"text":"ε ~ N(0, 1)。ε ≈ 0.0885なら、zₓ ≈ 0.315 + 0.8 × 0.0885 ≈ 0.385。","textPreview":"ε ~ N(0, 1)。ε ≈ 0.0885なら、zₓ ≈ 0.315 + 0.8 × 0.0885 ≈ 0.385。","textChars":59,"textLines":1,"bbox":[425,447,795,36]}
+{"kind":"textbox","id":"sh/d43690ba","slide":1,"text":"④ 身長の位置へ戻す","textPreview":"④ 身長の位置へ戻す","textChars":10,"textLines":1,"bbox":[65,489,330,34]}
+{"kind":"textbox","id":"sh/c3up0vap","slide":1,"text":"u = Φ(zₓ) ≈ Φ(0.385) ≈ 0.65","textPreview":"u = Φ(zₓ) ≈ Φ(0.385) ≈ 0.65","textChars":27,"textLines":1,"bbox":[425,486,795,42]}
+{"kind":"textbox","id":"sh/r6hov6t0","slide":1,"text":"Φ：標準正規分布の累積分布関数。","textPreview":"Φ：標準正規分布の累積分布関数。","textChars":16,"textLines":1,"bbox":[425,530,795,36]}
+{"kind":"shape","id":"sh/658nm1sf","slide":1,"bbox":[54,586,1172,74]}
+{"kind":"textbox","id":"sh/algru9c3","slide":1,"text":"0.65は乱数から得られる位置の一例。この後、逆変換で約174.7 cmへ戻す。","textPreview":"0.65は乱数から得られる位置の一例。この後、逆変換で約174.7 cmへ戻す。","textChars":40,"textLines":1,"bbox":[72,604,1136,42]}
+{"kind":"textbox","id":"sh/vmps3ed8","slide":1,"text":"実際の生成ではεを乱数で引くため、身長の位置uは毎回変わる。","textPreview":"実際の生成ではεを乱数で引くため、身長の位置uは毎回変わる。","textChars":30,"textLines":1,"bbox":[65,675,1150,29]}
+{"kind":"notes","id":"nt/78qr7l","slide":1,"text":"共通の10人の体重：45,55,50,60,67,75,63,70,90,80 kg。72kg以下7人。_to_latentは未観測値72kgでleft=right=7、u=.7。rho=.6は説明用で、共通10人から推定した実測値ではない。Phi^-1(.7)=.5244005、mu=.3146403、sd=.8。epsilon=.0885ならz=.3854403、Phi(z)=.6500445。表記は丸め値。epsilonは逆算して選んだ例で、実行時は標準正規から抽出するためuは毎回変わる。実装の正則化・jitterは直感を優先して省略。乱数生成後、linear quantileのu=.65を例に174.7cmへ戻す。根拠：research-bench/src/tabular_research/corruption.py。\n\n出典・根拠\n"}

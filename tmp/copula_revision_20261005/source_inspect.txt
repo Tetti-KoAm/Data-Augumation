@@ -1,0 +1,63 @@
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"body","type":"body","textPreview":"マスター テキストの書式設定 | 第 2 レベル | 第 3 レベル | 第 4 レベル | 第 5 レベル"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"タイトル スライド","type":"title","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"subtitle","type":"subtitle","textPreview":"マスター サブタイトルの書式設定"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"タイトルとコンテンツ","type":"obj","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"2","textPreview":"マスター テキストの書式設定 | 第 2 レベル | 第 3 レベル | 第 4 レベル | 第 5 レベル"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"セクション見出し","type":"secHead","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"body","type":"body","textPreview":"マスター テキストの書式設定"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"2 つのコンテンツ","type":"twoObj","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"2","textPreview":"マスター テキストの書式設定 | 第 2 レベル | 第 3 レベル | 第 4 レベル | 第 5 レベル"},{"name":"3","textPreview":"マスター テキストの書式設定 | 第 2 レベル | 第 3 レベル | 第 4 レベル | 第 5 レベル"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"比較","type":"twoTxTwoObj","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"body","type":"body","textPreview":"マスター テキストの書式設定"},{"name":"3","textPreview":"マスター テキストの書式設定 | 第 2 レベル | 第 3 レベル | 第 4 レベル | 第 5 レベル"},{"name":"body","type":"body","textPreview":"マスター テキストの書式設定"},{"name":"5","textPreview":"マスター テキストの書式設定 | 第 2 レベル | 第 3 レベル | 第 4 レベル | 第 5 レベル"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"タイトルのみ","type":"titleOnly","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"白紙","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"タイトル付きのコンテンツ","type":"objTx","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"2","textPreview":"マスター テキストの書式設定 | 第 2 レベル | 第 3 レベル | 第 4 レベル | 第 5 レベル"},{"name":"body","type":"body","textPreview":"マスター テキストの書式設定"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout9.xml","name":"タイトル付きの図","type":"picTx","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"picture","type":"picture"},{"name":"body","type":"body","textPreview":"マスター テキストの書式設定"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout10.xml","name":"タイトルと縦書きテキスト","type":"vertTx","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"body","type":"body","textPreview":"マスター テキストの書式設定 | 第 2 レベル | 第 3 レベル | 第 4 レベル | 第 5 レベル"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout11.xml","name":"縦書きタイトルと\n縦書きテキスト","type":"vertTitleAndTx","placeholders":[{"name":"title","type":"title","textPreview":"マスター タイトルの書式設定"},{"name":"body","type":"body","textPreview":"マスター テキストの書式設定 | 第 2 レベル | 第 3 レベル | 第 4 レベル | 第 5 レベル"},{"name":"dateTime","type":"dateTime","textPreview":"2026/10/4"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster2.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout12.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"ゼミ発表","textShapes":3}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"目次","textShapes":3}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"本研究の問題設定","textShapes":10}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"本研究の問題設定","textShapes":13}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"前回の問題設定から、生成方法へ","textShapes":9}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"まず、似た体重の人を参考にする","textShapes":6}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"推測したいものは、条件付き分布","textShapes":10}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"値の分布と、値の組合せは別の情報","textShapes":6}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"値を「その値以下の割合」に変える","textShapes":6}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"二つの確率位置の組で、関係を見る","textShapes":6}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"コピュラは、位置の同時累積分布","textShapes":12}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"元の分布を、周辺分布とコピュラで表す","textShapes":6}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"今回はGaussian copulaから始める","textShapes":11}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"学習：各列の分布と、潜在相関を覚える","textShapes":13}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"生成：70 kgを条件に、身長の分布を求める","textShapes":8}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"生成：サンプリングして、身長cmへ戻す","textShapes":6}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"研究への接続：VIMEの置換器を変更する","textShapes":6}
+{"kind":"slide","id":"sl/y5wne50z","slide":18,"title":"動作確認：関係を持つデータで置換する","textShapes":11}
+{"kind":"slide","id":"sl/nid43ytk","slide":19,"title":"分類比較：平均は上がったが、効果は未確定","textShapes":6}
+{"kind":"slide","id":"sl/zyxsni5k","slide":20,"title":"今回の進捗と、次に検証すること","textShapes":13}
+{"kind":"slide","id":"sl/m1wvqtk3","slide":21,"title":"なぜ C(u, 1) = u なのか","textShapes":12}
+{"kind":"slide","id":"sl/5onypobq","slide":22,"title":"独立なら、なぜ C(u, v) = uv？","textShapes":12}
+{"kind":"slide","id":"sl/c7uhcr6t","slide":23,"title":"完全に同じ位置なら、なぜ min？","textShapes":12}
+{"kind":"slide","id":"sl/7qto7e10","slide":24,"title":"コピュラの種類と選ぶ観点","textShapes":5}
+{"kind":"slide","id":"sl/69wfm9o7","slide":25,"title":"コピュラと「潜在空間での生成」","textShapes":5}
+{"kind":"slide","id":"sl/l0bepsfm","slide":26,"title":"比較実験：条件を何に揃えたか","textShapes":5}
+{"kind":"slide","id":"sl/4vyxknqp","slide":27,"title":"補足：保存済み結果との一致","textShapes":6}
+{"kind":"slide","id":"sl/3mdove10","slide":28,"title":"補足：コピュラの数学的条件","textShapes":8}
+{"kind":"slide","id":"sl/i5o3q10v","slide":29,"title":"補足：一様になる理由と例外","textShapes":10}
+{"kind":"slide","id":"sl/wnqh07ex","slide":30,"title":"補足：密度と条件付き分布","textShapes":8}
+{"kind":"slide","id":"sl/lcn6tkb6","slide":31,"title":"補足：Gaussian copulaの正式な式","textShapes":12}
+{"kind":"slide","id":"sl/6l0j294r","slide":32,"title":"補足：多変量の条件付き生成","textShapes":8}
+{"kind":"slide","id":"sl/nax4b2dk","slide":33,"title":"補足：実装の数値上の扱い","textShapes":5}
+{"kind":"slide","id":"sl/ofu103u5","slide":34,"title":"補足：Student-t copula","textShapes":10}
+{"kind":"slide","id":"sl/1obmtofm","slide":35,"title":"補足：Clayton copula","textShapes":12}
+{"kind":"slide","id":"sl/m9s3ehgf","slide":36,"title":"補足：Gumbel copulaとJoe","textShapes":6}
+{"kind":"slide","id":"sl/jyhsreh4","slide":37,"title":"補足：Frank copula","textShapes":12}
+{"kind":"slide","id":"sl/ofahkri5","slide":38,"title":"補足：回転・Vine・ノンパラメトリック","textShapes":5}
+{"kind":"slide","id":"sl/twb2lg7e","slide":39,"title":"補足：順序変数とは？","textShapes":6}
+{"kind":"slide","id":"sl/5ojatgfe","slide":40,"title":"補足：混合型の欠損補完研究との接続","textShapes":13}
+{"kind":"slide","id":"sl/cnmpwjmp","slide":41,"title":"補足：説明可能性の研究との接続","textShapes":13}
+{"kind":"slide","id":"sl/7mdw7yh8","slide":42,"title":"補足：先行研究2との比較で言える範囲","textShapes":5}
+{"kind":"slide","id":"sl/qhkbqxoz","slide":43,"title":"補足：評価指標の意味","textShapes":5}
+{"kind":"slide","id":"sl/pcvutcvy","slide":44,"title":"補足：保存結果の追加対照","textShapes":6}
+{"kind":"slide","id":"sl/kvipwnmh","slide":45,"title":"補足：研究で答える「なぜ？」","textShapes":5}
+{"kind":"slide","id":"sl/zixsf2ps","slide":46,"title":"補足：裾依存係数の定義","textShapes":8}
+{"kind":"slide","id":"sl/atcnytkf","slide":47,"title":"補足：VIMEで学習させる対象","textShapes":5}
+{"kind":"slide","id":"sl/pwb6x4jy","slide":48,"title":"補足：実装の呼び出しのイメージ","textShapes":7}
+{"kind":"slide","id":"sl/oz2xg3q1","slide":49,"title":"参考文献・実装の根拠","textShapes":6}

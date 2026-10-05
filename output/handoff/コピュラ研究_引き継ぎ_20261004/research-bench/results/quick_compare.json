@@ -1,0 +1,33 @@
+{
+  "dataset": "sklearn Breast Cancer Wisconsin (Diagnostic)",
+  "seed": 17,
+  "labeled_fraction": 0.3,
+  "n_train": 455,
+  "n_labeled": 136,
+  "n_unlabeled": 319,
+  "n_test": 114,
+  "epochs": 10,
+  "vime_self_epochs": 10,
+  "vime_iterations": 80,
+  "class_conditioned_pseudolabel_refresh_period": 10,
+  "encoder": "same 4-layer, 32-wide MLP for all three methods",
+  "preprocessing": "MinMaxScaler fit on train split; same split and labeled subset",
+  "metrics": {
+    "vime_column_shuffle": {
+      "accuracy": 0.631578947368421,
+      "balanced_accuracy": 0.5,
+      "roc_auc": 0.8902116402116402
+    },
+    "vime_gaussian_copula": {
+      "accuracy": 0.9210526315789473,
+      "balanced_accuracy": 0.9027777777777778,
+      "roc_auc": 0.9867724867724867
+    },
+    "class_conditioned_contrastive_official": {
+      "accuracy": 0.631578947368421,
+      "balanced_accuracy": 0.5,
+      "roc_auc": 0.7764550264550265
+    }
+  },
+  "note": "Smoke run only; use multiple seeds and full hyperparameter selection for research claims."
+}

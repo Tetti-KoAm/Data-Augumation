@@ -1,0 +1,21 @@
+{"kind":"deck","id":"pr/6t33w0","name":"Deck"}
+{"kind":"layout","layoutId":"261f3c86-744b-42a4-a77a-742543d5d113","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"6e34599f-9b7e-4b2c-bbaa-c009e5975b3b","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/w6fcw9","slide":1,"title":"逆累積分布の線形補間：具体例","textShapes":12}
+{"kind":"textbox","id":"sh/krel07mt","slide":1,"text":"逆累積分布の線形補間：具体例","textPreview":"逆累積分布の線形補間：具体例","textChars":14,"textLines":1,"bbox":[36,20,1208,66]}
+{"kind":"shape","id":"sh/zq5k7258","slide":1,"bbox":[34,97,1210,2]}
+{"kind":"textbox","id":"sh/ypc3yx4n","slide":1,"text":"生成した身長の位置 u = 0.65 を、身長cmへ戻す。","textPreview":"生成した身長の位置 u = 0.65 を、身長cmへ戻す。","textChars":29,"textLines":1,"bbox":[54,118,1172,64]}
+{"kind":"shape","id":"sh/xo325sn2","slide":1,"bbox":[52,683,1090,25]}
+{"kind":"textbox","id":"sh/cnulwnmh","slide":1,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[1180,681,58,28]}
+{"kind":"textbox","id":"sh/alc3ud4r","slide":1,"text":"線形補間の一般式","textPreview":"線形補間の一般式","textChars":8,"textLines":1,"bbox":[65,304,595,38]}
+{"kind":"textbox","id":"sh/hk7mhw36","slide":1,"text":"r = 1 + (n − 1)u\nk = ⌊r⌋,   w = r − k","textPreview":"r = 1 + (n − 1)u | k = ⌊r⌋,   w = r − k","textChars":37,"textLines":2,"bbox":[70,353,580,82]}
+{"kind":"textbox","id":"sh/wjyl8rm1","slide":1,"text":"Q̂(u) = (1 − w)x₍ₖ₎ + wx₍ₖ₊₁₎","textPreview":"Q̂(u) = (1 − w)x₍ₖ₎ + wx₍ₖ₊₁₎","textChars":29,"textLines":1,"bbox":[70,438,620,50]}
+{"kind":"textbox","id":"sh/ihgr2lw7","slide":1,"text":"n：データ数　k：rを切り捨てた順番\nw：次の値に近づける重み　x₍ₖ₎：k番目の値","textPreview":"n：データ数　k：rを切り捨てた順番 | w：次の値に近づける重み　x₍ₖ₎：k番目の値","textChars":42,"textLines":2,"bbox":[70,498,625,64]}
+{"kind":"textbox","id":"sh/3ipsv6ds","slide":1,"text":"今回の値を代入","textPreview":"今回の値を代入","textChars":7,"textLines":1,"bbox":[735,304,490,38]}
+{"kind":"textbox","id":"sh/4jy94bex","slide":1,"text":"n = 10、u = 0.65\nr = 1 + 9 × 0.65 = 6.85\nk = 6、w = 0.85\n6番目：173 cm、7番目：175 cm","textPreview":"n = 10、u = 0.65 | r = 1 + 9 × 0.65 = 6.85 | k = 6、w = 0.85 | 6番目：173 cm、7番目：175 cm","textChars":76,"textLines":4,"bbox":[740,352,480,142]}
+{"kind":"textbox","id":"sh/54raxgvi","slide":1,"text":"173 cmから175 cmへ、85%進む。","textPreview":"173 cmから175 cmへ、85%進む。","textChars":22,"textLines":1,"bbox":[740,511,480,42]}
+{"kind":"shape","id":"sh/udgry1wv","slide":1,"bbox":[54,582,1172,77]}
+{"kind":"textbox","id":"sh/vepsr6dg","slide":1,"text":"Q̂(0.65) = 0.15 × 173 + 0.85 × 175 = 174.7 cm","textPreview":"Q̂(0.65) = 0.15 × 173 + 0.85 × 175 = 174.7 cm","textChars":45,"textLines":1,"bbox":[68,597,1144,49]}
+{"kind":"textbox","id":"sh/gfy90be1","slide":1,"text":"この補間の段階では乱数を引かず、生成済みの位置から値を計算する。","textPreview":"この補間の段階では乱数を引かず、生成済みの位置から値を計算する。","textChars":32,"textLines":1,"bbox":[65,674,1150,29]}
+{"kind":"table","id":"tb/uxoritoj","slide":1,"name":"","rows":2,"cols":11,"preview":"小さい順 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10","bbox":[54,192,1172,92]}
+{"kind":"notes","id":"nt/w6fcw9","slide":1,"text":"共通データ10人を使用。NumPy quantile(method=\"linear\")の定義、r=1+(n−1)u、k=floor(r)、w=r−k、Qhat=(1−w)x(k)+w x(k+1)。u=1では最大値を直接返す。これは線形補間した分位点で、階段状の逆経験CDFそのものではない。身長第6順序統計量173、第7統計量175。乱数は条件付き生成で位置を作る段階に使い、この補間段階は決定的な計算。根拠：research-bench/src/tabular_research/corruption.py _from_latent。\n\n出典・根拠\n"}

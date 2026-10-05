@@ -1,0 +1,88 @@
+{
+  "breast_cancer": {
+    "n_rows": 569,
+    "n_features": 30,
+    "mean_abs_pearson": 0.39489662556591254,
+    "median_abs_pearson": 0.34500739714372775,
+    "max_abs_pearson": 0.9978552814938112,
+    "fraction_abs_pearson_gt_0_7": 0.16091954022988506,
+    "mean_abs_spearman": 0.42176019940347836,
+    "median_abs_spearman": 0.38273635649612914,
+    "max_abs_spearman": 0.9996020278067481,
+    "top_pairs": [
+      {
+        "a": "mean radius",
+        "b": "mean perimeter",
+        "pearson": 0.9978552814938112,
+        "spearman": 0.9978017394617466
+      },
+      {
+        "a": "worst radius",
+        "b": "worst perimeter",
+        "pearson": 0.993707916102951,
+        "spearman": 0.9935475935468646
+      },
+      {
+        "a": "mean radius",
+        "b": "mean area",
+        "pearson": 0.987357170056612,
+        "spearman": 0.9996020278067481
+      },
+      {
+        "a": "mean perimeter",
+        "b": "mean area",
+        "pearson": 0.9865068039913907,
+        "spearman": 0.9970682695182411
+      },
+      {
+        "a": "worst radius",
+        "b": "worst area",
+        "pearson": 0.9840145644590723,
+        "spearman": 0.9988905530905691
+      }
+    ]
+  },
+  "wine": {
+    "n_rows": 178,
+    "n_features": 13,
+    "mean_abs_pearson": 0.3049574813503491,
+    "median_abs_pearson": 0.281677620074805,
+    "max_abs_pearson": 0.8645635000951158,
+    "fraction_abs_pearson_gt_0_7": 0.02564102564102564,
+    "mean_abs_spearman": 0.3091876059941671,
+    "median_abs_spearman": 0.29252329465771276,
+    "max_abs_spearman": 0.8794043727926136,
+    "top_pairs": [
+      {
+        "a": "total_phenols",
+        "b": "flavanoids",
+        "pearson": 0.8645635000951158,
+        "spearman": 0.8794043727926136
+      },
+      {
+        "a": "flavanoids",
+        "b": "od280/od315_of_diluted_wines",
+        "pearson": 0.7871939018669513,
+        "spearman": 0.7415328945458866
+      },
+      {
+        "a": "total_phenols",
+        "b": "od280/od315_of_diluted_wines",
+        "pearson": 0.6999493647911863,
+        "spearman": 0.6872069959966624
+      },
+      {
+        "a": "flavanoids",
+        "b": "proanthocyanins",
+        "pearson": 0.6526917686075157,
+        "spearman": 0.730321686519372
+      },
+      {
+        "a": "alcohol",
+        "b": "proline",
+        "pearson": 0.6437200371782137,
+        "spearman": 0.6335798586170724
+      }
+    ]
+  }
+}
