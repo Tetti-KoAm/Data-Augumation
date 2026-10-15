@@ -1,0 +1,19 @@
+{
+  "dataset": "raisin",
+  "seed": 328984,
+  "method": "class_conditioned",
+  "seconds": 9.438873052597046,
+  "n_source": 900,
+  "n_after_dedup": 900,
+  "n_train": 720,
+  "n_test": 180,
+  "n_labeled": 216,
+  "n_unlabeled": 504,
+  "n_features": 7,
+  "n_classes": 2,
+  "accuracy": 0.8277777777777777,
+  "auc": 0.8460493827160493,
+  "balanced_accuracy": 0.8277777777777777,
+  "macro_f1": 0.8277299249791609,
+  "unique_probability_rows": 180
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "rice",
+  "seed": 843198,
+  "method": "vime",
+  "seconds": 9.59436321258545,
+  "n_source": 3810,
+  "n_after_dedup": 3810,
+  "n_train": 3048,
+  "n_test": 762,
+  "n_labeled": 914,
+  "n_unlabeled": 2134,
+  "n_features": 7,
+  "n_classes": 2,
+  "accuracy": 0.9212598425196851,
+  "auc": 0.959369899251421,
+  "balanced_accuracy": 0.9137797602296392,
+  "macro_f1": 0.9185090652426547,
+  "unique_probability_rows": 762
+}

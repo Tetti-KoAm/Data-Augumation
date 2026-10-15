@@ -1,0 +1,19 @@
+{
+  "dataset": "occupancy",
+  "seed": 328984,
+  "method": "class_conditioned",
+  "seconds": 106.6374158859253,
+  "n_source": 8143,
+  "n_after_dedup": 8143,
+  "n_train": 8143,
+  "n_test": 12417,
+  "n_labeled": 2442,
+  "n_unlabeled": 5701,
+  "n_features": 5,
+  "n_classes": 2,
+  "accuracy": 0.9350889908995732,
+  "auc": 0.926609307432054,
+  "balanced_accuracy": 0.9010747141233164,
+  "macro_f1": 0.9098827082455401,
+  "unique_probability_rows": 11844
+}

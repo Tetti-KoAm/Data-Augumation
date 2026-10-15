@@ -1,0 +1,26 @@
+{
+  "seconds": 210.32825803756714,
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    67
+  ],
+  "labels": [
+    30,
+    100
+  ],
+  "python": "3.12.14",
+  "numpy": "2.2.6",
+  "torch": "2.9.0",
+  "scipy": "1.15.3",
+  "sklearn": "1.6.1",
+  "archive_sha256": {
+    "545.zip": "fe94e42046b829de21b92b0ffb6a22774fde021328cae799faa802a14e8dbed9",
+    "357.zip": "4ae3f46aa98eedff564a9f6924d1635173e2fd2c816004342a9be93076d3a81a",
+    "850.zip": "5d516c040923fd154ecf85e31b6e1b5a096724fa0e68d588c33fb5a2f0c3e5db",
+    "471.zip": "32eeb20cf1877127aade7c9a76a6ab6f2ff1fdd05270bc591d549f26c7402cad",
+    "602.zip": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f"
+  }
+}

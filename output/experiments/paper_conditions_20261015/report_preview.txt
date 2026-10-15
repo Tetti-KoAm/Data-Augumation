@@ -1,0 +1,17 @@
+                             accuracy     auc
+dataset   method                             
+bean      class_conditioned    0.9224  0.9906
+          proposed_copula      0.8873  0.9894
+          vime                 0.9055  0.9919
+grid      class_conditioned    0.9333  0.9773
+          proposed_copula      0.6559  0.6467
+          vime                 0.6522  0.6467
+occupancy class_conditioned    0.9493  0.9539
+          proposed_copula      0.7729  0.9333
+          vime                 0.8059  0.9265
+raisin    class_conditioned    0.8556  0.8923
+          proposed_copula      0.8438  0.9027
+          vime                 0.8403  0.9066
+rice      class_conditioned    0.9283  0.9744
+          proposed_copula      0.9236  0.9751
+          vime                 0.9204  0.9650

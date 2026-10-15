@@ -1,0 +1,19 @@
+{
+  "dataset": "bean",
+  "seed": 328984,
+  "method": "proposed_copula",
+  "seconds": 88.037850856781,
+  "n_source": 13611,
+  "n_after_dedup": 13543,
+  "n_train": 10834,
+  "n_test": 2709,
+  "n_labeled": 3250,
+  "n_unlabeled": 7584,
+  "n_features": 16,
+  "n_classes": 7,
+  "accuracy": 0.875968992248062,
+  "auc": 0.9885786862223226,
+  "balanced_accuracy": 0.8781763029676252,
+  "macro_f1": 0.8814537519335076,
+  "unique_probability_rows": 2700
+}

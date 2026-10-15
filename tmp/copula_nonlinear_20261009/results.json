@@ -1,0 +1,16 @@
+{
+  "Monotone nonlinear": {
+    "n": 2000,
+    "estimated_regularized_latent_correlation": 0.8589415268064649,
+    "observed_X_unchanged": true
+  },
+  "U-shaped": {
+    "n": 2000,
+    "estimated_regularized_latent_correlation": 0.009665448707478697,
+    "observed_X_unchanged": true,
+    "squared_curve_mse": {
+      "shuffle": 0.16766157746315002,
+      "gaussian": 0.1703321635723114
+    }
+  }
+}

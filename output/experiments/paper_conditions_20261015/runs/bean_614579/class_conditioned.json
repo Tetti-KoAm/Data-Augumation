@@ -1,0 +1,19 @@
+{
+  "dataset": "bean",
+  "seed": 614579,
+  "method": "class_conditioned",
+  "seconds": 158.51328301429749,
+  "n_source": 13611,
+  "n_after_dedup": 13543,
+  "n_train": 10834,
+  "n_test": 2709,
+  "n_labeled": 3250,
+  "n_unlabeled": 7584,
+  "n_features": 16,
+  "n_classes": 7,
+  "accuracy": 0.9224806201550387,
+  "auc": 0.9893533118482676,
+  "balanced_accuracy": 0.9311948936302648,
+  "macro_f1": 0.9332309442544453,
+  "unique_probability_rows": 2709
+}

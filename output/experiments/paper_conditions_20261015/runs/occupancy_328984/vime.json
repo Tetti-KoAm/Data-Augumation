@@ -1,0 +1,19 @@
+{
+  "dataset": "occupancy",
+  "seed": 328984,
+  "method": "vime",
+  "seconds": 25.018864154815674,
+  "n_source": 8143,
+  "n_after_dedup": 8143,
+  "n_train": 8143,
+  "n_test": 12417,
+  "n_labeled": 2442,
+  "n_unlabeled": 5701,
+  "n_features": 5,
+  "n_classes": 2,
+  "accuracy": 0.7695900781187083,
+  "auc": 0.9087958717810292,
+  "balanced_accuracy": 0.5383844590632706,
+  "macro_f1": 0.511678728842429,
+  "unique_probability_rows": 11831
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "test": "verify.py",
+  "checks": [
+    "author InfoNCE loss matches normalized matmul loss",
+    "InfoNCE gradients match original implementation",
+    "class donors stay in the same inferred class",
+    "unmasked features unchanged",
+    "unknown targets accepted only as -1",
+    "known true labels preserved in pseudo-label refreshes",
+    "end-to-end 10-epoch smoke fit"
+  ]
+}

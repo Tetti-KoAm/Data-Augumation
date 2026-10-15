@@ -1,0 +1,1 @@
+{"dataset": "grid", "seed": 502837, "method": "vime", "n": 1000, "violation_rate": 0.871, "original_violation_rate": 0.0, "mean_residual": 0.6382958889007568, "note": "masks follow each method: Bernoulli for VIME; fixed ceil(.4*p) for class-conditioned"}

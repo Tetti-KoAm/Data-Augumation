@@ -1,0 +1,19 @@
+{
+  "dataset": "bean",
+  "seed": 843198,
+  "method": "vime",
+  "seconds": 31.899088144302368,
+  "n_source": 13611,
+  "n_after_dedup": 13543,
+  "n_train": 10834,
+  "n_test": 2709,
+  "n_labeled": 3250,
+  "n_unlabeled": 7584,
+  "n_features": 16,
+  "n_classes": 7,
+  "accuracy": 0.9136212624584718,
+  "auc": 0.993795517554137,
+  "balanced_accuracy": 0.9237261391041672,
+  "macro_f1": 0.92497590008785,
+  "unique_probability_rows": 2709
+}

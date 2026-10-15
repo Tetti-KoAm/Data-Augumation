@@ -1,0 +1,16 @@
+{"time": 1792038332.537813, "method": "vime", "stage": "start"}
+{"time": 1792038357.5657191, "method": "vime", "stage": "complete", "dataset": "occupancy", "seed": 328984, "seconds": 25.018864154815674, "n_source": 8143, "n_after_dedup": 8143, "n_train": 8143, "n_test": 12417, "n_labeled": 2442, "n_unlabeled": 5701, "n_features": 5, "n_classes": 2, "accuracy": 0.7695900781187083, "auc": 0.9087958717810292, "balanced_accuracy": 0.5383844590632706, "macro_f1": 0.511678728842429, "unique_probability_rows": 11831}
+{"time": 1792038357.615202, "method": "class_conditioned", "stage": "start"}
+{"time": 1792038369.3781939, "method": "class_conditioned", "stage": "train", "epoch": 50, "loss": 5.48603655397892, "seconds": 11.129867792129517}
+{"time": 1792038380.6976058, "method": "class_conditioned", "stage": "train", "epoch": 100, "loss": 5.4597149938344955, "seconds": 22.449311017990112}
+{"time": 1792038391.710931, "method": "class_conditioned", "stage": "train", "epoch": 150, "loss": 5.443275108933449, "seconds": 33.462623834609985}
+{"time": 1792038402.57889, "method": "class_conditioned", "stage": "train", "epoch": 200, "loss": 5.433285608887672, "seconds": 44.330556869506836}
+{"time": 1792038413.248875, "method": "class_conditioned", "stage": "train", "epoch": 250, "loss": 5.424710676074028, "seconds": 55.00056982040405}
+{"time": 1792038424.060208, "method": "class_conditioned", "stage": "train", "epoch": 300, "loss": 5.419889107346535, "seconds": 65.81190395355225}
+{"time": 1792038434.544607, "method": "class_conditioned", "stage": "train", "epoch": 350, "loss": 5.415793716907501, "seconds": 76.29630184173584}
+{"time": 1792038444.74478, "method": "class_conditioned", "stage": "train", "epoch": 400, "loss": 5.409861907362938, "seconds": 86.49646282196045}
+{"time": 1792038454.1970031, "method": "class_conditioned", "stage": "train", "epoch": 450, "loss": 5.408199533820152, "seconds": 95.94869089126587}
+{"time": 1792038463.71933, "method": "class_conditioned", "stage": "train", "epoch": 500, "loss": 5.4032304137945175, "seconds": 105.4710259437561}
+{"time": 1792038464.261006, "method": "class_conditioned", "stage": "complete", "dataset": "occupancy", "seed": 328984, "seconds": 106.6374158859253, "n_source": 8143, "n_after_dedup": 8143, "n_train": 8143, "n_test": 12417, "n_labeled": 2442, "n_unlabeled": 5701, "n_features": 5, "n_classes": 2, "accuracy": 0.9350889908995732, "auc": 0.926609307432054, "balanced_accuracy": 0.9010747141233164, "macro_f1": 0.9098827082455401, "unique_probability_rows": 11844}
+{"time": 1792038464.307411, "method": "proposed_copula", "stage": "start"}
+{"time": 1792038516.708339, "method": "proposed_copula", "stage": "complete", "dataset": "occupancy", "seed": 328984, "seconds": 52.39220404624939, "n_source": 8143, "n_after_dedup": 8143, "n_train": 8143, "n_test": 12417, "n_labeled": 2442, "n_unlabeled": 5701, "n_features": 5, "n_classes": 2, "accuracy": 0.7621808810501731, "auc": 0.921405437233815, "balanced_accuracy": 0.5119283153303631, "macro_f1": 0.4559251113522172, "unique_probability_rows": 11831}

@@ -1,0 +1,19 @@
+{
+  "dataset": "raisin",
+  "seed": 336466,
+  "method": "proposed_copula",
+  "seconds": 5.634538888931274,
+  "n_source": 900,
+  "n_after_dedup": 900,
+  "n_train": 720,
+  "n_test": 180,
+  "n_labeled": 216,
+  "n_unlabeled": 504,
+  "n_features": 7,
+  "n_classes": 2,
+  "accuracy": 0.8333333333333334,
+  "auc": 0.9086419753086421,
+  "balanced_accuracy": 0.8333333333333334,
+  "macro_f1": 0.8325892857142857,
+  "unique_probability_rows": 180
+}

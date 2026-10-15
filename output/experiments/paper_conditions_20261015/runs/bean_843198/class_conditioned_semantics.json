@@ -1,0 +1,1 @@
+{"dataset": "bean", "seed": 843198, "method": "class_conditioned", "n": 1000, "violation_rate": 0.817, "original_violation_rate": 0.0, "mean_residual": 0.04300903156399727, "note": "masks follow each method: Bernoulli for VIME; fixed ceil(.4*p) for class-conditioned"}

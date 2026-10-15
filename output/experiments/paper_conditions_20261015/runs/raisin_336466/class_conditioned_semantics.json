@@ -1,0 +1,1 @@
+{"dataset": "raisin", "seed": 336466, "method": "class_conditioned", "n": 720, "violation_rate": 0.9138888888888889, "original_violation_rate": 0.0, "mean_residual": 0.09665948897600174, "note": "masks follow each method: Bernoulli for VIME; fixed ceil(.4*p) for class-conditioned"}

@@ -1,0 +1,245 @@
+{
+  "checks": "PASS: 150 scores, 150 generation diagnoses, paired conditions, valid metrics, disjoint row indices, class coverage",
+  "duplicate_feature_rows": [
+    {
+      "dataset": "bean",
+      "seed": 11,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 6
+    },
+    {
+      "dataset": "bean",
+      "seed": 11,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 6
+    },
+    {
+      "dataset": "bean",
+      "seed": 23,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 5
+    },
+    {
+      "dataset": "bean",
+      "seed": 23,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 5
+    },
+    {
+      "dataset": "bean",
+      "seed": 37,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 4
+    },
+    {
+      "dataset": "bean",
+      "seed": 37,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 4
+    },
+    {
+      "dataset": "bean",
+      "seed": 51,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 2
+    },
+    {
+      "dataset": "bean",
+      "seed": 51,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 2
+    },
+    {
+      "dataset": "bean",
+      "seed": 67,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 6
+    },
+    {
+      "dataset": "bean",
+      "seed": 67,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 6
+    },
+    {
+      "dataset": "rice",
+      "seed": 11,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "rice",
+      "seed": 11,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "rice",
+      "seed": 23,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "rice",
+      "seed": 23,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "rice",
+      "seed": 37,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "rice",
+      "seed": 37,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "rice",
+      "seed": 51,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "rice",
+      "seed": 51,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "rice",
+      "seed": 67,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "rice",
+      "seed": 67,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "raisin",
+      "seed": 11,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "raisin",
+      "seed": 11,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "raisin",
+      "seed": 23,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "raisin",
+      "seed": 23,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "raisin",
+      "seed": 37,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "raisin",
+      "seed": 37,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "raisin",
+      "seed": 51,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "raisin",
+      "seed": 51,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "raisin",
+      "seed": 67,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "raisin",
+      "seed": 67,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "grid",
+      "seed": 11,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "grid",
+      "seed": 11,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "grid",
+      "seed": 23,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "grid",
+      "seed": 23,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "grid",
+      "seed": 37,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "grid",
+      "seed": 37,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "grid",
+      "seed": 51,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "grid",
+      "seed": 51,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "grid",
+      "seed": 67,
+      "n_labels": 30,
+      "test_rows_exactly_matching_training_features": 0
+    },
+    {
+      "dataset": "grid",
+      "seed": 67,
+      "n_labels": 100,
+      "test_rows_exactly_matching_training_features": 0
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"dataset": "grid", "seed": 450967, "method": "proposed_copula", "n": 1000, "violation_rate": 0.857, "original_violation_rate": 0.0, "mean_residual": 0.2094825953245163, "note": "masks follow each method: Bernoulli for VIME; fixed ceil(.4*p) for class-conditioned"}

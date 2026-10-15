@@ -1,0 +1,16 @@
+{"time": 1792037774.865789, "method": "vime", "stage": "start"}
+{"time": 1792037799.678024, "method": "vime", "stage": "complete", "dataset": "grid", "seed": 743562, "seconds": 24.808784246444702, "n_source": 10000, "n_after_dedup": 10000, "n_train": 8000, "n_test": 2000, "n_labeled": 2400, "n_unlabeled": 5600, "n_features": 12, "n_classes": 2, "accuracy": 0.661, "auc": 0.6552590103742704, "balanced_accuracy": 0.5389381527217305, "macro_f1": 0.47903780279967234, "unique_probability_rows": 2000}
+{"time": 1792037799.728457, "method": "class_conditioned", "stage": "start"}
+{"time": 1792037811.686518, "method": "class_conditioned", "stage": "train", "epoch": 50, "loss": 5.627646118402481, "seconds": 11.40316104888916}
+{"time": 1792037823.2043562, "method": "class_conditioned", "stage": "train", "epoch": 100, "loss": 5.619696527719498, "seconds": 22.920994997024536}
+{"time": 1792037834.949721, "method": "class_conditioned", "stage": "train", "epoch": 150, "loss": 5.6162901520729065, "seconds": 34.666380882263184}
+{"time": 1792037846.6109939, "method": "class_conditioned", "stage": "train", "epoch": 200, "loss": 5.615549653768539, "seconds": 46.327648878097534}
+{"time": 1792037857.8428109, "method": "class_conditioned", "stage": "train", "epoch": 250, "loss": 5.608789682388306, "seconds": 57.55945587158203}
+{"time": 1792037869.219739, "method": "class_conditioned", "stage": "train", "epoch": 300, "loss": 5.611996024847031, "seconds": 68.93638586997986}
+{"time": 1792037880.7656279, "method": "class_conditioned", "stage": "train", "epoch": 350, "loss": 5.608666151762009, "seconds": 80.4822678565979}
+{"time": 1792037892.8190231, "method": "class_conditioned", "stage": "train", "epoch": 400, "loss": 5.605599269270897, "seconds": 92.53563785552979}
+{"time": 1792037904.570519, "method": "class_conditioned", "stage": "train", "epoch": 450, "loss": 5.6028017699718475, "seconds": 104.28716087341309}
+{"time": 1792037915.699824, "method": "class_conditioned", "stage": "train", "epoch": 500, "loss": 5.604475229978561, "seconds": 115.41647291183472}
+{"time": 1792037916.3960671, "method": "class_conditioned", "stage": "complete", "dataset": "grid", "seed": 743562, "seconds": 116.66384387016296, "n_source": 10000, "n_after_dedup": 10000, "n_train": 8000, "n_test": 2000, "n_labeled": 2400, "n_unlabeled": 5600, "n_features": 12, "n_classes": 2, "accuracy": 0.9325, "auc": 0.9717121443045429, "balanced_accuracy": 0.9261872391277992, "macro_f1": 0.9268243304222968, "unique_probability_rows": 2000}
+{"time": 1792037916.452574, "method": "proposed_copula", "stage": "start"}
+{"time": 1792037979.533338, "method": "proposed_copula", "stage": "complete", "dataset": "grid", "seed": 743562, "seconds": 63.077309370040894, "n_source": 10000, "n_after_dedup": 10000, "n_train": 8000, "n_test": 2000, "n_labeled": 2400, "n_unlabeled": 5600, "n_features": 12, "n_classes": 2, "accuracy": 0.6535, "auc": 0.6345905713642426, "balanced_accuracy": 0.5405293649006737, "macro_f1": 0.49642318764122223, "unique_probability_rows": 2000}

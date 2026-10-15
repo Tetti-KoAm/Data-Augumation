@@ -27,3 +27,13 @@ scripts/run_quick_compare.sh --epochs 15 --vime-iterations 300
 要約は
 [`research-bench/results/REPORT_JA.md`](research-bench/results/REPORT_JA.md)
 を参照してください。
+
+## 公開データ5件の追加比較（2026-10-15）
+
+豆・米・レーズン・室内在室・電力網を対象に、分類性能と生成行の意味制約を別々に評価しています。
+
+- [少数ラベル30件・100件の比較](output/experiments/public_semantics_20261015/実験レポート.md)：各5 seed、標準VIMEとcopula版、ラベルのみの参考対照。
+- [論文の主要条件での3手法比較](output/experiments/paper_conditions_20261015/比較レポート.md)：ラベル率30%、各8 seed、幅256・前学習500 epoch。標準VIME、クラス条件付き対照学習、提案copulaを比較。
+- [論文条件との対応・実装上の調整](output/experiments/paper_conditions_20261015/PROTOCOL.md)と[再現手順](output/experiments/paper_conditions_20261015/README.md)。
+
+低相関の特徴ペアを含む候補の比較であり、全特徴が無相関な5データを確保した実験ではありません。

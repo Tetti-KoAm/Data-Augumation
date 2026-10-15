@@ -1,0 +1,1 @@
+{"dataset": "occupancy", "seed": 614579, "method": "proposed_copula", "n": 1000, "violation_rate": 0.474, "original_violation_rate": 0.0, "mean_residual": 0.060752999037504196, "note": "masks follow each method: Bernoulli for VIME; fixed ceil(.4*p) for class-conditioned"}

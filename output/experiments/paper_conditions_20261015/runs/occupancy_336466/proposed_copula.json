@@ -1,0 +1,19 @@
+{
+  "dataset": "occupancy",
+  "seed": 336466,
+  "method": "proposed_copula",
+  "seconds": 54.98558712005615,
+  "n_source": 8143,
+  "n_after_dedup": 8143,
+  "n_train": 8143,
+  "n_test": 12417,
+  "n_labeled": 2442,
+  "n_unlabeled": 5701,
+  "n_features": 5,
+  "n_classes": 2,
+  "accuracy": 0.7654828058307159,
+  "auc": 0.9144295416686571,
+  "balanced_accuracy": 0.5214092032655194,
+  "macro_f1": 0.4763032925498911,
+  "unique_probability_rows": 11836
+}

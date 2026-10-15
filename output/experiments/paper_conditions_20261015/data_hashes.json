@@ -1,0 +1,14 @@
+{
+  "output/experiments/public_semantics_20261015/data/545.zip": "fe94e42046b829de21b92b0ffb6a22774fde021328cae799faa802a14e8dbed9",
+  "output/experiments/public_semantics_20261015/data/357.zip": "4ae3f46aa98eedff564a9f6924d1635173e2fd2c816004342a9be93076d3a81a",
+  "output/experiments/public_semantics_20261015/data/850.zip": "5d516c040923fd154ecf85e31b6e1b5a096724fa0e68d588c33fb5a2f0c3e5db",
+  "output/experiments/public_semantics_20261015/data/471.zip": "32eeb20cf1877127aade7c9a76a6ab6f2ff1fdd05270bc591d549f26c7402cad",
+  "output/experiments/public_semantics_20261015/data/602.zip": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
+  "output/experiments/public_semantics_20261015/data/602/DryBeanDataset/Dry_Bean_Dataset.arff": "b2a4a76a2aedfb8ed415adfc1bfc70b5f202cb00cb72e500766e364c14834014",
+  "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+  "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+  "output/experiments/public_semantics_20261015/data/357/datatraining.txt": "b2c4d0ce2b9e4e453c476f7125ef31aeec2d1f5c7f5572d0e80de3df6521ab56",
+  "output/experiments/public_semantics_20261015/data/357/datatest.txt": "1b92c7c1b2838963464fa891a610cf3c5db4becb7189189b29b330107a584c7f",
+  "output/experiments/public_semantics_20261015/data/357/datatest2.txt": "d026d1bd5aeccd4aff4f3b3710d48e40613bd5fc370db7e61bbdcaa50d985095",
+  "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "grid",
+  "seed": 743562,
+  "method": "vime",
+  "seconds": 24.808784246444702,
+  "n_source": 10000,
+  "n_after_dedup": 10000,
+  "n_train": 8000,
+  "n_test": 2000,
+  "n_labeled": 2400,
+  "n_unlabeled": 5600,
+  "n_features": 12,
+  "n_classes": 2,
+  "accuracy": 0.661,
+  "auc": 0.6552590103742704,
+  "balanced_accuracy": 0.5389381527217305,
+  "macro_f1": 0.47903780279967234,
+  "unique_probability_rows": 2000
+}

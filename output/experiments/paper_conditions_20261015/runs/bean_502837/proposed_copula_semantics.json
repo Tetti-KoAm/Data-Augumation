@@ -1,0 +1,1 @@
+{"dataset": "bean", "seed": 502837, "method": "proposed_copula", "n": 1000, "violation_rate": 0.701, "original_violation_rate": 0.0, "mean_residual": 0.027740562334656715, "note": "masks follow each method: Bernoulli for VIME; fixed ceil(.4*p) for class-conditioned"}

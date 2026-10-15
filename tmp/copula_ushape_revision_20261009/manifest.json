@@ -1,0 +1,147 @@
+[
+  {
+    "slide": 1,
+    "title": "ゼミ発表",
+    "section": ""
+  },
+  {
+    "slide": 2,
+    "title": "本研究の問題設定",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 3,
+    "title": "コピュラとは",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 4,
+    "title": "説明に使う非単調なデータ",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 5,
+    "title": "独立な置換で壊れる関係",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 6,
+    "title": "Xの累積分布関数",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 7,
+    "title": "Yの累積分布関数",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 8,
+    "title": "値と確率位置の対応",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 9,
+    "title": "確率積分変換後の依存",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 10,
+    "title": "コピュラの定義式",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 11,
+    "title": "この例の同時確率",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 12,
+    "title": "この例のコピュラの式",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 13,
+    "title": "Sklarの定理",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 14,
+    "title": "条件付き補完の具体例",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 15,
+    "title": "独立と、この例の依存の違い",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 16,
+    "title": "Gaussianコピュラの限界",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 17,
+    "title": "Gaussian・Student-t コピュラ",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 18,
+    "title": "その他のコピュラの種類",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 19,
+    "title": "初期実験の条件付き生成",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 20,
+    "title": "研究で検証すること",
+    "section": "コピュラの基礎"
+  },
+  {
+    "slide": 21,
+    "title": "補足：実験環境",
+    "section": "補足資料"
+  },
+  {
+    "slide": 22,
+    "title": "補足：使用するデータ",
+    "section": "補足資料"
+  },
+  {
+    "slide": 23,
+    "title": "補足：ラベル付きデータの設定",
+    "section": "補足資料"
+  },
+  {
+    "slide": 24,
+    "title": "補足：使用するモデル",
+    "section": "補足資料"
+  },
+  {
+    "slide": 25,
+    "title": "補足：学習条件と前処理",
+    "section": "補足資料"
+  },
+  {
+    "slide": 26,
+    "title": "補足：保存済みの初期実験結果",
+    "section": "補足資料"
+  },
+  {
+    "slide": 27,
+    "title": "補足：提案手法が優れていると言える条件",
+    "section": "補足資料"
+  },
+  {
+    "slide": 28,
+    "title": "補足：少ないデータで学習するとは",
+    "section": "補足資料"
+  },
+  {
+    "slide": 29,
+    "title": "補足：研究仮説を検証する比較実験",
+    "section": "補足資料"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "dataset": "grid",
+  "seed": 743562,
+  "method": "class_conditioned",
+  "seconds": 116.66384387016296,
+  "n_source": 10000,
+  "n_after_dedup": 10000,
+  "n_train": 8000,
+  "n_test": 2000,
+  "n_labeled": 2400,
+  "n_unlabeled": 5600,
+  "n_features": 12,
+  "n_classes": 2,
+  "accuracy": 0.9325,
+  "auc": 0.9717121443045429,
+  "balanced_accuracy": 0.9261872391277992,
+  "macro_f1": 0.9268243304222968,
+  "unique_probability_rows": 2000
+}

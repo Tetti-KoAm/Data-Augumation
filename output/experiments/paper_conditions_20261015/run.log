@@ -1,0 +1,81 @@
+{'dataset': 'raisin', 'seed': 614579, 'status': 'done'}
+completed model fits 4
+{'dataset': 'rice', 'seed': 614579, 'status': 'done'}
+completed model fits 9
+{'dataset': 'occupancy', 'seed': 614579, 'status': 'done'}
+completed model fits 13
+{'dataset': 'grid', 'seed': 614579, 'status': 'done'}
+completed model fits 16
+{'dataset': 'raisin', 'seed': 336466, 'status': 'done'}
+completed model fits 19
+{'dataset': 'rice', 'seed': 336466, 'status': 'done'}
+completed model fits 22
+{'dataset': 'bean', 'seed': 614579, 'status': 'done'}
+completed model fits 24
+{'dataset': 'bean', 'seed': 336466, 'status': 'done'}
+completed model fits 27
+{'dataset': 'occupancy', 'seed': 336466, 'status': 'done'}
+completed model fits 32
+{'dataset': 'rice', 'seed': 974761, 'status': 'done'}
+completed model fits 34
+{'dataset': 'raisin', 'seed': 974761, 'status': 'done'}
+completed model fits 36
+{'dataset': 'grid', 'seed': 336466, 'status': 'done'}
+completed model fits 38
+{'dataset': 'bean', 'seed': 974761, 'status': 'done'}
+completed model fits 42
+{'dataset': 'occupancy', 'seed': 974761, 'status': 'done'}
+completed model fits 47
+{'dataset': 'rice', 'seed': 450967, 'status': 'done'}
+completed model fits 49
+{'dataset': 'grid', 'seed': 974761, 'status': 'done'}
+completed model fits 50
+{'dataset': 'raisin', 'seed': 450967, 'status': 'done'}
+completed model fits 52
+{'dataset': 'bean', 'seed': 450967, 'status': 'done'}
+completed model fits 57
+{'dataset': 'rice', 'seed': 743562, 'status': 'done'}
+completed model fits 62
+{'dataset': 'occupancy', 'seed': 450967, 'status': 'done'}
+completed model fits 64
+{'dataset': 'raisin', 'seed': 743562, 'status': 'done'}
+completed model fits 66
+{'dataset': 'grid', 'seed': 450967, 'status': 'done'}
+completed model fits 68
+{'dataset': 'bean', 'seed': 743562, 'status': 'done'}
+completed model fits 72
+{'dataset': 'rice', 'seed': 843198, 'status': 'done'}
+completed model fits 77
+{'dataset': 'raisin', 'seed': 843198, 'status': 'done'}
+completed model fits 80
+{'dataset': 'occupancy', 'seed': 743562, 'status': 'done'}
+completed model fits 81
+{'dataset': 'grid', 'seed': 743562, 'status': 'done'}
+completed model fits 83
+{'dataset': 'bean', 'seed': 843198, 'status': 'done'}
+completed model fits 87
+{'dataset': 'rice', 'seed': 502837, 'status': 'done'}
+completed model fits 92
+{'dataset': 'raisin', 'seed': 502837, 'status': 'done'}
+completed model fits 95
+{'dataset': 'occupancy', 'seed': 843198, 'status': 'done'}
+completed model fits 96
+{'dataset': 'grid', 'seed': 843198, 'status': 'done'}
+completed model fits 97
+{'dataset': 'bean', 'seed': 502837, 'status': 'done'}
+completed model fits 102
+{'dataset': 'occupancy', 'seed': 502837, 'status': 'done'}
+completed model fits 107
+{'dataset': 'rice', 'seed': 328984, 'status': 'done'}
+completed model fits 108
+{'dataset': 'raisin', 'seed': 328984, 'status': 'done'}
+completed model fits 111
+{'dataset': 'grid', 'seed': 502837, 'status': 'done'}
+completed model fits 113
+{'dataset': 'bean', 'seed': 328984, 'status': 'done'}
+completed model fits 116
+{'dataset': 'occupancy', 'seed': 328984, 'status': 'done'}
+completed model fits 119
+{'dataset': 'grid', 'seed': 328984, 'status': 'done'}
+completed model fits 120
+DONE 120

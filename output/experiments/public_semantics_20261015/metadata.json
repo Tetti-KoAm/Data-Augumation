@@ -1,0 +1,1066 @@
+{
+  "bean": {
+    "n": 13611,
+    "features": [
+      "Area",
+      "Perimeter",
+      "MajorAxisLength",
+      "MinorAxisLength",
+      "AspectRation",
+      "Eccentricity",
+      "ConvexArea",
+      "EquivDiameter",
+      "Extent",
+      "Solidity",
+      "roundness",
+      "Compactness",
+      "ShapeFactor1",
+      "ShapeFactor2",
+      "ShapeFactor3",
+      "ShapeFactor4"
+    ],
+    "classes": [
+      1322,
+      522,
+      1630,
+      3546,
+      1928,
+      2027,
+      2636
+    ],
+    "train_correlation": [
+      {
+        "seed": 11,
+        "mean_abs": 0.5010080767942565,
+        "fraction_abs_below_point1": 0.10833333333333334,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "Perimeter",
+            -0.003260503765388234
+          ],
+          [
+            "Compactness",
+            "MinorAxisLength",
+            -0.008574245763137185
+          ],
+          [
+            "Eccentricity",
+            "MinorAxisLength",
+            0.011293803619299232
+          ],
+          [
+            "ShapeFactor3",
+            "MinorAxisLength",
+            -0.01236659258188309
+          ],
+          [
+            "AspectRation",
+            "MinorAxisLength",
+            -0.014247906788547173
+          ]
+        ]
+      },
+      {
+        "seed": 23,
+        "mean_abs": 0.4936055566745502,
+        "fraction_abs_below_point1": 0.10833333333333334,
+        "lowest_pairs": [
+          [
+            "Eccentricity",
+            "MinorAxisLength",
+            -0.006459221178814302
+          ],
+          [
+            "ShapeFactor3",
+            "MinorAxisLength",
+            0.006516456681643131
+          ],
+          [
+            "Compactness",
+            "MinorAxisLength",
+            0.010094184231855603
+          ],
+          [
+            "Extent",
+            "EquivDiameter",
+            0.02048177153602104
+          ],
+          [
+            "ShapeFactor3",
+            "ShapeFactor1",
+            -0.023880935209646157
+          ]
+        ]
+      },
+      {
+        "seed": 37,
+        "mean_abs": 0.5026620546229765,
+        "fraction_abs_below_point1": 0.10833333333333334,
+        "lowest_pairs": [
+          [
+            "AspectRation",
+            "MinorAxisLength",
+            -0.0005408789608347413
+          ],
+          [
+            "ShapeFactor1",
+            "Compactness",
+            0.0017923383966296817
+          ],
+          [
+            "ShapeFactor3",
+            "ShapeFactor1",
+            0.002763196221815878
+          ],
+          [
+            "ShapeFactor1",
+            "Eccentricity",
+            0.010492398941536625
+          ],
+          [
+            "Extent",
+            "EquivDiameter",
+            0.011331352675354855
+          ]
+        ]
+      },
+      {
+        "seed": 51,
+        "mean_abs": 0.4958678610490613,
+        "fraction_abs_below_point1": 0.10833333333333334,
+        "lowest_pairs": [
+          [
+            "Eccentricity",
+            "MinorAxisLength",
+            -0.0020792277999411093
+          ],
+          [
+            "ShapeFactor3",
+            "MinorAxisLength",
+            0.0029148763540595363
+          ],
+          [
+            "Compactness",
+            "MinorAxisLength",
+            0.00717418885176099
+          ],
+          [
+            "Extent",
+            "Perimeter",
+            -0.008149307589582693
+          ],
+          [
+            "AspectRation",
+            "MinorAxisLength",
+            -0.03043091086544233
+          ]
+        ]
+      },
+      {
+        "seed": 67,
+        "mean_abs": 0.49825213312440086,
+        "fraction_abs_below_point1": 0.10833333333333334,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "Perimeter",
+            0.008216887810018983
+          ],
+          [
+            "Compactness",
+            "MinorAxisLength",
+            -0.012111932539289928
+          ],
+          [
+            "AspectRation",
+            "MinorAxisLength",
+            -0.012414123570381044
+          ],
+          [
+            "Eccentricity",
+            "MinorAxisLength",
+            0.014954786731952736
+          ],
+          [
+            "ShapeFactor3",
+            "MinorAxisLength",
+            -0.01618809924591932
+          ]
+        ]
+      }
+    ],
+    "example": {
+      "original": {
+        "Area": 91233.0,
+        "Perimeter": 1271.385986328125,
+        "MajorAxisLength": 440.8110656738281,
+        "MinorAxisLength": 264.4706115722656,
+        "AspectRation": 1.6667677164077759,
+        "Eccentricity": 0.8000272512435913,
+        "ConvexArea": 93179.0,
+        "EquivDiameter": 340.8246765136719,
+        "Extent": 0.6840080618858337,
+        "Solidity": 0.9791154265403748,
+        "roundness": 0.7092624306678772,
+        "Compactness": 0.773176372051239,
+        "ShapeFactor1": 0.004831706173717976,
+        "ShapeFactor2": 0.0010651102056726813,
+        "ShapeFactor3": 0.597801685333252,
+        "ShapeFactor4": 0.9963964819908142
+      },
+      "augmented": {
+        "Area": 91233.0,
+        "Perimeter": 1271.385986328125,
+        "MajorAxisLength": 440.8110656738281,
+        "MinorAxisLength": 169.70103454589844,
+        "AspectRation": 1.5279674530029297,
+        "Eccentricity": 0.5680750012397766,
+        "ConvexArea": 93179.0,
+        "EquivDiameter": 340.8246765136719,
+        "Extent": 0.6840080618858337,
+        "Solidity": 0.9791154265403748,
+        "roundness": 0.8167181015014648,
+        "Compactness": 0.773176372051239,
+        "ShapeFactor1": 0.004831706173717976,
+        "ShapeFactor2": 0.001125850947573781,
+        "ShapeFactor3": 0.597801685333252,
+        "ShapeFactor4": 0.9944343566894531
+      },
+      "masked": [
+        "MinorAxisLength",
+        "AspectRation",
+        "Eccentricity",
+        "roundness",
+        "ShapeFactor2",
+        "ShapeFactor4"
+      ],
+      "residual": 0.35485219955444336
+    }
+  },
+  "rice": {
+    "n": 3810,
+    "features": [
+      "Area",
+      "Perimeter",
+      "MajorAxisLength",
+      "MinorAxisLength",
+      "Eccentricity",
+      "ConvexArea",
+      "Extent"
+    ],
+    "classes": [
+      1630,
+      2180
+    ],
+    "train_correlation": [
+      {
+        "seed": 11,
+        "mean_abs": 0.5400562121209254,
+        "fraction_abs_below_point1": 0.14285714285714285,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "MinorAxisLength",
+            0.044825818396376095
+          ],
+          [
+            "Extent",
+            "Area",
+            -0.07724387798821446
+          ],
+          [
+            "Extent",
+            "ConvexArea",
+            -0.08234681441192618
+          ],
+          [
+            "Extent",
+            "Perimeter",
+            -0.14430537082166303
+          ],
+          [
+            "Extent",
+            "MajorAxisLength",
+            -0.1506306250920535
+          ]
+        ]
+      },
+      {
+        "seed": 23,
+        "mean_abs": 0.5342204724385841,
+        "fraction_abs_below_point1": 0.14285714285714285,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "Area",
+            -0.05526402395000275
+          ],
+          [
+            "Extent",
+            "ConvexArea",
+            -0.060947945791625775
+          ],
+          [
+            "Extent",
+            "MinorAxisLength",
+            0.06317916192197962
+          ],
+          [
+            "Extent",
+            "Perimeter",
+            -0.1271557022323606
+          ],
+          [
+            "Extent",
+            "MajorAxisLength",
+            -0.1328003740993536
+          ]
+        ]
+      },
+      {
+        "seed": 37,
+        "mean_abs": 0.5343461358400353,
+        "fraction_abs_below_point1": 0.14285714285714285,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "Area",
+            -0.03176758965999382
+          ],
+          [
+            "Extent",
+            "ConvexArea",
+            -0.034610797990789165
+          ],
+          [
+            "Extent",
+            "MinorAxisLength",
+            0.09703931560915055
+          ],
+          [
+            "Extent",
+            "Perimeter",
+            -0.10313353320091326
+          ],
+          [
+            "Extent",
+            "MajorAxisLength",
+            -0.1194235982488861
+          ]
+        ]
+      },
+      {
+        "seed": 51,
+        "mean_abs": 0.5358296210202761,
+        "fraction_abs_below_point1": 0.14285714285714285,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "Area",
+            -0.05127494985949461
+          ],
+          [
+            "Extent",
+            "ConvexArea",
+            -0.05587797803508452
+          ],
+          [
+            "Extent",
+            "MinorAxisLength",
+            0.07150152946380119
+          ],
+          [
+            "Extent",
+            "Perimeter",
+            -0.11967965197192365
+          ],
+          [
+            "Extent",
+            "MajorAxisLength",
+            -0.1298496407126679
+          ]
+        ]
+      },
+      {
+        "seed": 67,
+        "mean_abs": 0.5345710690673566,
+        "fraction_abs_below_point1": 0.14285714285714285,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "MinorAxisLength",
+            0.054397485669172796
+          ],
+          [
+            "Extent",
+            "Area",
+            -0.06406960922671752
+          ],
+          [
+            "Extent",
+            "ConvexArea",
+            -0.06813036520385951
+          ],
+          [
+            "Extent",
+            "Perimeter",
+            -0.13130193324463152
+          ],
+          [
+            "Extent",
+            "MajorAxisLength",
+            -0.1394027616214612
+          ]
+        ]
+      }
+    ],
+    "example": {
+      "original": {
+        "Area": 11570.9990234375,
+        "Perimeter": 432.6709899902344,
+        "MajorAxisLength": 183.70559692382812,
+        "MinorAxisLength": 80.5602035522461,
+        "Eccentricity": 0.8987171053886414,
+        "ConvexArea": 11741.0,
+        "Extent": 0.6622217297554016
+      },
+      "augmented": {
+        "Area": 11570.9990234375,
+        "Perimeter": 432.6709899902344,
+        "MajorAxisLength": 183.70559692382812,
+        "MinorAxisLength": 85.86541748046875,
+        "Eccentricity": 0.8815408945083618,
+        "ConvexArea": 10422.0,
+        "Extent": 0.6622217297554016
+      },
+      "masked": [
+        "MinorAxisLength",
+        "Eccentricity",
+        "ConvexArea"
+      ],
+      "residual": 0.0025009512901306152
+    }
+  },
+  "raisin": {
+    "n": 900,
+    "features": [
+      "Area",
+      "MajorAxisLength",
+      "MinorAxisLength",
+      "Eccentricity",
+      "ConvexArea",
+      "Extent",
+      "Perimeter"
+    ],
+    "classes": [
+      450,
+      450
+    ],
+    "train_correlation": [
+      {
+        "seed": 11,
+        "mean_abs": 0.5638359063493271,
+        "fraction_abs_below_point1": 0.14285714285714285,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "Area",
+            0.0018093265419167766
+          ],
+          [
+            "Eccentricity",
+            "MinorAxisLength",
+            -0.020302446062886895
+          ],
+          [
+            "Extent",
+            "ConvexArea",
+            -0.035424732827132106
+          ],
+          [
+            "Perimeter",
+            "Extent",
+            -0.15804588399409422
+          ],
+          [
+            "Extent",
+            "MinorAxisLength",
+            0.16797603433042488
+          ]
+        ]
+      },
+      {
+        "seed": 23,
+        "mean_abs": 0.5582070998185286,
+        "fraction_abs_below_point1": 0.14285714285714285,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "ConvexArea",
+            -0.008141203569964927
+          ],
+          [
+            "Extent",
+            "Area",
+            0.022650705006052253
+          ],
+          [
+            "Eccentricity",
+            "MinorAxisLength",
+            -0.024252253501144294
+          ],
+          [
+            "Perimeter",
+            "Extent",
+            -0.12093622713616209
+          ],
+          [
+            "Extent",
+            "MajorAxisLength",
+            -0.14756880919168136
+          ]
+        ]
+      },
+      {
+        "seed": 37,
+        "mean_abs": 0.5577238230060906,
+        "fraction_abs_below_point1": 0.14285714285714285,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "ConvexArea",
+            -0.00485555156439109
+          ],
+          [
+            "Extent",
+            "Area",
+            0.027331396351907445
+          ],
+          [
+            "Eccentricity",
+            "MinorAxisLength",
+            -0.03365664851349379
+          ],
+          [
+            "Perimeter",
+            "Extent",
+            -0.11946409514281146
+          ],
+          [
+            "Extent",
+            "MajorAxisLength",
+            -0.1478232208241397
+          ]
+        ]
+      },
+      {
+        "seed": 51,
+        "mean_abs": 0.5640141537688015,
+        "fraction_abs_below_point1": 0.14285714285714285,
+        "lowest_pairs": [
+          [
+            "Extent",
+            "Area",
+            -0.005553845107857744
+          ],
+          [
+            "Eccentricity",
+            "MinorAxisLength",
+            -0.02683539384946231
+          ],
+          [
+            "Extent",
+            "ConvexArea",
+            -0.043800887558170847
+          ],
+          [
+            "Extent",
+            "MinorAxisLength",
+            0.15645656373291197
+          ],
+          [
+            "Perimeter",
+            "Extent",
+            -0.16357817399281827
+          ]
+        ]
+      },
+      {
+        "seed": 67,
+        "mean_abs": 0.5712646071329573,
+        "fraction_abs_below_point1": 0.09523809523809523,
+        "lowest_pairs": [
+          [
+            "Eccentricity",
+            "MinorAxisLength",
+            -0.040516577693066574
+          ],
+          [
+            "Extent",
+            "Area",
+            -0.06240221599889053
+          ],
+          [
+            "Extent",
+            "ConvexArea",
+            -0.10917165715523025
+          ],
+          [
+            "Extent",
+            "MinorAxisLength",
+            0.11122125278493009
+          ],
+          [
+            "Perimeter",
+            "Extent",
+            -0.23143196577602174
+          ]
+        ]
+      }
+    ],
+    "example": {
+      "original": {
+        "Area": 123056.0078125,
+        "MajorAxisLength": 618.141845703125,
+        "MinorAxisLength": 256.9501037597656,
+        "Eccentricity": 0.9095102548599243,
+        "ConvexArea": 128100.9921875,
+        "Extent": 0.6412840485572815,
+        "Perimeter": 1522.0279541015625
+      },
+      "augmented": {
+        "Area": 123056.0078125,
+        "MajorAxisLength": 618.141845703125,
+        "MinorAxisLength": 256.9501037597656,
+        "Eccentricity": 0.7681079506874084,
+        "ConvexArea": 45133.0,
+        "Extent": 0.6157451272010803,
+        "Perimeter": 1522.0279541015625
+      },
+      "masked": [
+        "Eccentricity",
+        "ConvexArea",
+        "Extent"
+      ],
+      "residual": 0.14140230417251587
+    }
+  },
+  "occupancy": {
+    "n": 8143,
+    "features": [
+      "Temperature",
+      "Humidity",
+      "Light",
+      "CO2",
+      "HumidityRatio"
+    ],
+    "classes": [
+      6414,
+      1729
+    ],
+    "train_correlation": [
+      {
+        "seed": 11,
+        "mean_abs": 0.43227105140759436,
+        "fraction_abs_below_point1": 0.1,
+        "lowest_pairs": [
+          [
+            "Light",
+            "Humidity",
+            -0.004440982667528264
+          ],
+          [
+            "HumidityRatio",
+            "Temperature",
+            0.14661274259223675
+          ],
+          [
+            "Humidity",
+            "Temperature",
+            -0.14883127677680139
+          ],
+          [
+            "HumidityRatio",
+            "Light",
+            0.18623842519966066
+          ],
+          [
+            "CO2",
+            "Humidity",
+            0.42073457640399825
+          ]
+        ]
+      },
+      {
+        "seed": 23,
+        "mean_abs": 0.4440561269185278,
+        "fraction_abs_below_point1": 0.1,
+        "lowest_pairs": [
+          [
+            "Light",
+            "Humidity",
+            0.0413971690689288
+          ],
+          [
+            "Humidity",
+            "Temperature",
+            -0.13317966447688448
+          ],
+          [
+            "HumidityRatio",
+            "Temperature",
+            0.14920676474183964
+          ],
+          [
+            "HumidityRatio",
+            "Light",
+            0.22544512558335764
+          ],
+          [
+            "CO2",
+            "Humidity",
+            0.45444751053073124
+          ]
+        ]
+      },
+      {
+        "seed": 37,
+        "mean_abs": 0.4379350204809186,
+        "fraction_abs_below_point1": 0.1,
+        "lowest_pairs": [
+          [
+            "Light",
+            "Humidity",
+            -0.0006700501840716443
+          ],
+          [
+            "Humidity",
+            "Temperature",
+            -0.13123379434766488
+          ],
+          [
+            "HumidityRatio",
+            "Temperature",
+            0.16770169762651246
+          ],
+          [
+            "HumidityRatio",
+            "Light",
+            0.19603209402297153
+          ],
+          [
+            "CO2",
+            "Humidity",
+            0.4170024972584981
+          ]
+        ]
+      },
+      {
+        "seed": 51,
+        "mean_abs": 0.4416175290907935,
+        "fraction_abs_below_point1": 0.1,
+        "lowest_pairs": [
+          [
+            "Light",
+            "Humidity",
+            0.03996199055609114
+          ],
+          [
+            "HumidityRatio",
+            "Temperature",
+            0.12547713619456052
+          ],
+          [
+            "Humidity",
+            "Temperature",
+            -0.1742313533010999
+          ],
+          [
+            "HumidityRatio",
+            "Light",
+            0.2353391219948117
+          ],
+          [
+            "CO2",
+            "Humidity",
+            0.39439009901272404
+          ]
+        ]
+      },
+      {
+        "seed": 67,
+        "mean_abs": 0.4432744500031139,
+        "fraction_abs_below_point1": 0.1,
+        "lowest_pairs": [
+          [
+            "Light",
+            "Humidity",
+            0.03703524171515622
+          ],
+          [
+            "HumidityRatio",
+            "Temperature",
+            0.1349736179454049
+          ],
+          [
+            "Humidity",
+            "Temperature",
+            -0.15873206152975955
+          ],
+          [
+            "HumidityRatio",
+            "Light",
+            0.23237586887245748
+          ],
+          [
+            "CO2",
+            "Humidity",
+            0.409153604333827
+          ]
+        ]
+      }
+    ],
+    "example": {
+      "original": {
+        "Temperature": 22.149999618530273,
+        "Humidity": 17.7450008392334,
+        "Light": 97.75,
+        "CO2": 441.2499694824219,
+        "HumidityRatio": 0.0029209188651293516
+      },
+      "augmented": {
+        "Temperature": 22.149999618530273,
+        "Humidity": 17.7450008392334,
+        "Light": 97.75,
+        "CO2": 441.0000305175781,
+        "HumidityRatio": 0.0027093212120234966
+      },
+      "masked": [
+        "CO2",
+        "HumidityRatio"
+      ],
+      "residual": 0.07208379358053207
+    }
+  },
+  "grid": {
+    "n": 10000,
+    "features": [
+      "tau1",
+      "tau2",
+      "tau3",
+      "tau4",
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "g1",
+      "g2",
+      "g3",
+      "g4"
+    ],
+    "classes": [
+      3620,
+      6380
+    ],
+    "train_correlation": [
+      {
+        "seed": 11,
+        "mean_abs": 0.0464164748127149,
+        "fraction_abs_below_point1": 0.9545454545454546,
+        "lowest_pairs": [
+          [
+            "p4",
+            "tau1",
+            0.000616401853971097
+          ],
+          [
+            "g3",
+            "p1",
+            -0.0021846335735782093
+          ],
+          [
+            "g1",
+            "p3",
+            0.002456562808254398
+          ],
+          [
+            "g2",
+            "p4",
+            0.002743535516533222
+          ],
+          [
+            "g3",
+            "tau4",
+            0.003168441404680386
+          ]
+        ]
+      },
+      {
+        "seed": 23,
+        "mean_abs": 0.04321826307817941,
+        "fraction_abs_below_point1": 0.9545454545454546,
+        "lowest_pairs": [
+          [
+            "g2",
+            "p1",
+            6.81090922718157e-05
+          ],
+          [
+            "g4",
+            "tau4",
+            -0.0014314251296768856
+          ],
+          [
+            "g4",
+            "p4",
+            -0.002007964521798301
+          ],
+          [
+            "g2",
+            "g1",
+            0.002513070641573003
+          ],
+          [
+            "g3",
+            "g1",
+            -0.002935630797257317
+          ]
+        ]
+      },
+      {
+        "seed": 37,
+        "mean_abs": 0.04750138836486251,
+        "fraction_abs_below_point1": 0.9545454545454546,
+        "lowest_pairs": [
+          [
+            "g3",
+            "p3",
+            0.0005196725006527802
+          ],
+          [
+            "g1",
+            "tau4",
+            -0.000804422673780226
+          ],
+          [
+            "g2",
+            "tau1",
+            0.0021537122413990847
+          ],
+          [
+            "tau4",
+            "tau3",
+            0.003292576757851166
+          ],
+          [
+            "g1",
+            "p2",
+            0.003709059788285534
+          ]
+        ]
+      },
+      {
+        "seed": 51,
+        "mean_abs": 0.04256397265660785,
+        "fraction_abs_below_point1": 0.9545454545454546,
+        "lowest_pairs": [
+          [
+            "g3",
+            "tau2",
+            -0.00014301548932516218
+          ],
+          [
+            "p3",
+            "p2",
+            0.0002729350567745001
+          ],
+          [
+            "g4",
+            "tau2",
+            -0.00040715651477838413
+          ],
+          [
+            "p3",
+            "tau1",
+            0.0010266200501829067
+          ],
+          [
+            "g1",
+            "tau2",
+            0.0015494873421874693
+          ]
+        ]
+      },
+      {
+        "seed": 67,
+        "mean_abs": 0.044362290921796464,
+        "fraction_abs_below_point1": 0.9545454545454546,
+        "lowest_pairs": [
+          [
+            "g1",
+            "p4",
+            -7.032610020638103e-05
+          ],
+          [
+            "g1",
+            "p1",
+            0.0005110773629890074
+          ],
+          [
+            "g4",
+            "tau1",
+            0.0006966439367748555
+          ],
+          [
+            "p2",
+            "tau4",
+            -0.003553878168551706
+          ],
+          [
+            "p4",
+            "p2",
+            0.0036191817243227745
+          ]
+        ]
+      }
+    ],
+    "example": {
+      "original": {
+        "tau1": 9.814702987670898,
+        "tau2": 7.296542167663574,
+        "tau3": 8.813858985900879,
+        "tau4": 6.41998291015625,
+        "p1": 4.327933311462402,
+        "p2": -1.7845828533172607,
+        "p3": -1.2542333602905273,
+        "p4": -1.2891173362731934,
+        "g1": 0.3032620847225189,
+        "g2": 0.8327837586402893,
+        "g3": 0.32170727849006653,
+        "g4": 0.34375086426734924
+      },
+      "augmented": {
+        "tau1": 9.814702987670898,
+        "tau2": 7.296542167663574,
+        "tau3": 8.813858985900879,
+        "tau4": 5.893379211425781,
+        "p1": 3.81197452545166,
+        "p2": -0.8917922377586365,
+        "p3": -1.2542333602905273,
+        "p4": -1.2891173362731934,
+        "g1": 0.3032620847225189,
+        "g2": 0.8327837586402893,
+        "g3": 0.8953276872634888,
+        "g4": 0.34375086426734924
+      },
+      "masked": [
+        "tau4",
+        "p1",
+        "p2",
+        "g3"
+      ],
+      "residual": 0.3768315315246582
+    }
+  }
+}

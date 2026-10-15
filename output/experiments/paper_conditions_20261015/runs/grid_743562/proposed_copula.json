@@ -1,0 +1,19 @@
+{
+  "dataset": "grid",
+  "seed": 743562,
+  "method": "proposed_copula",
+  "seconds": 63.077309370040894,
+  "n_source": 10000,
+  "n_after_dedup": 10000,
+  "n_train": 8000,
+  "n_test": 2000,
+  "n_labeled": 2400,
+  "n_unlabeled": 5600,
+  "n_features": 12,
+  "n_classes": 2,
+  "accuracy": 0.6535,
+  "auc": 0.6345905713642426,
+  "balanced_accuracy": 0.5405293649006737,
+  "macro_f1": 0.49642318764122223,
+  "unique_probability_rows": 2000
+}

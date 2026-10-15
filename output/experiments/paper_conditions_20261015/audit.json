@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "n_model_fits": 120,
+  "constant_prediction_conditions": [],
+  "checks": [
+    "all 8 seeds for 5 datasets x3 methods",
+    "500 self/contrastive epochs",
+    "50 pseudo refreshes",
+    "valid probabilities and shared test targets",
+    "30% known labels and unknown labels masked",
+    "disjoint train/test row IDs; no duplicate feature overlap for bean",
+    "known labels preserved in final pseudo targets"
+  ]
+}

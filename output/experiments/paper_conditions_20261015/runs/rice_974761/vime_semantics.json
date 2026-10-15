@@ -1,0 +1,1 @@
+{"dataset": "rice", "seed": 974761, "method": "vime", "n": 1000, "violation_rate": 0.695, "original_violation_rate": 0.0, "mean_residual": 0.018452689051628113, "note": "masks follow each method: Bernoulli for VIME; fixed ceil(.4*p) for class-conditioned"}

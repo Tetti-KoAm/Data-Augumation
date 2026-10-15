@@ -1,0 +1,19 @@
+{
+  "dataset": "rice",
+  "seed": 843198,
+  "method": "proposed_copula",
+  "seconds": 22.452245950698853,
+  "n_source": 3810,
+  "n_after_dedup": 3810,
+  "n_train": 3048,
+  "n_test": 762,
+  "n_labeled": 914,
+  "n_unlabeled": 2134,
+  "n_features": 7,
+  "n_classes": 2,
+  "accuracy": 0.9251968503937008,
+  "auc": 0.9754249451229808,
+  "balanced_accuracy": 0.9191548939044296,
+  "macro_f1": 0.9228464086827544,
+  "unique_probability_rows": 762
+}

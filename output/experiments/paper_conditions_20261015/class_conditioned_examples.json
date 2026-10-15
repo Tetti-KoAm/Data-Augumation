@@ -1,0 +1,161 @@
+{
+  "bean": {
+    "original": {
+      "Area": 35495.0,
+      "Perimeter": 704.5949999999999,
+      "MajorAxisLength": 253.8907406451521,
+      "MinorAxisLength": 178.39469004492076,
+      "AspectRation": 1.4231967362998361,
+      "Eccentricity": 0.7115420217356463,
+      "ConvexArea": 35963.0,
+      "EquivDiameter": 212.58795271692748,
+      "Extent": 0.7562264311737009,
+      "Solidity": 0.9869866251425076,
+      "roundness": 0.8984583113641345,
+      "Compactness": 0.8373206213693667,
+      "ShapeFactor1": 0.007152859294130219,
+      "ShapeFactor2": 0.0021688353986796297,
+      "ShapeFactor3": 0.7011058229703825,
+      "ShapeFactor4": 0.997811519052259
+    },
+    "class_conditioned": {
+      "Area": 33641.0,
+      "Perimeter": 704.5949999999999,
+      "MajorAxisLength": 253.8907406451521,
+      "MinorAxisLength": 178.39469004492076,
+      "AspectRation": 1.4040739518911156,
+      "Eccentricity": 0.7115420217356463,
+      "ConvexArea": 28501.0,
+      "EquivDiameter": 175.483821559039,
+      "Extent": 0.7741619770002447,
+      "Solidity": 0.9907040158651462,
+      "roundness": 0.8984583113641345,
+      "Compactness": 0.8057242286970805,
+      "ShapeFactor1": 0.007152859294130219,
+      "ShapeFactor2": 0.0021688353986796297,
+      "ShapeFactor3": 0.7011058229703825,
+      "ShapeFactor4": 0.997811519052259
+    },
+    "pseudo_class": 3,
+    "masked": [
+      "Area",
+      "AspectRation",
+      "ConvexArea",
+      "EquivDiameter",
+      "Extent",
+      "Solidity",
+      "Compactness"
+    ]
+  },
+  "rice": {
+    "original": {
+      "Area": 10800.0,
+      "Perimeter": 406.4830017089844,
+      "MajorAxisLength": 163.40896606445312,
+      "MinorAxisLength": 85.19110107421875,
+      "Eccentricity": 0.8533509969711304,
+      "ConvexArea": 10960.0,
+      "Extent": 0.6306569576263428
+    },
+    "class_conditioned": {
+      "Area": 12287.0,
+      "Perimeter": 406.4830017089844,
+      "MajorAxisLength": 163.40896606445312,
+      "MinorAxisLength": 85.19110107421875,
+      "Eccentricity": 0.8810211420059204,
+      "ConvexArea": 10960.0,
+      "Extent": 0.7486196160316467
+    },
+    "pseudo_class": 1,
+    "masked": [
+      "Area",
+      "Eccentricity",
+      "Extent"
+    ]
+  },
+  "raisin": {
+    "original": {
+      "Area": 65999.0,
+      "MajorAxisLength": 326.2987214,
+      "MinorAxisLength": 264.4148773,
+      "Eccentricity": 0.585951613,
+      "ConvexArea": 67971.0,
+      "Extent": 0.676864225,
+      "Perimeter": 998.793
+    },
+    "class_conditioned": {
+      "Area": 65999.0,
+      "MajorAxisLength": 328.4888612,
+      "MinorAxisLength": 254.3765834,
+      "Eccentricity": 0.585951613,
+      "ConvexArea": 105569.0,
+      "Extent": 0.676864225,
+      "Perimeter": 998.793
+    },
+    "pseudo_class": 1,
+    "masked": [
+      "MajorAxisLength",
+      "MinorAxisLength",
+      "ConvexArea"
+    ]
+  },
+  "occupancy": {
+    "original": {
+      "Temperature": 19.945,
+      "Humidity": 18.7,
+      "Light": 0.0,
+      "CO2": 438.5,
+      "HumidityRatio": 0.0026870758812226
+    },
+    "class_conditioned": {
+      "Temperature": 20.89,
+      "Humidity": 18.7,
+      "Light": 0.0,
+      "CO2": 438.5,
+      "HumidityRatio": 0.0043714124044013
+    },
+    "pseudo_class": 0,
+    "masked": [
+      "Temperature",
+      "HumidityRatio"
+    ]
+  },
+  "grid": {
+    "original": {
+      "tau1": 8.72621374342244,
+      "tau2": 9.7680209849067,
+      "tau3": 6.43049191283553,
+      "tau4": 8.52694144712745,
+      "p1": 4.41292991307908,
+      "p2": -1.95378792578847,
+      "p3": -1.03916814947972,
+      "p4": -1.41997383781089,
+      "g1": 0.754107304034079,
+      "g2": 0.508726992611527,
+      "g3": 0.858592047622061,
+      "g4": 0.260156702483722
+    },
+    "class_conditioned": {
+      "tau1": 8.72621374342244,
+      "tau2": 9.7680209849067,
+      "tau3": 6.43049191283553,
+      "tau4": 8.52694144712745,
+      "p1": 3.45799655809445,
+      "p2": -1.95378792578847,
+      "p3": -0.678874819957663,
+      "p4": -1.41997383781089,
+      "g1": 0.381145462140576,
+      "g2": 0.81961609507946,
+      "g3": 0.858592047622061,
+      "g4": 0.668981278097209
+    },
+    "pseudo_class": 1,
+    "masked": [
+      "p1",
+      "p3",
+      "g1",
+      "g2",
+      "g4"
+    ]
+  }
+}
