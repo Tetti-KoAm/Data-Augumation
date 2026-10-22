@@ -1,0 +1,147 @@
+[
+  {
+    "number": 1,
+    "title": "",
+    "section": ""
+  },
+  {
+    "number": 2,
+    "title": "発表の流れ",
+    "section": "背景"
+  },
+  {
+    "number": 3,
+    "title": "テーブルでは行が対象、列が属性を表す",
+    "section": "背景"
+  },
+  {
+    "number": 4,
+    "title": "データ拡張で学習に使う例を増やす",
+    "section": "背景"
+  },
+  {
+    "number": 5,
+    "title": "列の値と行全体の意味を同時に保つ難しさ",
+    "section": "背景"
+  },
+  {
+    "number": 6,
+    "title": "Accuracyが高くても少数例を見逃しうる",
+    "section": "背景"
+  },
+  {
+    "number": 7,
+    "title": "少数例不足と損失の偏りは別の問題",
+    "section": "背景"
+  },
+  {
+    "number": 8,
+    "title": "生成しない対照で必要性を確かめる",
+    "section": "背景"
+  },
+  {
+    "number": 9,
+    "title": "合成データには未観測領域への仮定がある",
+    "section": "背景"
+  },
+  {
+    "number": 10,
+    "title": "６手法で異なる生成位置の決め方",
+    "section": "生成方法"
+  },
+  {
+    "number": 11,
+    "title": "列シャッフルは組み合わせを壊しうる",
+    "section": "生成方法"
+  },
+  {
+    "number": 12,
+    "title": "コピュラは特徴間の依存を一緒に扱う",
+    "section": "生成方法"
+  },
+  {
+    "number": 13,
+    "title": "SMOTEは近傍の線分も同じクラスとみなす",
+    "section": "生成方法"
+  },
+  {
+    "number": 14,
+    "title": "コピュラSMOTEは補間する空間を変える",
+    "section": "生成方法"
+  },
+  {
+    "number": 15,
+    "title": "CTGANの柔軟さにも少数例の制約がある",
+    "section": "生成方法"
+  },
+  {
+    "number": 16,
+    "title": "CTGAN×コピュラで追加効果を確かめる",
+    "section": "生成方法"
+  },
+  {
+    "number": 17,
+    "title": "手法の仮定が失敗条件を決める",
+    "section": "生成方法"
+  },
+  {
+    "number": 18,
+    "title": "改善案は失敗の原因から導く",
+    "section": "改善案"
+  },
+  {
+    "number": 19,
+    "title": "特徴が増えるほど相関の推定量も増える",
+    "section": "改善案"
+  },
+  {
+    "number": 20,
+    "title": "集団内補間は誤った橋を減らす候補",
+    "section": "改善案"
+  },
+  {
+    "number": 21,
+    "title": "生成量は誤った例の影響も増やす",
+    "section": "改善案"
+  },
+  {
+    "number": 22,
+    "title": "生成後の検査にも異なる目的がある",
+    "section": "改善案"
+  },
+  {
+    "number": 23,
+    "title": "人工データで失敗の原因を切り分ける",
+    "section": "実験計画"
+  },
+  {
+    "number": 24,
+    "title": "分割・生成・評価を混ぜない比較手順",
+    "section": "実験計画"
+  },
+  {
+    "number": 25,
+    "title": "分類性能は目的、生成品質は仕組みを測る",
+    "section": "実験計画"
+  },
+  {
+    "number": 26,
+    "title": "失敗条件と改善効果の対応を明らかにする",
+    "section": "実験計画"
+  },
+  {
+    "number": 27,
+    "title": "補足：複合手法は処理を固定して比較する",
+    "section": "補足"
+  },
+  {
+    "number": 28,
+    "title": "補足：半教師ありへ進むための基準",
+    "section": "補足"
+  },
+  {
+    "number": 29,
+    "title": "参考文献と共有論文の確認状況",
+    "section": "補足"
+  }
+]
