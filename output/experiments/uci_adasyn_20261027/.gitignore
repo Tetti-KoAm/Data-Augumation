@@ -1,0 +1,4 @@
+__pycache__/
+results/
+validation_non_gan/
+validation_all_methods/

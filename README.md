@@ -37,3 +37,7 @@ scripts/run_quick_compare.sh --epochs 15 --vime-iterations 300
 - [論文条件との対応・実装上の調整](output/experiments/paper_conditions_20261015/PROTOCOL.md)と[再現手順](output/experiments/paper_conditions_20261015/README.md)。
 
 低相関の特徴ペアを含む候補の比較であり、全特徴が無相関な5データを確保した実験ではありません。
+
+## ゼミコメント対応：ADASYN・少数割合・10回反復（2026-10-27）
+
+[実行手順と実験条件](output/experiments/uci_adasyn_20261027/README.md)。既存6生成法にADASYN・コピュラADASYNを追加し、UCIの3二値分類データで少数10%・20%・30%を各10回比較します。平均・標本標準偏差・成功回数を自動集計します。

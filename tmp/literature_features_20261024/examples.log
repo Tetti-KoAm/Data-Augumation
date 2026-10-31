@@ -1,0 +1,40 @@
+{
+  "condition": {
+    "minority_fraction": 0.1,
+    "seed": 11,
+    "method": "shuffle",
+    "variant": "base"
+  },
+  "selection": "largest Area-ConvexArea or largest absolute power residual; extreme illustration, not representative frequency",
+  "examples": {
+    "rice": {
+      "zero_based_generated_row": 607,
+      "Area": 16734.0,
+      "ConvexArea": 12740.0,
+      "excess": 3994.0,
+      "required_relation": "Area <= ConvexArea"
+    },
+    "raisin": {
+      "zero_based_generated_row": 257,
+      "Area": 218459.0,
+      "ConvexArea": 56030.0,
+      "excess": 162429.0,
+      "required_relation": "Area <= ConvexArea"
+    },
+    "grid": {
+      "zero_based_generated_row": 857,
+      "p1": 5.58632954964135,
+      "p2": -1.00755712991671,
+      "p3": -0.790205917054031,
+      "p4": -0.656062390501308,
+      "required_p1": 2.453825437472049,
+      "signed_power_residual": 3.1325041121693005,
+      "required_relation": "p1+p2+p3+p4=0"
+    }
+  },
+  "relation_violation_mean_over_5_seeds": {
+    "grid": 0.9940909090909091,
+    "raisin": 0.9550000000000001,
+    "rice": 0.7775000000000001
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "passed": true,
+  "conditions": 45,
+  "classifier_rechecks": 90,
+  "definition": "minority-only random sampling with replacement, no smoothing; equivalent ROS operation",
+  "checks": [
+    "all added rows exactly match an original minority row",
+    "class balance 1:1",
+    "same added row count as each generator",
+    "90 classifier evaluations replayed; all six reported metrics equal saved duplicate results within 1e-12"
+  ],
+  "conditions_detail": [
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.1,
+      "seed": 11,
+      "generated_copy_fraction": 1.0,
+      "n_added": 880,
+      "balanced_train_counts": [
+        990,
+        990
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.1,
+      "seed": 23,
+      "generated_copy_fraction": 1.0,
+      "n_added": 880,
+      "balanced_train_counts": [
+        990,
+        990
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.1,
+      "seed": 37,
+      "generated_copy_fraction": 1.0,
+      "n_added": 880,
+      "balanced_train_counts": [
+        990,
+        990
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.1,
+      "seed": 51,
+      "generated_copy_fraction": 1.0,
+      "n_added": 880,
+      "balanced_train_counts": [
+        990,
+        990
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.1,
+      "seed": 67,
+      "generated_copy_fraction": 1.0,
+      "n_added": 880,
+      "balanced_train_counts": [
+        990,
+        990
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.2,
+      "seed": 11,
+      "generated_copy_fraction": 1.0,
+      "n_added": 660,
+      "balanced_train_counts": [
+        880,
+        880
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.2,
+      "seed": 23,
+      "generated_copy_fraction": 1.0,
+      "n_added": 660,
+      "balanced_train_counts": [
+        880,
+        880
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.2,
+      "seed": 37,
+      "generated_copy_fraction": 1.0,
+      "n_added": 660,
+      "balanced_train_counts": [
+        880,
+        880
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.2,
+      "seed": 51,
+      "generated_copy_fraction": 1.0,
+      "n_added": 660,
+      "balanced_train_counts": [
+        880,
+        880
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.2,
+      "seed": 67,
+      "generated_copy_fraction": 1.0,
+      "n_added": 660,
+      "balanced_train_counts": [
+        880,
+        880
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.3,
+      "seed": 11,
+      "generated_copy_fraction": 1.0,
+      "n_added": 440,
+      "balanced_train_counts": [
+        770,
+        770
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.3,
+      "seed": 23,
+      "generated_copy_fraction": 1.0,
+      "n_added": 440,
+      "balanced_train_counts": [
+        770,
+        770
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.3,
+      "seed": 37,
+      "generated_copy_fraction": 1.0,
+      "n_added": 440,
+      "balanced_train_counts": [
+        770,
+        770
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.3,
+      "seed": 51,
+      "generated_copy_fraction": 1.0,
+      "n_added": 440,
+      "balanced_train_counts": [
+        770,
+        770
+      ]
+    },
+    {
+      "dataset": "rice",
+      "minority_fraction": 0.3,
+      "seed": 67,
+      "generated_copy_fraction": 1.0,
+      "n_added": 440,
+      "balanced_train_counts": [
+        770,
+        770
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.1,
+      "seed": 11,
+      "generated_copy_fraction": 1.0,
+      "n_added": 280,
+      "balanced_train_counts": [
+        315,
+        315
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.1,
+      "seed": 23,
+      "generated_copy_fraction": 1.0,
+      "n_added": 280,
+      "balanced_train_counts": [
+        315,
+        315
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.1,
+      "seed": 37,
+      "generated_copy_fraction": 1.0,
+      "n_added": 280,
+      "balanced_train_counts": [
+        315,
+        315
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.1,
+      "seed": 51,
+      "generated_copy_fraction": 1.0,
+      "n_added": 280,
+      "balanced_train_counts": [
+        315,
+        315
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.1,
+      "seed": 67,
+      "generated_copy_fraction": 1.0,
+      "n_added": 280,
+      "balanced_train_counts": [
+        315,
+        315
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.2,
+      "seed": 11,
+      "generated_copy_fraction": 1.0,
+      "n_added": 210,
+      "balanced_train_counts": [
+        280,
+        280
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.2,
+      "seed": 23,
+      "generated_copy_fraction": 1.0,
+      "n_added": 210,
+      "balanced_train_counts": [
+        280,
+        280
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.2,
+      "seed": 37,
+      "generated_copy_fraction": 1.0,
+      "n_added": 210,
+      "balanced_train_counts": [
+        280,
+        280
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.2,
+      "seed": 51,
+      "generated_copy_fraction": 1.0,
+      "n_added": 210,
+      "balanced_train_counts": [
+        280,
+        280
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.2,
+      "seed": 67,
+      "generated_copy_fraction": 1.0,
+      "n_added": 210,
+      "balanced_train_counts": [
+        280,
+        280
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.3,
+      "seed": 11,
+      "generated_copy_fraction": 1.0,
+      "n_added": 140,
+      "balanced_train_counts": [
+        245,
+        245
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.3,
+      "seed": 23,
+      "generated_copy_fraction": 1.0,
+      "n_added": 140,
+      "balanced_train_counts": [
+        245,
+        245
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.3,
+      "seed": 37,
+      "generated_copy_fraction": 1.0,
+      "n_added": 140,
+      "balanced_train_counts": [
+        245,
+        245
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.3,
+      "seed": 51,
+      "generated_copy_fraction": 1.0,
+      "n_added": 140,
+      "balanced_train_counts": [
+        245,
+        245
+      ]
+    },
+    {
+      "dataset": "raisin",
+      "minority_fraction": 0.3,
+      "seed": 67,
+      "generated_copy_fraction": 1.0,
+      "n_added": 140,
+      "balanced_train_counts": [
+        245,
+        245
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.1,
+      "seed": 11,
+      "generated_copy_fraction": 1.0,
+      "n_added": 880,
+      "balanced_train_counts": [
+        990,
+        990
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.1,
+      "seed": 23,
+      "generated_copy_fraction": 1.0,
+      "n_added": 880,
+      "balanced_train_counts": [
+        990,
+        990
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.1,
+      "seed": 37,
+      "generated_copy_fraction": 1.0,
+      "n_added": 880,
+      "balanced_train_counts": [
+        990,
+        990
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.1,
+      "seed": 51,
+      "generated_copy_fraction": 1.0,
+      "n_added": 880,
+      "balanced_train_counts": [
+        990,
+        990
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.1,
+      "seed": 67,
+      "generated_copy_fraction": 1.0,
+      "n_added": 880,
+      "balanced_train_counts": [
+        990,
+        990
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.2,
+      "seed": 11,
+      "generated_copy_fraction": 1.0,
+      "n_added": 660,
+      "balanced_train_counts": [
+        880,
+        880
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.2,
+      "seed": 23,
+      "generated_copy_fraction": 1.0,
+      "n_added": 660,
+      "balanced_train_counts": [
+        880,
+        880
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.2,
+      "seed": 37,
+      "generated_copy_fraction": 1.0,
+      "n_added": 660,
+      "balanced_train_counts": [
+        880,
+        880
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.2,
+      "seed": 51,
+      "generated_copy_fraction": 1.0,
+      "n_added": 660,
+      "balanced_train_counts": [
+        880,
+        880
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.2,
+      "seed": 67,
+      "generated_copy_fraction": 1.0,
+      "n_added": 660,
+      "balanced_train_counts": [
+        880,
+        880
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.3,
+      "seed": 11,
+      "generated_copy_fraction": 1.0,
+      "n_added": 440,
+      "balanced_train_counts": [
+        770,
+        770
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.3,
+      "seed": 23,
+      "generated_copy_fraction": 1.0,
+      "n_added": 440,
+      "balanced_train_counts": [
+        770,
+        770
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.3,
+      "seed": 37,
+      "generated_copy_fraction": 1.0,
+      "n_added": 440,
+      "balanced_train_counts": [
+        770,
+        770
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.3,
+      "seed": 51,
+      "generated_copy_fraction": 1.0,
+      "n_added": 440,
+      "balanced_train_counts": [
+        770,
+        770
+      ]
+    },
+    {
+      "dataset": "grid",
+      "minority_fraction": 0.3,
+      "seed": 67,
+      "generated_copy_fraction": 1.0,
+      "n_added": 440,
+      "balanced_train_counts": [
+        770,
+        770
+      ]
+    }
+  ]
+}

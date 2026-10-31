@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "jobs": 15,
+  "classification_evaluations": 450,
+  "quality_evaluations": 195,
+  "generators": 6,
+  "seeds": 5,
+  "checks": [
+    "source hash and exact persisted train/test rows",
+    "disjoint train/test indices",
+    "equal generated row counts and finite values",
+    "300 epoch loss traces for all GANs",
+    "repair consistency and idempotence",
+    "all macro F1 and balanced accuracy reconstructed from confusion matrices",
+    "three logistic results replayed from saved generated rows"
+  ],
+  "replays": [
+    {
+      "method": "none",
+      "macro_f1": 0.8793834015195792
+    },
+    {
+      "method": "smote",
+      "macro_f1": 0.9234587089098056
+    },
+    {
+      "method": "ctgan",
+      "macro_f1": 0.8836766792080429
+    }
+  ]
+}

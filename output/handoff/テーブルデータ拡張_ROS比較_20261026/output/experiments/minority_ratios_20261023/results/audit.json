@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "jobs": 45,
+  "classification_rows": 1350,
+  "checks": [
+    "exact original and persisted train/test arrays",
+    "disjoint indices",
+    "fixed training totals and exact minority ratios",
+    "common test set and nested class subsets across ratios",
+    "equal generated counts and finite values",
+    "300 GAN epochs",
+    "all Macro-F1 values from confusion counts",
+    "predefined repair relation checks"
+  ]
+}

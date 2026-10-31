@@ -1,0 +1,222 @@
+[
+  {
+    "number": 1,
+    "title": "",
+    "section": ""
+  },
+  {
+    "number": 2,
+    "title": "発表の流れ",
+    "section": "導入"
+  },
+  {
+    "number": 3,
+    "title": "クラス不均衡で生じる学習上の課題",
+    "section": "課題の定義"
+  },
+  {
+    "number": 4,
+    "title": "データ拡張の課題を定義する",
+    "section": "課題の定義"
+  },
+  {
+    "number": 5,
+    "title": "６手法が少数例を増やす方法",
+    "section": "手法の全体像"
+  },
+  {
+    "number": 6,
+    "title": "列シャッフル：観測済みの値を組み替える",
+    "section": "手法１／６"
+  },
+  {
+    "number": 7,
+    "title": "コピュラ：周辺分布と依存を分けて扱う",
+    "section": "手法２／６"
+  },
+  {
+    "number": 8,
+    "title": "SMOTE：少数例の近傍を線形補間する",
+    "section": "手法３／６"
+  },
+  {
+    "number": 9,
+    "title": "コピュラSMOTE：変換空間で近傍を補間",
+    "section": "手法４／６"
+  },
+  {
+    "number": 10,
+    "title": "CTGAN：ラベルを条件に行の分布を学習",
+    "section": "手法５／６"
+  },
+  {
+    "number": 11,
+    "title": "CTGAN×コピュラ：分布変換とGANを組み合わせる",
+    "section": "手法６／６"
+  },
+  {
+    "number": 12,
+    "title": "６手法で異なる仮定と課題",
+    "section": "手法の整理"
+  },
+  {
+    "number": 13,
+    "title": "先行研究と今回の実装の対応",
+    "section": "先行研究"
+  },
+  {
+    "number": 14,
+    "title": "公開データで確かめること",
+    "section": "実験の目的"
+  },
+  {
+    "number": 15,
+    "title": "使用する公開データ",
+    "section": "実験条件"
+  },
+  {
+    "number": 16,
+    "title": "米・レーズンの７つの特徴量",
+    "section": "特徴量と列間の関係"
+  },
+  {
+    "number": 17,
+    "title": "形状特徴にある列間の関係",
+    "section": "特徴量と列間の関係"
+  },
+  {
+    "number": 18,
+    "title": "列別抽出で実際に生じた面積の矛盾",
+    "section": "保存済み生成データの診断"
+  },
+  {
+    "number": 19,
+    "title": "電力網の12特徴と分類ラベル",
+    "section": "特徴量と列間の関係"
+  },
+  {
+    "number": 20,
+    "title": "列別抽出で実際に崩れた電力収支",
+    "section": "保存済み生成データの診断"
+  },
+  {
+    "number": 21,
+    "title": "列関係の無視が学習に与えうる影響",
+    "section": "課題と実験のつながり"
+  },
+  {
+    "number": 22,
+    "title": "少数割合10％・20％・30％の作り方",
+    "section": "実験条件"
+  },
+  {
+    "number": 23,
+    "title": "実験手順と比較の対照",
+    "section": "実験条件"
+  },
+  {
+    "number": 24,
+    "title": "追加する対照：ランダムオーバーサンプリング",
+    "section": "単純複製との比較"
+  },
+  {
+    "number": 25,
+    "title": "評価指標",
+    "section": "実験条件"
+  },
+  {
+    "number": 26,
+    "title": "米：ロジスティック回帰",
+    "section": "実験結果"
+  },
+  {
+    "number": 27,
+    "title": "米：勾配ブースティング",
+    "section": "実験結果"
+  },
+  {
+    "number": 28,
+    "title": "レーズン：ロジスティック回帰",
+    "section": "実験結果"
+  },
+  {
+    "number": 29,
+    "title": "レーズン：勾配ブースティング",
+    "section": "実験結果"
+  },
+  {
+    "number": 30,
+    "title": "電力網：ロジスティック回帰",
+    "section": "実験結果"
+  },
+  {
+    "number": 31,
+    "title": "電力網：勾配ブースティング",
+    "section": "実験結果"
+  },
+  {
+    "number": 32,
+    "title": "米：６生成法はROSを上回ったか",
+    "section": "ROSとの差による比較"
+  },
+  {
+    "number": 33,
+    "title": "レーズン：６生成法はROSを上回ったか",
+    "section": "ROSとの差による比較"
+  },
+  {
+    "number": 34,
+    "title": "電力網：６生成法はROSを上回ったか",
+    "section": "ROSとの差による比較"
+  },
+  {
+    "number": 35,
+    "title": "電力網：少数割合と性能の変化",
+    "section": "実験結果"
+  },
+  {
+    "number": 36,
+    "title": "生成品質：電力の収支関係の違反率",
+    "section": "実験結果"
+  },
+  {
+    "number": 37,
+    "title": "実験結果をデータ拡張の課題に戻して読む",
+    "section": "考察"
+  },
+  {
+    "number": 38,
+    "title": "課題に対応する改善案",
+    "section": "改善案"
+  },
+  {
+    "number": 39,
+    "title": "今回の実験の限界",
+    "section": "限界"
+  },
+  {
+    "number": 40,
+    "title": "まとめ",
+    "section": "結論"
+  },
+  {
+    "number": 41,
+    "title": "再現のための実装設定",
+    "section": "付録"
+  },
+  {
+    "number": 42,
+    "title": "参考文献１：シャッフル・コピュラ・SMOTE",
+    "section": "参考文献"
+  },
+  {
+    "number": 43,
+    "title": "参考文献２：CopulaSMOTE・CTGAN",
+    "section": "参考文献"
+  },
+  {
+    "number": 44,
+    "title": "参考文献３：公式実装と特徴量の出典",
+    "section": "参考文献"
+  }
+]

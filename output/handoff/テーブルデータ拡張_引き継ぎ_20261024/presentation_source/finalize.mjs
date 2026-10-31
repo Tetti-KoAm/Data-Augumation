@@ -1,0 +1,12 @@
+import path from 'node:path';
+import fs from 'node:fs/promises';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const S=process.env.PRESENTATIONS_SKILL_DIR;
+if(!S||!process.env.RUNTIME_PYTHON)throw new Error('PRESENTATIONS_SKILL_DIR と RUNTIME_PYTHON を設定してください。');
+process.env.RUNTIME_NODE ||= process.execPath;
+const D=ROOT+'/presentation_source/build_out';
+const {finalizePresentation}=await import(pathToFileURL(path.join(S,'container_tools/artifact_tool_utils.mjs')).href);
+const suffix=new Date().toISOString().replace(/[:.]/g,'-');
+const result=await finalizePresentation({workspaceDir:ROOT,candidatePath:D+'/candidate.pptx',finalPath:ROOT+'/資料/テーブルデータ拡張_更新_'+suffix+'.pptx',pythonExecutable:process.env.RUNTIME_PYTHON,integrityValidatorPath:S+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:S+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],fontPolicy:{basis:'design',families:[process.env.SLIDE_FONT_FAMILY||'Hiragino Sans']},requiredNativeChartOwnerSlides:[24],materializeLiteralChartWorkbooks:true,nativeChartTargetApplication:'powerpoint',verifyArtifactToolImport:true,receiptPath:D+'/validation-'+suffix+'.json'});
+console.log(JSON.stringify(result));

@@ -1,0 +1,10 @@
+dataset,seed,method,generator_seconds,n_added,conditional_label_acceptance,conditional_candidates,conditional_returned_minority
+raisin,11,none,0.0,0,,,
+raisin,11,duplicate,0.00015349999921454582,284,,,
+raisin,11,class_weight,0.0,0,,,
+raisin,11,shuffle,0.00020429200048965868,284,,,
+raisin,11,copula,0.006248957999559934,284,,,
+raisin,11,smote,0.001346290999208577,284,,,
+raisin,11,copula_smote,0.0016620000005787006,284,,,
+raisin,11,ctgan,1.08577675000015,284,0.4298245614035088,684.0,294.0
+raisin,11,ctgan_copula,0.41107150000061665,284,0.42543859649122806,684.0,291.0

@@ -1,0 +1,11 @@
+from pathlib import Path
+s=Path('output/experiments/six_methods_20261023/run.py').read_text()
+s=s.replace('name,seed,epochs,out=args;', 'name,seed,rho,epochs,out=args;').replace("work=out/f'{name}_{seed}'", "work=out/f'{name}_{int(rho*100)}_{seed}'")
+s=s.replace("ma=rng.choice(ma,size=min(1000,len(ma)),replace=False); mi=rng.choice(mi,size=len(ma)//10,replace=False)","total=(int(min(1100,len(ma)/.9,len(mi)/.3))//10)*10\n    ma=rng.permutation(ma)[:int(round(total*(1-rho)))]; mi=rng.permutation(mi)[:int(round(total*rho))]")
+s=s.replace('meta.update(seed=seed,','meta.update(seed=seed,minority_fraction=rho,train_total=len(y),')
+s=s.replace('dict(dataset=name,seed=seed,','dict(dataset=name,seed=seed,minority_fraction=rho,')
+s=s.replace("{'dataset':name,'seed':seed,", "{'dataset':name,'seed':seed,'minority_fraction':rho,")
+s=s.replace("ap.add_argument('--seeds'", "ap.add_argument('--ratios',nargs='+',type=float,default=[.1,.2,.3]); ap.add_argument('--seeds'")
+s=s.replace("'train_majority_cap':1000,'train_ratio':10,", "'train_total_cap':1100,'minority_fractions':a.ratios,'sampling':'fixed total within dataset; class-specific nested prefixes across ratios',")
+s=s.replace("tasks=[(d,s,a.epochs,str(a.out)) for d in a.datasets for s in a.seeds]", "tasks=[(d,s,r,a.epochs,str(a.out)) for d in a.datasets for r in a.ratios for s in a.seeds]")
+Path('output/experiments/minority_ratios_20261023/run.py').write_text(s)

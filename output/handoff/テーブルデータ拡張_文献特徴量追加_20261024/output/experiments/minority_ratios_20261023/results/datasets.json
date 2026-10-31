@@ -1,0 +1,1577 @@
+[
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 11,
+    "minority_fraction": 0.1,
+    "train_total": 1100,
+    "train_counts": [
+      990,
+      110
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 880,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.665891385272854e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.5483121055966235e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 23,
+    "minority_fraction": 0.1,
+    "train_total": 1100,
+    "train_counts": [
+      990,
+      110
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 880,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6494254210241975e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.5936124809666874e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 37,
+    "minority_fraction": 0.1,
+    "train_total": 1100,
+    "train_counts": [
+      990,
+      110
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 880,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6556223882766764e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6245418746593546e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 51,
+    "minority_fraction": 0.1,
+    "train_total": 1100,
+    "train_counts": [
+      990,
+      110
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 880,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6788379451071477e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7602947631857222e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 67,
+    "minority_fraction": 0.1,
+    "train_total": 1100,
+    "train_counts": [
+      990,
+      110
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 880,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.655427284959336e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6202157482325676e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 11,
+    "minority_fraction": 0.2,
+    "train_total": 1100,
+    "train_counts": [
+      880,
+      220
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 660,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6617160491656916e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.5760640031443013e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 23,
+    "minority_fraction": 0.2,
+    "train_total": 1100,
+    "train_counts": [
+      880,
+      220
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 660,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6210467398515182e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.5486090725930717e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 37,
+    "minority_fraction": 0.2,
+    "train_total": 1100,
+    "train_counts": [
+      880,
+      220
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 660,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.667338523570937e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6885453251281778e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 51,
+    "minority_fraction": 0.2,
+    "train_total": 1100,
+    "train_counts": [
+      880,
+      220
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 660,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.649071387413689e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.625818092124395e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 67,
+    "minority_fraction": 0.2,
+    "train_total": 1100,
+    "train_counts": [
+      880,
+      220
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 660,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6609834150607935e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.671391807380538e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 11,
+    "minority_fraction": 0.3,
+    "train_total": 1100,
+    "train_counts": [
+      770,
+      330
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 440,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6512274500148713e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.5534540797158445e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 23,
+    "minority_fraction": 0.3,
+    "train_total": 1100,
+    "train_counts": [
+      770,
+      330
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 440,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.628257064683664e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.560669708080015e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 37,
+    "minority_fraction": 0.3,
+    "train_total": 1100,
+    "train_counts": [
+      770,
+      330
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 440,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6392971813933792e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6253426583411436e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 51,
+    "minority_fraction": 0.3,
+    "train_total": 1100,
+    "train_counts": [
+      770,
+      330
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 440,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6437300158161413e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.59691362416387e-08
+    }
+  },
+  {
+    "n": 3810,
+    "features": 7,
+    "positive": "Cammeo",
+    "negative": "Osmancik",
+    "original_counts": [
+      2180,
+      1630
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "file": "output/experiments/public_semantics_20261015/data/545/Rice_Cammeo_Osmancik.arff",
+    "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+    "seed": 67,
+    "minority_fraction": 0.3,
+    "train_total": 1100,
+    "train_counts": [
+      770,
+      330
+    ],
+    "test_counts": [
+      654,
+      489
+    ],
+    "n_added": 440,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6553091162521934e-08
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6378794379690368e-08
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 11,
+    "minority_fraction": 0.1,
+    "train_total": 350,
+    "train_counts": [
+      315,
+      35
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 280,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.6838349320712497e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.1534463101602341e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 23,
+    "minority_fraction": 0.1,
+    "train_total": 350,
+    "train_counts": [
+      315,
+      35
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 280,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.5934466146055563e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.7179204918427654e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 37,
+    "minority_fraction": 0.1,
+    "train_total": 350,
+    "train_counts": [
+      315,
+      35
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 280,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.715890748802455e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.5518557108686734e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 51,
+    "minority_fraction": 0.1,
+    "train_total": 350,
+    "train_counts": [
+      315,
+      35
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 280,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.676213442917178e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.760400987154656e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 67,
+    "minority_fraction": 0.1,
+    "train_total": 350,
+    "train_counts": [
+      315,
+      35
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 280,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.6390286099266446e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.318145231328117e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 11,
+    "minority_fraction": 0.2,
+    "train_total": 350,
+    "train_counts": [
+      280,
+      70
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 210,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.622247783991481e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.2027484439643022e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 23,
+    "minority_fraction": 0.2,
+    "train_total": 350,
+    "train_counts": [
+      280,
+      70
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 210,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.648845052823288e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.814885245529451e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 37,
+    "minority_fraction": 0.2,
+    "train_total": 350,
+    "train_counts": [
+      280,
+      70
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 210,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.642056832044152e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.3204831072527148e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 51,
+    "minority_fraction": 0.2,
+    "train_total": 350,
+    "train_counts": [
+      280,
+      70
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 210,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.6246449410674953e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.552043513023453e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 67,
+    "minority_fraction": 0.2,
+    "train_total": 350,
+    "train_counts": [
+      280,
+      70
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 210,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.56132563571297e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.2052842726541906e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 11,
+    "minority_fraction": 0.3,
+    "train_total": 350,
+    "train_counts": [
+      245,
+      105
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 140,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.6303652018404883e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.3536892117854386e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 23,
+    "minority_fraction": 0.3,
+    "train_total": 350,
+    "train_counts": [
+      245,
+      105
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 140,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.634111205347876e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.603064208628325e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 37,
+    "minority_fraction": 0.3,
+    "train_total": 350,
+    "train_counts": [
+      245,
+      105
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 140,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.5829364789866e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.2516421742985976e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 51,
+    "minority_fraction": 0.3,
+    "train_total": 350,
+    "train_counts": [
+      245,
+      105
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 140,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.6090555033902216e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.422329733623282e-10
+    }
+  },
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 67,
+    "minority_fraction": 0.3,
+    "train_total": 350,
+    "train_counts": [
+      245,
+      105
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 140,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.5562918496265953e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.3079372064265563e-10
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 11,
+    "minority_fraction": 0.1,
+    "train_total": 1100,
+    "train_counts": [
+      990,
+      110
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 880,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7477938288576214e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7440594423202459e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 23,
+    "minority_fraction": 0.1,
+    "train_total": 1100,
+    "train_counts": [
+      990,
+      110
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 880,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7905878799886275e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.194204414122809e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 37,
+    "minority_fraction": 0.1,
+    "train_total": 1100,
+    "train_counts": [
+      990,
+      110
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 880,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7440594423202459e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6411114891277313e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 51,
+    "minority_fraction": 0.1,
+    "train_total": 1100,
+    "train_counts": [
+      990,
+      110
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 880,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7752466163756253e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6703810052314855e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 67,
+    "minority_fraction": 0.1,
+    "train_total": 1100,
+    "train_counts": [
+      990,
+      110
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 880,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.8607337892717625e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.8974720784502674e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 11,
+    "minority_fraction": 0.2,
+    "train_total": 1100,
+    "train_counts": [
+      880,
+      220
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 660,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7533449439807472e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7041923427996153e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 23,
+    "minority_fraction": 0.2,
+    "train_total": 1100,
+    "train_counts": [
+      880,
+      220
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 660,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.80835144838263e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.042305718480913e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 37,
+    "minority_fraction": 0.2,
+    "train_total": 1100,
+    "train_counts": [
+      880,
+      220
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 660,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7531430852489972e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6683624179139852e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 51,
+    "minority_fraction": 0.2,
+    "train_total": 1100,
+    "train_counts": [
+      880,
+      220
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 660,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7645481035928739e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.6870343506008629e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 67,
+    "minority_fraction": 0.2,
+    "train_total": 1100,
+    "train_counts": [
+      880,
+      220
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 660,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.8604310011741374e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.91463007064902e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 11,
+    "minority_fraction": 0.3,
+    "train_total": 1100,
+    "train_counts": [
+      770,
+      330
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 440,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.785339552963127e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.818410741848173e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 23,
+    "minority_fraction": 0.3,
+    "train_total": 1100,
+    "train_counts": [
+      770,
+      330
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 440,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.788266504573502e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.9277508882127718e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 37,
+    "minority_fraction": 0.3,
+    "train_total": 1100,
+    "train_counts": [
+      770,
+      330
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 440,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7497114868092467e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7147899262164918e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 51,
+    "minority_fraction": 0.3,
+    "train_total": 1100,
+    "train_counts": [
+      770,
+      330
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 440,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7847339767678765e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.7666003340323324e-15
+    }
+  },
+  {
+    "n": 10000,
+    "features": 12,
+    "positive": "stable",
+    "negative": "unstable",
+    "original_counts": [
+      6380,
+      3620
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+    "file": "output/experiments/public_semantics_20261015/data/471/Data_for_UCI_named.csv",
+    "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+    "seed": 67,
+    "minority_fraction": 0.3,
+    "train_total": 1100,
+    "train_counts": [
+      770,
+      330
+    ],
+    "test_counts": [
+      1914,
+      1086
+    ],
+    "n_added": 440,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.864670034540888e-15
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 1.874594755518598e-15
+    }
+  }
+]

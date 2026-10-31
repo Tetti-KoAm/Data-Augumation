@@ -1,0 +1,35 @@
+[
+  {
+    "n": 900,
+    "features": 7,
+    "positive": "Besni",
+    "negative": "Kecimen",
+    "original_counts": [
+      450,
+      450
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "file": "output/experiments/public_semantics_20261015/data/850/Raisin_Dataset/Raisin_Dataset.arff",
+    "sha256": "8a33803b5961650225150740fa09fa31ee8875266277c7ac3291e2a3ee351814",
+    "seed": 11,
+    "train_counts": [
+      315,
+      31
+    ],
+    "test_counts": [
+      135,
+      135
+    ],
+    "n_added": 284,
+    "source_train_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.732536246086865e-10
+    },
+    "source_minority_semantics": {
+      "relation_violation": 0.0,
+      "bound_violation": 0.0,
+      "relation_residual": 2.6285785734427785e-10
+    }
+  }
+]

@@ -1,0 +1,17 @@
+from pathlib import Path
+R=Path.cwd(); B=R/'tmp/layout_reference_20261024';s=(R/'tmp/minority_ratios_20261023/build.mjs').read_text().replace('tmp/minority_ratios_20261023','tmp/layout_reference_20261024')
+s=s.replace("navy:'#102B46',teal:'#167C80',orange:'#D96B35',ink:'#22384D',muted:'#647789',grid:'#DCE5EB',pale:'#EDF4F6'", "navy:'#222222',teal:'#2D8061',orange:'#D95332',ink:'#222222',muted:'#808080',grid:'#222222',pale:'#F5F5F5'")
+s=s.replace("text(s,title,64,42,1152,94,43,C.navy,true);", "text(s,title,34,10,1212,78,title.length>26?40:48,C.ink,true,'center');\n if(title)s.shapes.add({geometry:'rect',position:{left:34,top:97,width:1212,height:1.4},fill:'#222222',line:{fill:'none',width:0}});")
+s=s.replace("text(s,section,68,674,1000,25,16,C.muted);", "text(s,section,60,686,1000,25,16,C.muted);")
+s=s.replace("text(s,String(n).padStart(2,'0'),1150,666,65,35,20,C.muted,false,'right');", "text(s,String(n),1195,682,38,30,18,C.muted,false,'right');")
+s=s.replace("function take(s,t){text(s,t,68,594,1144,59,29,C.teal,true);}","function take(s,t){s.shapes.add({geometry:'rect',position:{left:54,top:590,width:1172,height:70},fill:'#E6F1EB',line:{fill:'none',width:0}});text(s,t,66,605,1148,48,t.length>44?25:29,C.teal,true,'center');}")
+s=s.replace("z.fill=r===0?C.navy:r%2?C.pale:C.white;", "z.fill=r===0?'#E6F1EB':r%2?C.white:C.pale;")
+s=s.replace("color:r===0?C.white:C.ink", "color:r===0?C.teal:C.ink,alignment:'center'")
+s=s.replace("text(s,'最高平均　'+winners.join(' ／ '),68,594,1144,59,24,C.teal,true);", "take(s,'最高平均　'+winners.join(' ／ '));")
+a=s.index("s=add('','','全件ラベル付き二値分類")
+b=s.index("\nprose('発表の流れ'",a)
+s=s[:a]+"""s=add('','','全件ラベル付き二値分類を対象とし、少数クラス割合を10%,20%,30%に制御した実験。','まずデータ拡張の課題を定義します。');\ntext(s,'ゼミ発表',80,185,1120,100,76,C.ink,false,'center');\ntext(s,'テーブルデータにおけるデータ拡張',60,325,1160,80,49,C.ink,false,'center');\ntext(s,'少数クラスの割合：10％・20％・30％の比較',80,435,1120,48,28,C.ink,false,'center');\ntext(s,'齊藤光汰',80,505,1120,48,27,C.ink,false,'center');\n"""+s[b:]
+(B/'build.mjs').write_text(s)
+f=(R/'tmp/minority_ratios_20261023/finalize.mjs').read_text().replace('tmp/minority_ratios_20261023','tmp/layout_reference_20261024')
+f=f.replace('output/presentations/少数クラス割合比較_20261023/テーブルデータにおけるデータ拡張_課題と６手法_少数10_20_30％比較_改訂版.pptx','output/handoff/テーブルデータ拡張_引き継ぎ_20261024/資料/テーブルデータにおけるデータ拡張_参照レイアウト版.pptx').replace('validation-final-v3.json','validation-layout.json')
+(B/'finalize.mjs').write_text(f)

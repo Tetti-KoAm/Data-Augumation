@@ -1,0 +1,6 @@
+{
+  "conditional_label_acceptance": 0.2986842105263158,
+  "conditional_candidates": 3040,
+  "conditional_returned_minority": 908,
+  "generator_seconds": 16.142319499998848
+}

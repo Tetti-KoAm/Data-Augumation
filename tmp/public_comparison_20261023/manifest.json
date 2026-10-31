@@ -1,0 +1,147 @@
+[
+  {
+    "number": 1,
+    "title": "",
+    "section": ""
+  },
+  {
+    "number": 2,
+    "title": "今回の問いと発表の流れ",
+    "section": "目的"
+  },
+  {
+    "number": 3,
+    "title": "使用する３つの公開データ",
+    "section": "公開データ"
+  },
+  {
+    "number": 4,
+    "title": "訓練データだけを約10：１にする",
+    "section": "実験条件"
+  },
+  {
+    "number": 5,
+    "title": "比較を公平にする実験手順",
+    "section": "実験条件"
+  },
+  {
+    "number": 6,
+    "title": "６手法の生成の考え方",
+    "section": "手法の全体像"
+  },
+  {
+    "number": 7,
+    "title": "列シャッフルの仕組みと実際の生成点",
+    "section": "手法の説明"
+  },
+  {
+    "number": 8,
+    "title": "Gaussian copulaの仕組みと実際の生成点",
+    "section": "手法の説明"
+  },
+  {
+    "number": 9,
+    "title": "SMOTEの仕組みと実際の生成点",
+    "section": "手法の説明"
+  },
+  {
+    "number": 10,
+    "title": "コピュラSMOTEの仕組みと実際の生成点",
+    "section": "手法の説明"
+  },
+  {
+    "number": 11,
+    "title": "CTGANの仕組みと実際の生成点",
+    "section": "手法の説明"
+  },
+  {
+    "number": 12,
+    "title": "CTGAN×コピュラの仕組みと実際の生成点",
+    "section": "手法の説明"
+  },
+  {
+    "number": 13,
+    "title": "分類性能と生成品質は別に評価する",
+    "section": "評価指標"
+  },
+  {
+    "number": 14,
+    "title": "米：分類性能の比較",
+    "section": "実験結果"
+  },
+  {
+    "number": 15,
+    "title": "レーズン：分類性能の比較",
+    "section": "実験結果"
+  },
+  {
+    "number": 16,
+    "title": "電力網（シミュレーション）：分類性能の比較",
+    "section": "実験結果"
+  },
+  {
+    "number": 17,
+    "title": "単純な複製を超えた改善か",
+    "section": "実験結果"
+  },
+  {
+    "number": 18,
+    "title": "既知の関係の違反率（５回平均）",
+    "section": "生成品質"
+  },
+  {
+    "number": 19,
+    "title": "電力の収支関係：SMOTE",
+    "section": "生成品質"
+  },
+  {
+    "number": 20,
+    "title": "電力の収支関係：CTGAN",
+    "section": "生成品質"
+  },
+  {
+    "number": 21,
+    "title": "生成に必要な時間",
+    "section": "実行条件と計算量"
+  },
+  {
+    "number": 22,
+    "title": "補助輪：既知の関係を使って生成後に修正",
+    "section": "改善の実験"
+  },
+  {
+    "number": 23,
+    "title": "補助輪によるF1の変化：ロジスティック回帰",
+    "section": "改善の結果"
+  },
+  {
+    "number": 24,
+    "title": "補助輪によるF1の変化：勾配ブースティング",
+    "section": "改善の結果"
+  },
+  {
+    "number": 25,
+    "title": "問題点と次に試す改善案",
+    "section": "考察"
+  },
+  {
+    "number": 26,
+    "title": "今回の比較で言える範囲",
+    "section": "限界"
+  },
+  {
+    "number": 27,
+    "title": "実験から得られた結論",
+    "section": "まとめ"
+  },
+  {
+    "number": 28,
+    "title": "実装設定と再現方法",
+    "section": "付録"
+  },
+  {
+    "number": 29,
+    "title": "参考文献・データの出典",
+    "section": "付録"
+  }
+]

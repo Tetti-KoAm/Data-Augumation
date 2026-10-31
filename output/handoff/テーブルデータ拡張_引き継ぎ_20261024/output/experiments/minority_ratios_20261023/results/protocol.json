@@ -1,0 +1,45 @@
+{
+  "datasets": [
+    "rice",
+    "raisin",
+    "grid"
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    67
+  ],
+  "ctgan_epochs": 300,
+  "ctgan_hidden": [
+    128,
+    128
+  ],
+  "batch_size": 200,
+  "test_fraction": 0.3,
+  "train_total_cap": 1100,
+  "minority_fractions": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "sampling": "fixed total within dataset; class-specific nested prefixes across ratios",
+  "copula_shrinkage": 0.05,
+  "smote_k": 5,
+  "threshold": 0.5,
+  "hyperparameter_search": false,
+  "repair": "predefined algebraic consistency repair, no test use",
+  "platform": "macOS-26.3.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "torch": "2.9.0",
+    "ctgan": "0.11.0",
+    "rdt": "2.0.0",
+    "imbalanced-learn": "0.13.0"
+  }
+}
